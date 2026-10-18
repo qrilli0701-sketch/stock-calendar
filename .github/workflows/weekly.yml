@@ -1,0 +1,28 @@
+name: 주간 증시 캘린더
+
+on:
+  schedule:
+    - cron: "0 22 * * 0"   # 매주 월요일 오전 7시 (한국 시간) = 일요일 22시 UTC
+  workflow_dispatch:        # Actions 탭에서 수동 실행도 가능
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 설치
+        run: |
+          sudo apt-get update && sudo apt-get install -y fonts-noto-color-emoji fonts-noto-cjk
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: 캘린더 만들고 발송
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python calendar_bot.py

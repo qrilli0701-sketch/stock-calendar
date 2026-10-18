@@ -1,0 +1,18 @@
+{
+  "_설명": "해마다 정해지는 일정과 직접 넣는 이벤트. date는 한국 시간 기준(YYYY-MM-DD). time은 표시용 문구(생략 가능). key: true면 '핵심' 배지.",
+  "events": [
+    {"date": "2026-10-22", "country": "KR", "title": "한국은행 금통위 금리 결정", "time": "오전", "key": true},
+    {"date": "2026-11-26", "country": "KR", "title": "한국은행 금통위 금리 결정", "time": "오전", "key": true},
+
+    {"date": "2026-10-29", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2026-12-10", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 4시", "key": true},
+    {"date": "2027-01-28", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 4시", "key": true},
+    {"date": "2027-03-18", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-04-29", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-06-10", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-07-29", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-09-16", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-10-28", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 3시", "key": true},
+    {"date": "2027-12-09", "country": "US", "title": "FOMC 금리 결정", "time": "새벽 4시", "key": true}
+  ]
+}
