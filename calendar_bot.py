@@ -141,7 +141,8 @@ def us_ranking():
             price = finnhub_get("quote", symbol=sym).get("c")
             cap = price * p["shareOutstanding"] / ADR_RATIO[sym] if price else None
         if cap:
-            rows.append({"symbol": sym, "name": name, "cap_usd_b": round(cap / 1000, 1)})
+            rows.append({"symbol": sym, "name": name, "name_en": p.get("name", ""),
+                         "cap_usd_b": round(cap / 1000, 1)})
     rows.sort(key=lambda r: -r["cap_usd_b"])
     return rows
 
@@ -174,7 +175,7 @@ def us_earnings(start, end, ranking):
             parts.append(f"매출 예상 ${e['revenueEstimate'] / 1e9:.1f}B")
         name = US_POOL[sym]
         out.append({
-            "date": d, "country": "US", "title": f"{name} 실적", "group": name, "time": label,
+            "date": d, "country": "US", "title": f"{name} 실적", "group": name, "time": label, "symbol": sym,
             "key": False, "detail": " · ".join(parts), "rank": rank[sym],
             "url": f"https://www.nasdaq.com/market-activity/stocks/{sym.lower().replace('.', '-')}/earnings",
             "filtered": rank[sym] >= TOP_N, "filter_reason": f"미국 시총 {rank[sym] + 1}위",
@@ -387,7 +388,8 @@ def render_page(data):
             f'<div class="rb"><div class="rt">{esc(it["title"])}'
             + (f' <span class="t">{esc(it["time"])}</span>' if it["time"] else "")
             + (' <span class="badge">★ 핵심</span>' if it.get("key") else "") + "</div>"
-            + (f'<div class="rd">{esc(it["detail"])}</div>' if it.get("detail") else "") + "</div>"
+            + (f'<div class="rd">{esc(it["detail"])}</div>' if it.get("detail") else "")
+            + (f'<div class="res">✅ 결과 · {esc(it["result"])}</div>' if it.get("result") else "") + "</div>"
             + (f'<a class="src" href="{esc(it["url"])}" target="_blank" rel="noopener">원문 ↗</a>' if it.get("url") else "")
             + "</div>"
             for it in by_day[d])
@@ -442,6 +444,7 @@ h3{{font-size:16px;font-weight:800;margin:36px 0 10px}}
 .rb{{flex:1;min-width:0}}
 .rt{{font-size:15px;font-weight:700}}
 .rd{{font-size:12.5px;color:#7d746c;margin-top:4px;line-height:1.45}}
+.res{{font-size:13px;font-weight:700;color:#2f7d4f;margin-top:6px;line-height:1.45}}
 .src{{flex:none;font-size:12.5px;font-weight:700;color:var(--accent);padding:2px 0 2px 8px}}
 details{{background:var(--card);border:1.5px solid var(--line);border-radius:12px;margin-bottom:8px}}
 summary{{cursor:pointer;padding:12px 14px;font-size:14px;font-weight:700}}
@@ -485,7 +488,7 @@ def render_index():
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
 <style>*{{box-sizing:border-box;margin:0}}body{{background:#fdf6ef;color:#2b2622;font-family:Pretendard,-apple-system,sans-serif;max-width:720px;margin:0 auto;padding:40px 16px}}
 h1{{font-size:28px;font-weight:900;margin-bottom:20px}}.w{{display:flex;justify-content:space-between;background:#fff;border:1.5px solid #f0e6dc;border-radius:12px;padding:14px 16px;margin-bottom:8px;color:inherit;text-decoration:none}}
-.w span{{color:#a49a91;font-size:13px}}</style></head><body><h1>주간 증시 캘린더</h1>{"".join(weeks)}</body></html>''')
+.w span{{color:#a49a91;font-size:13px}}</style></head><body><h1>주간 증시 캘린더</h1><a class="w" href="daily/"><b>📰 데일리 브리핑 모아보기</b><span>→</span></a>{"".join(weeks)}</body></html>''')
 
 
 def screenshot_card(page_path, png_path):
@@ -515,6 +518,13 @@ def build(start):
     data = collect_week(start, end)
     out = DOCS / start.isoformat()
     out.mkdir(parents=True, exist_ok=True)
+    if (out / "data.json").exists():
+        old = {(i["date"], i["title"]): i for i in json.loads((out / "data.json").read_text())["items"]}
+        for it in data["items"]:
+            prev = old.get((it["date"], it["title"]), {})
+            for k in ("result", "result_url"):
+                if prev.get(k):
+                    it[k] = prev[k]
     (out / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
     (out / "index.html").write_text(render_page(data))
     screenshot_card(out / "index.html", out / "calendar.png")

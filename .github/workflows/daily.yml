@@ -1,0 +1,62 @@
+name: 데일리 브리핑
+
+on:
+  schedule:
+    - cron: "30 22 * * 0-5"   # 월~토 오전 7시 30분 (한국 시간)
+  workflow_dispatch:
+    inputs:
+      send:
+        description: "텔레그램으로 보내기"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: calendar          # 주간 캘린더와 같은 그룹: 동시에 docs/를 고치지 않게
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 설치
+        run: |
+          sudo apt-get update && sudo apt-get install -y fonts-noto-color-emoji fonts-noto-cjk
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: 브리핑 생성
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python daily.py build
+      - name: docs/ 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "데일리 브리핑 $(TZ=Asia/Seoul date +%F)"
+          git pull --rebase && git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: 텔레그램 발송
+        if: ${{ github.event_name == 'schedule' || inputs.send }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python daily.py send
