@@ -68,8 +68,8 @@ _US_CODE = {}
 
 
 def us_closes(sym):
-    """네이버 미국 종목 코드: 나스닥은 '.O'를 붙이고, 뉴욕거래소는 티커 그대로 (BRK.B → BRKb)."""
-    cands = [_US_CODE[sym]] if sym in _US_CODE else (["BRKb"] if sym == "BRK.B" else [sym + ".O", sym])
+    """네이버 미국 종목 코드: 나스닥은 '.O', 뉴욕거래소는 티커 그대로 또는 '.K' (BRK.B → BRKb)."""
+    cands = [_US_CODE[sym]] if sym in _US_CODE else (["BRKb"] if sym == "BRK.B" else [sym + ".O", sym, sym + ".K"])
     for c in cands:
         try:
             rows = naver_closes("foreign/item", c)
