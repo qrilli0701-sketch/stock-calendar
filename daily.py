@@ -435,7 +435,8 @@ def fg_tile(name, fg):
     return (f'<a class="tile" href="{esc(fg["url"])}"><div class="tl">{esc(name)}</div>'
             f'<div class="tv">{fg["score"]} <small>{esc(fg["rating"])}</small></div>'
             f'<div class="tc flat">전일 {fg["prev_close"]} ({diff:+d})</div>'
-            f'{spark(fg.get("spark"), color="var(--ink)")}</a>')
+            f'<div class="mbar"><span style="left:{fg["score"]}%"></span></div>'
+            f'<div class="mticks"><span>공포</span><span>탐욕</span></div></a>')
 
 
 def meter(label, fg):
@@ -589,6 +590,9 @@ h1{font-size:27px;font-weight:900;letter-spacing:-1px}
 .tile{min-width:0;background:#faf6f1;border-radius:10px;padding:7px 8px 5px;display:flex;flex-direction:column}
 .tile .sp{width:100%;height:22px;margin-top:3px}
 .tv small{font-size:11px;font-weight:700}
+.mbar{position:relative;height:6px;border-radius:3px;margin-top:8px;background:linear-gradient(90deg,#5b8bd6,#c9c3bd 50%,#e8774a)}
+.mbar span{position:absolute;top:-3px;width:3px;height:12px;margin-left:-1.5px;border-radius:2px;background:var(--ink);box-shadow:0 0 0 1.5px #fff}
+.mticks{display:flex;justify-content:space-between;font-size:9.5px;color:var(--sub);margin-top:2px}
 .tl{font-size:11.5px;color:#7d746c;font-weight:600}
 .tv{font-size:14px;font-weight:800;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tc{font-size:11.5px;font-weight:700;margin-top:1px}
