@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_at": "2026-10-19 22:58",
+ "updated_at": "2026-10-19 23:06",
  "window": [
   "2026-10-17T07:30:00+09:00",
   "2026-10-19T07:30:00+09:00"
@@ -40,8 +40,8 @@
    },
    {
     "name": "나스닥",
-    "value": "26,390.96",
-    "chg": 0.96,
+    "value": "26,376.36",
+    "chg": 0.9,
     "at": "2026-10-19",
     "spark": [
      26522.545,
@@ -65,7 +65,7 @@
      26692.868,
      26713.026,
      26140.034,
-     26390.959
+     26376.361
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.IXIC"
    },
@@ -102,8 +102,8 @@
    },
    {
     "name": "VIX",
-    "value": "18.09",
-    "chg": -9.5,
+    "value": "18.06",
+    "chg": -9.65,
     "at": "2026-10-19",
     "spark": [
      14.81,
@@ -127,7 +127,7 @@
      16.87,
      16.46,
      19.99,
-     18.09
+     18.06
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.VIX"
    }
@@ -209,8 +209,8 @@
   "fx": [
    {
     "name": "원/달러",
-    "value": "1,330.70",
-    "chg": -0.55,
+    "value": "1,330.90",
+    "chg": -0.53,
     "at": "2026-10-19",
     "spark": [
      1348.5,
@@ -234,7 +234,7 @@
      1343.0,
      1342.5,
      1338.0,
-     1330.7
+     1330.9
     ],
     "url": "https://m.stock.naver.com/marketindex/exchange/FX_USDKRW"
    },
@@ -271,7 +271,7 @@
    },
    {
     "name": "원/100엔",
-    "value": "840.33",
+    "value": "840.37",
     "chg": -0.88,
     "at": "2026-10-19",
     "spark": [
@@ -296,14 +296,14 @@
      849.44,
      849.28,
      847.83,
-     840.33
+     840.37
     ],
     "url": "https://m.stock.naver.com/marketindex/exchange/FX_JPYKRW"
    },
    {
     "name": "원/위안",
-    "value": "199.17",
-    "chg": -0.49,
+    "value": "199.20",
+    "chg": -0.48,
     "at": "2026-10-19",
     "spark": [
      201.0,
@@ -327,13 +327,13 @@
      200.63,
      200.71,
      200.16,
-     199.17
+     199.2
     ],
     "url": "https://m.stock.naver.com/marketindex/exchange/FX_CNYKRW"
    },
    {
     "name": "원/유로",
-    "value": "1,493.44",
+    "value": "1,493.54",
     "chg": -0.59,
     "at": "2026-10-19",
     "spark": [
@@ -358,7 +358,7 @@
      1500.13,
      1505.35,
      1502.37,
-     1493.44
+     1493.54
     ],
     "url": "https://m.stock.naver.com/marketindex/exchange/FX_EURKRW"
    }
@@ -461,8 +461,8 @@
   "crypto": [
    {
     "name": "비트코인",
-    "value": "$82,081",
-    "chg": 0.09,
+    "value": "$82,134",
+    "chg": 0.16,
     "at": "2026-10-19",
     "spark": [
      83456.74,
@@ -486,14 +486,14 @@
      81500.04,
      81378.21,
      82006.85,
-     82081.4
+     82134.18
     ],
     "url": "https://www.coinbase.com/price/btc"
    },
    {
     "name": "이더리움",
-    "value": "$2,403",
-    "chg": -0.18,
+    "value": "$2,392",
+    "chg": -0.66,
     "at": "2026-10-19",
     "spark": [
      2687.41,
@@ -517,7 +517,7 @@
      2419.92,
      2399.68,
      2407.51,
-     2403.14
+     2391.65
     ],
     "url": "https://www.coinbase.com/price/eth"
    }
@@ -525,7 +525,7 @@
  },
  "fear_greed": {
   "cnn": {
-   "score": 24,
+   "score": 25,
    "rating": "극단적 공포",
    "prev_close": 18,
    "prev_week": 46,
@@ -551,13 +551,13 @@
     26.6566893424036,
     30.3428571428571,
     22.0732142857143,
-    24.0830357142857,
-    24.0830357142857
+    24.6071428571429,
+    24.6642857142857
    ],
    "parts": [
     {
      "name": "S&P500 모멘텀",
-     "score": 32,
+     "score": 30,
      "rating": "공포"
     },
     {
@@ -572,22 +572,22 @@
     },
     {
      "name": "풋/콜 비율",
-     "score": 24,
+     "score": 18,
      "rating": "극단적 공포"
     },
     {
      "name": "변동성(VIX)",
-     "score": 27,
+     "score": 31,
      "rating": "공포"
     },
     {
      "name": "정크본드 수요",
-     "score": 44,
-     "rating": "공포"
+     "score": 48,
+     "rating": "중립"
     },
     {
      "name": "안전자산 수요",
-     "score": 19,
+     "score": 18,
      "rating": "극단적 공포"
     }
    ],
@@ -629,8 +629,8 @@
    {
     "name": "반도체",
     "code": "SMH",
-    "chg": 2.51,
-    "chg_1m": -3.4,
+    "chg": 2.0,
+    "chg_1m": -3.9,
     "spark": [
      573.0,
      596.03,
@@ -653,15 +653,15 @@
      564.74,
      558.84,
      539.79,
-     553.34
+     550.6
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/SMH.O"
    },
    {
     "name": "기술",
     "code": "XLK",
-    "chg": 1.62,
-    "chg_1m": -1.7,
+    "chg": 1.41,
+    "chg_1m": -1.9,
     "spark": [
      189.6,
      194.85,
@@ -684,15 +684,15 @@
      190.43,
      189.19,
      183.47,
-     186.45
+     186.065
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLK"
    },
    {
     "name": "경기소비재",
     "code": "XLY",
-    "chg": 0.48,
-    "chg_1m": 1.8,
+    "chg": 0.57,
+    "chg_1m": 1.9,
     "spark": [
      111.03,
      112.23,
@@ -715,15 +715,15 @@
      111.5,
      113.41,
      112.46,
-     113.0
+     113.1
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLY"
    },
    {
     "name": "에너지",
     "code": "XLE",
-    "chg": 0.28,
-    "chg_1m": 6.4,
+    "chg": 0.21,
+    "chg_1m": 6.3,
     "spark": [
      64.31,
      62.46,
@@ -746,15 +746,15 @@
      67.63,
      66.56,
      68.24,
-     68.43
+     68.385
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLE"
    },
    {
     "name": "헬스케어",
     "code": "XLV",
-    "chg": -0.16,
-    "chg_1m": 4.8,
+    "chg": 0.0,
+    "chg_1m": 4.9,
     "spark": [
      168.39,
      169.01,
@@ -777,15 +777,46 @@
      173.96,
      177.19,
      176.71,
-     176.42
+     176.71
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLV"
    },
    {
+    "name": "필수소비재",
+    "code": "XLP",
+    "chg": -0.3,
+    "chg_1m": 5.5,
+    "spark": [
+     82.8,
+     81.92,
+     82.73,
+     82.43,
+     81.7,
+     82.06,
+     82.28,
+     81.85,
+     80.6,
+     80.33,
+     80.53,
+     81.04,
+     81.8,
+     81.7,
+     83.42,
+     83.43,
+     84.41,
+     84.19,
+     86.06,
+     86.68,
+     87.62,
+     87.355
+    ],
+    "url": "https://m.stock.naver.com/worldstock/etf/XLP"
+   },
+   {
     "name": "소재",
     "code": "XLB",
-    "chg": -0.28,
-    "chg_1m": 1.6,
+    "chg": -0.35,
+    "chg_1m": 1.5,
     "spark": [
      49.99,
      49.71,
@@ -808,45 +839,14 @@
      49.67,
      50.56,
      50.92,
-     50.775
+     50.74
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLB"
    },
    {
-    "name": "산업재",
-    "code": "XLI",
-    "chg": -0.34,
-    "chg_1m": -1.5,
-    "spark": [
-     169.75,
-     169.98,
-     170.27,
-     170.1,
-     168.83,
-     170.43,
-     168.78,
-     169.13,
-     166.98,
-     168.64,
-     169.95,
-     170.1,
-     171.58,
-     167.84,
-     168.4,
-     169.25,
-     169.15,
-     168.67,
-     167.04,
-     167.89,
-     167.76,
-     167.185
-    ],
-    "url": "https://m.stock.naver.com/worldstock/etf/XLI"
-   },
-   {
     "name": "금융",
     "code": "XLF",
-    "chg": -0.36,
+    "chg": -0.42,
     "chg_1m": -1.0,
     "spark": [
      55.86,
@@ -870,46 +870,46 @@
      54.52,
      55.27,
      55.52,
-     55.32
+     55.285
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLF"
    },
    {
-    "name": "필수소비재",
-    "code": "XLP",
-    "chg": -0.41,
-    "chg_1m": 5.4,
+    "name": "산업재",
+    "code": "XLI",
+    "chg": -0.51,
+    "chg_1m": -1.7,
     "spark": [
-     82.8,
-     81.92,
-     82.73,
-     82.43,
-     81.7,
-     82.06,
-     82.28,
-     81.85,
-     80.6,
-     80.33,
-     80.53,
-     81.04,
-     81.8,
-     81.7,
-     83.42,
-     83.43,
-     84.41,
-     84.19,
-     86.06,
-     86.68,
-     87.62,
-     87.26
+     169.75,
+     169.98,
+     170.27,
+     170.1,
+     168.83,
+     170.43,
+     168.78,
+     169.13,
+     166.98,
+     168.64,
+     169.95,
+     170.1,
+     171.58,
+     167.84,
+     168.4,
+     169.25,
+     169.15,
+     168.67,
+     167.04,
+     167.89,
+     167.76,
+     166.91
     ],
-    "url": "https://m.stock.naver.com/worldstock/etf/XLP"
+    "url": "https://m.stock.naver.com/worldstock/etf/XLI"
    },
    {
     "name": "통신서비스",
     "code": "XLC",
-    "chg": -0.55,
-    "chg_1m": -1.0,
+    "chg": -0.63,
+    "chg_1m": -1.1,
     "spark": [
      110.81,
      114.75,
@@ -932,46 +932,15 @@
      110.82,
      112.44,
      110.32,
-     109.715
+     109.62
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLC"
    },
    {
-    "name": "유틸리티",
-    "code": "XLU",
-    "chg": -0.71,
-    "chg_1m": 2.0,
-    "spark": [
-     41.1,
-     40.66,
-     40.53,
-     39.75,
-     39.36,
-     39.51,
-     39.25,
-     39.71,
-     39.44,
-     39.68,
-     39.83,
-     39.97,
-     41.16,
-     41.15,
-     41.07,
-     41.41,
-     41.63,
-     41.87,
-     41.72,
-     41.65,
-     42.21,
-     41.91
-    ],
-    "url": "https://m.stock.naver.com/worldstock/etf/XLU"
-   },
-   {
     "name": "부동산",
     "code": "XLRE",
-    "chg": -0.77,
-    "chg_1m": -1.6,
+    "chg": -0.88,
+    "chg_1m": -1.7,
     "spark": [
      42.53,
      42.59,
@@ -994,9 +963,40 @@
      41.49,
      41.99,
      42.16,
-     41.835
+     41.79
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLRE.K"
+   },
+   {
+    "name": "유틸리티",
+    "code": "XLU",
+    "chg": -0.97,
+    "chg_1m": 1.7,
+    "spark": [
+     41.1,
+     40.66,
+     40.53,
+     39.75,
+     39.36,
+     39.51,
+     39.25,
+     39.71,
+     39.44,
+     39.68,
+     39.83,
+     39.97,
+     41.16,
+     41.15,
+     41.07,
+     41.41,
+     41.63,
+     41.87,
+     41.72,
+     41.65,
+     42.21,
+     41.802
+    ],
+    "url": "https://m.stock.naver.com/worldstock/etf/XLU"
    }
   ],
   "kr": [
@@ -1379,8 +1379,8 @@
    "symbol": "NVDA",
    "name": "엔비디아",
    "name_en": "",
-   "price": "215.56",
-   "chg": 0.67,
+   "price": "215.21",
+   "chg": 0.5,
    "spark": [
     222.27,
     227.38,
@@ -1403,7 +1403,7 @@
     221.3,
     217.23,
     214.13,
-    215.56
+    215.2101
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/nvda"
   },
@@ -1411,8 +1411,8 @@
    "symbol": "AAPL",
    "name": "애플",
    "name_en": "",
-   "price": "344.19",
-   "chg": 0.21,
+   "price": "344.13",
+   "chg": 0.2,
    "spark": [
     336.13,
     338.98,
@@ -1435,7 +1435,7 @@
     342.96,
     342.0,
     343.46,
-    344.185
+    344.135
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
   },
@@ -1443,8 +1443,8 @@
    "symbol": "GOOGL",
    "name": "알파벳",
    "name_en": "",
-   "price": "343.07",
-   "chg": 0.73,
+   "price": "342.94",
+   "chg": 0.69,
    "spark": [
     349.54,
     354.97,
@@ -1467,7 +1467,7 @@
     347.64,
     349.22,
     340.59,
-    343.07
+    342.94
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/googl"
   },
@@ -1475,8 +1475,8 @@
    "symbol": "MSFT",
    "name": "마이크로소프트",
    "name_en": "",
-   "price": "531.01",
-   "chg": 0.37,
+   "price": "531.38",
+   "chg": 0.44,
    "spark": [
     493.78,
     501.61,
@@ -1499,7 +1499,7 @@
     533.69,
     539.44,
     529.05,
-    531.01
+    531.375
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/msft"
   },
@@ -1507,8 +1507,8 @@
    "symbol": "AMZN",
    "name": "아마존",
    "name_en": "",
-   "price": "255.84",
-   "chg": 2.33,
+   "price": "256.56",
+   "chg": 2.62,
    "spark": [
     253.71,
     258.45,
@@ -1531,7 +1531,7 @@
     254.08,
     254.76,
     250.0,
-    255.835
+    256.555
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
   },
@@ -1539,8 +1539,8 @@
    "symbol": "TSM",
    "name": "TSMC",
    "name_en": "",
-   "price": "417.81",
-   "chg": 1.26,
+   "price": "418.15",
+   "chg": 1.34,
    "spark": [
     434.67,
     445.14,
@@ -1563,7 +1563,7 @@
     430.0,
     422.25,
     412.61,
-    417.81
+    418.15
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/tsm"
   },
@@ -1571,8 +1571,8 @@
    "symbol": "META",
    "name": "메타",
    "name_en": "",
-   "price": "700.37",
-   "chg": -1.26,
+   "price": "697.18",
+   "chg": -1.71,
    "spark": [
     665.75,
     741.245,
@@ -1595,7 +1595,7 @@
     737.54,
     736.72,
     709.325,
-    700.37
+    697.18
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/meta"
   },
@@ -1603,8 +1603,8 @@
    "symbol": "AVGO",
    "name": "브로드컴",
    "name_en": "",
-   "price": "335.87",
-   "chg": 2.17,
+   "price": "335.65",
+   "chg": 2.1,
    "spark": [
     357.61,
     362.66,
@@ -1627,7 +1627,7 @@
     346.25,
     344.33,
     328.75,
-    335.87
+    335.65
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/avgo"
   },
@@ -1635,8 +1635,8 @@
    "symbol": "TSLA",
    "name": "테슬라",
    "name_en": "",
-   "price": "358.47",
-   "chg": 1.06,
+   "price": "361.83",
+   "chg": 2.0,
    "spark": [
     364.27,
     375.3,
@@ -1659,7 +1659,7 @@
     367.16,
     362.44,
     354.72,
-    358.47
+    361.83
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/tsla"
   },
@@ -1667,8 +1667,8 @@
    "symbol": "LLY",
    "name": "일라이릴리",
    "name_en": "",
-   "price": "1,251.09",
-   "chg": -0.47,
+   "price": "1,254.38",
+   "chg": -0.21,
    "spark": [
     1152.93,
     1164.89,
@@ -1691,7 +1691,7 @@
     1208.74,
     1251.61,
     1257.03,
-    1251.09
+    1254.38
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/lly"
   },
@@ -1699,8 +1699,8 @@
    "symbol": "BRK.B",
    "name": "버크셔해서웨이",
    "name_en": "",
-   "price": "531.10",
-   "chg": -0.17,
+   "price": "531.88",
+   "chg": -0.03,
    "spark": [
     509.77,
     502.01,
@@ -1723,7 +1723,7 @@
     526.35,
     525.68,
     532.02,
-    531.1
+    531.875
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
   },
@@ -1731,8 +1731,8 @@
    "symbol": "MU",
    "name": "마이크론",
    "name_en": "",
-   "price": "911.93",
-   "chg": 3.77,
+   "price": "917.54",
+   "chg": 4.4,
    "spark": [
     1015.8,
     1043.96,
@@ -1755,7 +1755,7 @@
     914.13,
     931.24,
     878.84,
-    911.935
+    917.545
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/mu",
    "news": [
@@ -1780,8 +1780,8 @@
    "symbol": "JPM",
    "name": "JP모건",
    "name_en": "",
-   "price": "337.29",
-   "chg": -0.72,
+   "price": "337.43",
+   "chg": -0.67,
    "spark": [
     349.67,
     352.04,
@@ -1804,7 +1804,7 @@
     335.28,
     335.53,
     339.72,
-    337.29
+    337.43
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
   },
@@ -1812,8 +1812,8 @@
    "symbol": "WMT",
    "name": "월마트",
    "name_en": "",
-   "price": "118.51",
-   "chg": -0.25,
+   "price": "118.75",
+   "chg": -0.05,
    "spark": [
     106.73,
     107.44,
@@ -1836,7 +1836,7 @@
     116.16,
     117.87,
     118.81,
-    118.51
+    118.75
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
   },
@@ -1844,8 +1844,8 @@
    "symbol": "AMD",
    "name": "AMD",
    "name_en": "",
-   "price": "551.76",
-   "chg": 4.35,
+   "price": "547.21",
+   "chg": 3.49,
    "spark": [
     559.82,
     615.52,
@@ -1868,7 +1868,7 @@
     570.82,
     562.23,
     528.75,
-    551.76
+    547.205
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/amd",
    "news": [
@@ -1878,14 +1878,14 @@
      "url": "https://finnhub.io/api/news?id=2219ec1c384a32060b7f005e469b58946367b6724325e7a9a22f9d69e82ff0ac"
     },
     {
+     "title": "AMD: More Room To Fall",
+     "source": "SeekingAlpha",
+     "url": "https://finnhub.io/api/news?id=fa0f397e032cd89971ae4ca35b0b2f2fae2ede895be7f3bf0cff86dbd4898b78"
+    },
+    {
      "title": "AMD Stock Is Up Over 140% This Year. I'd Still Buy It Before Its Nov. 3 Report.",
      "source": "Yahoo",
      "url": "https://finnhub.io/api/news?id=4e3c4372e6fb18ed9e6e9c801915c4ee3ca9dd0e1f8cdf7b653752a4a44e1325"
-    },
-    {
-     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
     }
    ]
   },
@@ -1925,8 +1925,8 @@
    "symbol": "XOM",
    "name": "엑슨모빌",
    "name_en": "",
-   "price": "179.13",
-   "chg": 0.09,
+   "price": "178.84",
+   "chg": -0.08,
    "spark": [
     163.54,
     158.3,
@@ -1949,7 +1949,7 @@
     177.01,
     174.68,
     178.98,
-    179.135
+    178.845
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/xom"
   },
@@ -1957,8 +1957,8 @@
    "symbol": "ASML",
    "name": "ASML",
    "name_en": "",
-   "price": "1,668.68",
-   "chg": 1.65,
+   "price": "1,662.96",
+   "chg": 1.31,
    "spark": [
     1679.92,
     1711.32,
@@ -1981,7 +1981,7 @@
     1650.0,
     1657.44,
     1641.52,
-    1668.685
+    1662.96
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/asml"
   },
@@ -1989,8 +1989,8 @@
    "symbol": "JNJ",
    "name": "존슨앤드존슨",
    "name_en": "",
-   "price": "254.04",
-   "chg": -0.59,
+   "price": "254.27",
+   "chg": -0.5,
    "spark": [
     269.99,
     269.47,
@@ -2013,7 +2013,7 @@
     253.91,
     253.28,
     255.56,
-    254.04
+    254.27
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
   },
@@ -2021,8 +2021,8 @@
    "symbol": "MA",
    "name": "마스터카드",
    "name_en": "",
-   "price": "616.41",
-   "chg": -0.16,
+   "price": "616.57",
+   "chg": -0.14,
    "spark": [
     565.24,
     567.65,
@@ -2045,7 +2045,7 @@
     603.24,
     616.32,
     617.42,
-    616.415
+    616.57
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/ma"
   },
@@ -2053,8 +2053,8 @@
    "symbol": "ABBV",
    "name": "애브비",
    "name_en": "",
-   "price": "285.29",
-   "chg": -0.05,
+   "price": "285.33",
+   "chg": -0.03,
    "spark": [
     263.96,
     264.48,
@@ -2077,7 +2077,7 @@
     283.48,
     283.4,
     285.42,
-    285.29
+    285.33
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/abbv"
   },
@@ -2085,8 +2085,8 @@
    "symbol": "INTC",
    "name": "인텔",
    "name_en": "",
-   "price": "94.72",
-   "chg": 5.42,
+   "price": "94.37",
+   "chg": 5.03,
    "spark": [
     108.6,
     121.78,
@@ -2109,7 +2109,7 @@
     98.12,
     95.37,
     89.85,
-    94.72
+    94.37
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/intc",
    "news": [
@@ -2134,8 +2134,8 @@
    "symbol": "PLTR",
    "name": "팔란티어",
    "name_en": "",
-   "price": "190.38",
-   "chg": 2.34,
+   "price": "190.46",
+   "chg": 2.38,
    "spark": [
     177.64,
     183.09,
@@ -2158,7 +2158,7 @@
     200.97,
     200.5,
     186.03,
-    190.375
+    190.46
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/pltr"
   },
@@ -2166,8 +2166,8 @@
    "symbol": "CVX",
    "name": "셰브론",
    "name_en": "",
-   "price": "225.08",
-   "chg": 0.04,
+   "price": "225.31",
+   "chg": 0.14,
    "spark": [
     209.51,
     203.67,
@@ -2190,7 +2190,7 @@
     222.04,
     219.32,
     224.99,
-    225.08
+    225.31
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
   },
@@ -2198,8 +2198,8 @@
    "symbol": "COST",
    "name": "코스트코",
    "name_en": "",
-   "price": "989.36",
-   "chg": 0.03,
+   "price": "990.02",
+   "chg": 0.09,
    "spark": [
     895.31,
     898.48,
@@ -2222,7 +2222,7 @@
     982.0,
     978.01,
     989.11,
-    989.36
+    990.02
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/cost"
   },
@@ -2230,8 +2230,8 @@
    "symbol": "CSCO",
    "name": "시스코",
    "name_en": "",
-   "price": "107.37",
-   "chg": -0.02,
+   "price": "107.22",
+   "chg": -0.16,
    "spark": [
     109.51,
     111.46,
@@ -2254,7 +2254,7 @@
     113.64,
     109.85,
     107.39,
-    107.37
+    107.22
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/csco"
   },
@@ -2262,8 +2262,8 @@
    "symbol": "KO",
    "name": "코카콜라",
    "name_en": "",
-   "price": "93.43",
-   "chg": -0.5,
+   "price": "93.72",
+   "chg": -0.2,
    "spark": [
     88.25,
     87.12,
@@ -2286,7 +2286,7 @@
     91.78,
     92.0,
     93.9,
-    93.4295
+    93.715
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/ko"
   },
@@ -2326,8 +2326,8 @@
    "symbol": "PG",
    "name": "P&G",
    "name_en": "",
-   "price": "158.04",
-   "chg": -0.82,
+   "price": "158.26",
+   "chg": -0.68,
    "spark": [
     146.39,
     146.08,
@@ -2350,7 +2350,7 @@
     156.53,
     157.08,
     159.35,
-    158.04
+    158.26
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/pg"
   },
@@ -2358,8 +2358,8 @@
    "symbol": "UNH",
    "name": "유나이티드헬스",
    "name_en": "",
-   "price": "404.82",
-   "chg": 0.85,
+   "price": "408.11",
+   "chg": 1.66,
    "spark": [
     376.9,
     377.56,
@@ -2382,7 +2382,7 @@
     395.62,
     406.67,
     401.43,
-    404.8231
+    408.11
    ],
    "url": "https://www.nasdaq.com/market-activity/stocks/unh"
   }
@@ -3028,7 +3028,7 @@
     {
      "title": "고려아연 온산제련소, 울산대공원에 멸종위기 '물장군' 방사",
      "source": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUNIBYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUA?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHQXZ4R3l1dWpEV2JwdkZFNlNKLTVyQy1wQ0kwcmdfWmlzcWJlOWRSX0U5MnB5dTZjeldHMDQtOU9mNjI1SEFPWjY2RklSZ1VaVDZiZ0FLVkhtT0XSAWBBVV95cUxQWHgtcFdOcFEwMl90OGtQeDF6QUh5SF9qSHRxMlFFd0FFWmxBZ3BPUUU5YnViQUxPMHVLUmpGaFVNLW9XTTBmQXdSTzlIT21ZUTlZTDh0NWQzMHhnNVR6SlA?oc=5"
     },
     {
      "title": "MBK \"고려아연 지분 콜옵션, 엑시트 전에 행사 안한다\"",
@@ -3075,7 +3075,7 @@
   {
    "name": "지수·환율·금리 (네이버)",
    "ok": true,
-   "count": 3
+   "count": 5
   },
   {
    "name": "공포·탐욕 지수 (CNN·alternative.me)",
