@@ -2,12 +2,29 @@ name: 주간 증시 캘린더
 
 on:
   schedule:
-    - cron: "0 22 * * 0"   # 매주 월요일 오전 7시 (한국 시간) = 일요일 22시 UTC
-  workflow_dispatch:        # Actions 탭에서 수동 실행도 가능
+    - cron: "0 22 * * 0-4"   # 매일(월~금) 오전 7시 KST에 페이지 갱신. 텔레그램은 월요일만
+  workflow_dispatch:
+    inputs:
+      send:
+        description: "텔레그램으로도 보내기"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: calendar
+  cancel-in-progress: false
 
 jobs:
-  send:
+  build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,11 +35,33 @@ jobs:
           sudo apt-get update && sudo apt-get install -y fonts-noto-color-emoji fonts-noto-cjk
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
-      - name: 캘린더 만들고 발송
+      - name: 페이지·이미지 생성
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python calendar_bot.py build
+      - name: 지난 캘린더 보관 (docs/ 커밋)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "캘린더 갱신 $(TZ=Asia/Seoul date +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: 텔레그램 발송 (월요일 또는 수동 선택 시)
+        if: ${{ inputs.send || github.event_name == 'schedule' }}
+        env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python calendar_bot.py
+        run: |
+          if [ "${{ inputs.send }}" = "true" ] || [ "$(TZ=Asia/Seoul date +%u)" = "1" ]; then
+            python calendar_bot.py send
+          else
+            echo "월요일이 아니라 발송 생략"
+          fi
