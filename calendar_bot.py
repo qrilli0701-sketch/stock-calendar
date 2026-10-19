@@ -214,7 +214,12 @@ def kr_earnings(start, end, top):
 
 def kr_listings(start, end):
     """38커뮤니케이션 신규상장 표 (스팩 제외)."""
-    r = requests.get("https://www.38.co.kr/html/fund/index.htm?o=nw", headers=UA, timeout=20)
+    url = "www.38.co.kr/html/fund/index.htm?o=nw"
+    try:
+        r = requests.get("https://" + url, headers=UA, timeout=20)
+    except requests.exceptions.SSLError:
+        # 38 서버의 구형 TLS를 리눅스(GitHub Actions)의 OpenSSL이 거부함 → 공개 페이지라 http로 재시도
+        r = requests.get("http://" + url, headers=UA, timeout=20)
     r.encoding = "euc-kr"
     soup = BeautifulSoup(r.text, "html.parser")
     out = []
