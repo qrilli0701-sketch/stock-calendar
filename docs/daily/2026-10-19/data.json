@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_at": "2026-10-19 22:31",
+ "updated_at": "2026-10-19 22:58",
  "window": [
   "2026-10-17T07:30:00+09:00",
   "2026-10-19T07:30:00+09:00"
@@ -9,11 +9,10 @@
   "us": [
    {
     "name": "S&P500",
-    "value": "7,659.44",
-    "chg": -1.09,
-    "at": "2026-10-16",
+    "value": "7,696.68",
+    "chg": 0.49,
+    "at": "2026-10-19",
     "spark": [
-     7637.76,
      7650.5,
      7764.7,
      7764.64,
@@ -34,17 +33,17 @@
      7805.45,
      7718.94,
      7744.06,
-     7659.44
+     7659.44,
+     7696.68
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.INX"
    },
    {
     "name": "나스닥",
-    "value": "26,140.03",
-    "chg": -2.14,
-    "at": "2026-10-16",
+    "value": "26,390.96",
+    "chg": 0.96,
+    "at": "2026-10-19",
     "spark": [
-     26418.298,
      26522.545,
      27122.094,
      27244.278,
@@ -65,17 +64,17 @@
      27204.38,
      26692.868,
      26713.026,
-     26140.034
+     26140.034,
+     26390.959
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.IXIC"
    },
    {
     "name": "다우",
-    "value": "52,002.41",
-    "chg": -0.34,
-    "at": "2026-10-16",
+    "value": "51,952.81",
+    "chg": -0.1,
+    "at": "2026-10-19",
     "spark": [
-     51778.04,
      51682.64,
      52048.83,
      51863.69,
@@ -96,14 +95,15 @@
      51670.1,
      51621.48,
      52177.69,
-     52002.41
+     52002.41,
+     51952.81
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.DJI"
    },
    {
     "name": "VIX",
-    "value": "18.38",
-    "chg": -8.05,
+    "value": "18.09",
+    "chg": -9.5,
     "at": "2026-10-19",
     "spark": [
      14.81,
@@ -127,7 +127,7 @@
      16.87,
      16.46,
      19.99,
-     18.38
+     18.09
     ],
     "url": "https://m.stock.naver.com/worldstock/index/.VIX"
    }
@@ -209,8 +209,8 @@
   "macro": [
    {
     "name": "원/달러",
-    "value": "1,330.30",
-    "chg": -0.58,
+    "value": "1,330.50",
+    "chg": -0.56,
     "at": "2026-10-19",
     "spark": [
      1348.5,
@@ -234,7 +234,7 @@
      1343.0,
      1342.5,
      1338.0,
-     1330.3
+     1330.5
     ],
     "url": "https://m.stock.naver.com/marketindex/exchange/FX_USDKRW"
    },
@@ -335,8 +335,8 @@
  },
  "fear_greed": {
   "cnn": {
-   "score": 27,
-   "rating": "공포",
+   "score": 24,
+   "rating": "극단적 공포",
    "prev_close": 18,
    "prev_week": 46,
    "prev_month": 30,
@@ -360,44 +360,44 @@
     44.1142857142857,
     26.6566893424036,
     30.3428571428571,
-    26.5642857142857,
-    26.5642857142857,
-    26.5642857142857
+    22.0732142857143,
+    24.0830357142857,
+    24.0830357142857
    ],
    "parts": [
     {
      "name": "S&P500 모멘텀",
-     "score": 24,
-     "rating": "극단적 공포"
+     "score": 32,
+     "rating": "공포"
     },
     {
      "name": "52주 신고가·신저가",
-     "score": 12,
+     "score": 13,
      "rating": "극단적 공포"
     },
     {
      "name": "거래량 폭",
-     "score": 12,
+     "score": 14,
      "rating": "극단적 공포"
     },
     {
      "name": "풋/콜 비율",
-     "score": 62,
-     "rating": "탐욕"
-    },
-    {
-     "name": "변동성(VIX)",
-     "score": 19,
+     "score": 24,
      "rating": "극단적 공포"
     },
     {
+     "name": "변동성(VIX)",
+     "score": 27,
+     "rating": "공포"
+    },
+    {
      "name": "정크본드 수요",
-     "score": 43,
+     "score": 44,
      "rating": "공포"
     },
     {
      "name": "안전자산 수요",
-     "score": 15,
+     "score": 19,
      "rating": "극단적 공포"
     }
    ],
@@ -434,1735 +434,13 @@
    "url": "https://alternative.me/crypto/fear-and-greed-index/"
   }
  },
- "us_movers": [
-  {
-   "symbol": "NVDA",
-   "name": "엔비디아",
-   "name_en": "",
-   "price": "214.13",
-   "chg": -1.43,
-   "spark": [
-    219.34,
-    222.27,
-    227.38,
-    228.87,
-    225.51,
-    224.58,
-    225.07,
-    228.86,
-    227.21,
-    228.38,
-    230.86,
-    233.95,
-    238.9,
-    239.24,
-    237.47,
-    230.48,
-    229.28,
-    226.32,
-    228.52,
-    221.3,
-    217.23,
-    214.13
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/nvda"
-  },
-  {
-   "symbol": "AAPL",
-   "name": "애플",
-   "name_en": "",
-   "price": "343.46",
-   "chg": 0.43,
-   "spark": [
-    337.0,
-    336.13,
-    338.98,
-    339.75,
-    337.02,
-    335.92,
-    341.07,
-    338.4,
-    329.4,
-    333.02,
-    330.32,
-    333.69,
-    332.89,
-    333.63,
-    336.67,
-    340.42,
-    336.64,
-    340.97,
-    341.27,
-    342.96,
-    342.0,
-    343.46
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "알파벳",
-   "name_en": "",
-   "price": "340.59",
-   "chg": -2.47,
-   "spark": [
-    347.33,
-    349.54,
-    354.97,
-    351.16,
-    337.83,
-    342.36,
-    343.92,
-    342.75,
-    340.92,
-    344.08,
-    338.24,
-    343.5,
-    346.47,
-    347.68,
-    350.5,
-    348.29,
-    351.66,
-    352.72,
-    353.78,
-    347.64,
-    349.22,
-    340.59
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/googl"
-  },
-  {
-   "symbol": "MSFT",
-   "name": "마이크로소프트",
-   "name_en": "",
-   "price": "529.05",
-   "chg": -1.93,
-   "spark": [
-    497.75,
-    493.78,
-    501.61,
-    498.0,
-    500.59,
-    497.93,
-    516.17,
-    509.22,
-    508.96,
-    512.9,
-    512.8,
-    517.53,
-    525.18,
-    529.3,
-    529.76,
-    522.61,
-    535.07,
-    541.15,
-    543.45,
-    533.69,
-    539.44,
-    529.05
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/msft"
-  },
-  {
-   "symbol": "AMZN",
-   "name": "아마존",
-   "name_en": "",
-   "price": "250.00",
-   "chg": -1.87,
-   "spark": [
-    251.19,
-    253.71,
-    258.45,
-    254.98,
-    249.27,
-    249.38,
-    249.67,
-    246.15,
-    246.67,
-    249.15,
-    248.23,
-    251.52,
-    251.4,
-    256.29,
-    259.92,
-    254.06,
-    262.43,
-    259.53,
-    258.58,
-    254.08,
-    254.76,
-    250.0
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
-  },
-  {
-   "symbol": "TSM",
-   "name": "TSMC",
-   "name_en": "",
-   "price": "412.61",
-   "chg": -2.28,
-   "spark": [
-    430.26,
-    434.67,
-    445.14,
-    452.0,
-    446.57,
-    451.15,
-    450.61,
-    452.88,
-    456.94,
-    456.19,
-    459.2,
-    472.78,
-    485.8,
-    482.3,
-    472.2,
-    457.99,
-    453.31,
-    444.35,
-    445.12,
-    430.0,
-    422.25,
-    412.61
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/tsm"
-  },
-  {
-   "symbol": "META",
-   "name": "메타",
-   "name_en": "",
-   "price": "709.33",
-   "chg": -3.72,
-   "spark": [
-    682.31,
-    665.75,
-    741.245,
-    736.595,
-    744.1,
-    777.59,
-    751.66,
-    715.62,
-    738.79,
-    725.18,
-    725.93,
-    728.08,
-    741.9,
-    738.88,
-    721.31,
-    720.89,
-    718.67,
-    742.96,
-    762.5,
-    737.54,
-    736.72,
-    709.325
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/meta",
-   "news": [
-    {
-     "title": "Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=f9e5fff88c04d11ecc618af68074c1486f7db00a0976d7b755bca47d51e5a9c5"
-    },
-    {
-     "title": "US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=50ed23a396c7df27e6072e02a637bf7f369f22e84381442ae7f18f4818ea6210"
-    },
-    {
-     "title": "A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=bc4caad905449fd468a2279121594d125e0120129834cc43df7eb80161b47d09"
-    }
-   ]
-  },
-  {
-   "symbol": "AVGO",
-   "name": "브로드컴",
-   "name_en": "",
-   "price": "328.75",
-   "chg": -4.52,
-   "spark": [
-    347.3,
-    357.61,
-    362.66,
-    364.54,
-    354.99,
-    350.36,
-    352.81,
-    349.57,
-    355.1,
-    351.19,
-    343.64,
-    355.14,
-    362.51,
-    375.81,
-    376.51,
-    360.14,
-    361.54,
-    354.73,
-    357.31,
-    346.25,
-    344.33,
-    328.75
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/avgo",
-   "news": [
-    {
-     "title": "What Does Broadcom (AVGO) Face As AI Chip Supply Turns Into A Bottleneck?",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=99ada1d69d367f1bd75eb62c3b665b465fed7b42122097d0c519a376c3167313"
-    },
-    {
-     "title": "Broadcom (AVGO) Went Nowhere for a Year. Analysts Think It Is Worth 50% More",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=1532391aa5c0969c751fa1194019116d039c167e1aee3cf8d61c122e45fa5420"
-    },
-    {
-     "title": "Jim Cramer Sees a Telling Change in Broadcom’s (AVGO) Stock",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=45874ec2a8d88972a2800dd7d1d9e9281d36da8a4ebac778d3d5190bb73e7028"
-    }
-   ]
-  },
-  {
-   "symbol": "TSLA",
-   "name": "테슬라",
-   "name_en": "",
-   "price": "354.72",
-   "chg": -2.13,
-   "spark": [
-    366.2,
-    364.27,
-    375.3,
-    378.9,
-    380.12,
-    377.94,
-    372.11,
-    357.45,
-    352.84,
-    354.81,
-    354.11,
-    370.59,
-    378.73,
-    380.68,
-    377.81,
-    375.0,
-    382.7,
-    378.03,
-    375.23,
-    367.16,
-    362.44,
-    354.72
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/tsla"
-  },
-  {
-   "symbol": "LLY",
-   "name": "일라이릴리",
-   "name_en": "",
-   "price": "1,257.03",
-   "chg": 0.43,
-   "spark": [
-    1152.44,
-    1152.93,
-    1164.89,
-    1170.14,
-    1150.99,
-    1181.89,
-    1183.46,
-    1184.78,
-    1184.63,
-    1157.08,
-    1149.85,
-    1142.85,
-    1143.12,
-    1157.49,
-    1188.72,
-    1169.6,
-    1179.27,
-    1182.62,
-    1166.51,
-    1208.74,
-    1251.61,
-    1257.03
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/lly"
-  },
-  {
-   "symbol": "BRK.B",
-   "name": "버크셔해서웨이",
-   "name_en": "",
-   "price": "532.02",
-   "chg": 1.21,
-   "spark": [
-    509.2,
-    509.77,
-    502.01,
-    503.49,
-    507.17,
-    505.18,
-    505.48,
-    503.09,
-    502.35,
-    497.95,
-    500.5,
-    502.65,
-    504.26,
-    505.54,
-    506.25,
-    511.05,
-    515.62,
-    517.6,
-    520.59,
-    526.35,
-    525.68,
-    532.02
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
-  },
-  {
-   "symbol": "MU",
-   "name": "마이크론",
-   "name_en": "",
-   "price": "878.84",
-   "chg": -5.63,
-   "spark": [
-    977.5,
-    1015.8,
-    1043.96,
-    1096.16,
-    1071.88,
-    1080.53,
-    1082.28,
-    1053.98,
-    1065.08,
-    1065.11,
-    1097.39,
-    1074.89,
-    1063.96,
-    1045.56,
-    1088.0,
-    1035.84,
-    1029.0,
-    989.04,
-    953.19,
-    914.13,
-    931.24,
-    878.84
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/mu",
-   "news": [
-    {
-     "title": "Why Are Nasdaq Futures Soaring Premarket? NBIS, MU, TSLA, SPCX, ASTS, SLS Stocks In Focus",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=53b75400ae16484145fc89562d5a50bebc003b7f07b895ea03fad361b2c50bb0"
-    },
-    {
-     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
-    },
-    {
-     "title": "Does Micron (MU) Have an Economic Moat at All?",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=651c6fe646651c3e525d8508a8e45105dad2a61c0d5abd55b08897a3d9c16ba8"
-    }
-   ]
-  },
-  {
-   "symbol": "JPM",
-   "name": "JP모건",
-   "name_en": "",
-   "price": "339.72",
-   "chg": 1.25,
-   "spark": [
-    349.31,
-    349.67,
-    352.04,
-    340.0,
-    337.53,
-    338.56,
-    343.06,
-    336.59,
-    334.98,
-    330.83,
-    333.18,
-    332.38,
-    332.38,
-    331.28,
-    329.58,
-    331.42,
-    332.99,
-    334.3,
-    331.43,
-    335.28,
-    335.53,
-    339.72
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
-  },
-  {
-   "symbol": "WMT",
-   "name": "월마트",
-   "name_en": "",
-   "price": "118.81",
-   "chg": 0.8,
-   "spark": [
-    106.79,
-    106.73,
-    107.44,
-    110.12,
-    110.53,
-    107.59,
-    107.98,
-    108.73,
-    106.8,
-    103.92,
-    104.26,
-    104.26,
-    105.07,
-    107.2,
-    108.16,
-    110.56,
-    111.35,
-    113.08,
-    112.28,
-    116.16,
-    117.87,
-    118.81
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
-  },
-  {
-   "symbol": "AMD",
-   "name": "AMD",
-   "name_en": "",
-   "price": "528.75",
-   "chg": -5.95,
-   "spark": [
-    545.09,
-    559.82,
-    615.52,
-    623.77,
-    614.61,
-    629.26,
-    630.63,
-    607.87,
-    607.57,
-    611.76,
-    615.73,
-    633.91,
-    631.75,
-    649.42,
-    645.86,
-    620.68,
-    608.1,
-    594.24,
-    605.53,
-    570.82,
-    562.23,
-    528.75
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/amd",
-   "news": [
-    {
-     "title": "Spotlight on Levered Chip Financing Heightens: What is Happening at Nvidia and AMD?",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=2219ec1c384a32060b7f005e469b58946367b6724325e7a9a22f9d69e82ff0ac"
-    },
-    {
-     "title": "AMD Stock Is Up Over 140% This Year. I'd Still Buy It Before Its Nov. 3 Report.",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=4e3c4372e6fb18ed9e6e9c801915c4ee3ca9dd0e1f8cdf7b653752a4a44e1325"
-    },
-    {
-     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
-    }
-   ]
-  },
-  {
-   "symbol": "V",
-   "name": "비자",
-   "name_en": "",
-   "price": "402.61",
-   "chg": 0.72,
-   "spark": [
-    369.93,
-    368.29,
-    369.95,
-    362.04,
-    361.52,
-    367.98,
-    367.38,
-    367.74,
-    365.88,
-    359.33,
-    359.85,
-    360.66,
-    369.71,
-    370.64,
-    372.1,
-    375.1,
-    385.45,
-    389.27,
-    396.06,
-    391.43,
-    399.75,
-    402.61
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/v"
-  },
-  {
-   "symbol": "XOM",
-   "name": "엑슨모빌",
-   "name_en": "",
-   "price": "178.98",
-   "chg": 2.46,
-   "spark": [
-    163.27,
-    163.54,
-    158.3,
-    158.71,
-    161.23,
-    162.14,
-    160.59,
-    162.52,
-    161.35,
-    162.75,
-    163.82,
-    164.01,
-    164.0,
-    164.48,
-    164.05,
-    168.5,
-    168.94,
-    172.15,
-    174.08,
-    177.01,
-    174.68,
-    178.98
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/xom"
-  },
-  {
-   "symbol": "ASML",
-   "name": "ASML",
-   "name_en": "",
-   "price": "1,641.52",
-   "chg": -0.96,
-   "spark": [
-    1629.67,
-    1679.92,
-    1711.32,
-    1747.9,
-    1744.61,
-    1722.5,
-    1743.94,
-    1771.41,
-    1834.39,
-    1811.67,
-    1808.49,
-    1867.31,
-    1859.86,
-    1834.1,
-    1804.96,
-    1769.79,
-    1780.34,
-    1750.24,
-    1717.76,
-    1650.0,
-    1657.44,
-    1641.52
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/asml"
-  },
-  {
-   "symbol": "JNJ",
-   "name": "존슨앤드존슨",
-   "name_en": "",
-   "price": "255.56",
-   "chg": 0.9,
-   "spark": [
-    270.22,
-    269.99,
-    269.47,
-    269.19,
-    269.17,
-    270.68,
-    271.22,
-    271.95,
-    267.57,
-    264.74,
-    258.66,
-    256.03,
-    252.93,
-    254.78,
-    258.45,
-    256.48,
-    261.44,
-    263.73,
-    248.61,
-    253.91,
-    253.28,
-    255.56
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
-  },
-  {
-   "symbol": "MA",
-   "name": "마스터카드",
-   "name_en": "",
-   "price": "617.42",
-   "chg": 0.18,
-   "spark": [
-    565.73,
-    565.24,
-    567.65,
-    555.89,
-    559.92,
-    566.08,
-    567.65,
-    568.26,
-    563.58,
-    551.47,
-    550.0,
-    552.26,
-    564.59,
-    566.58,
-    570.06,
-    574.76,
-    589.14,
-    595.09,
-    604.8,
-    603.24,
-    616.32,
-    617.42
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/ma"
-  },
-  {
-   "symbol": "INTC",
-   "name": "인텔",
-   "name_en": "",
-   "price": "89.85",
-   "chg": -5.79,
-   "spark": [
-    108.8,
-    108.6,
-    121.78,
-    123.86,
-    122.6,
-    127.39,
-    123.0,
-    116.03,
-    115.93,
-    120.23,
-    120.0,
-    119.33,
-    116.19,
-    112.5,
-    113.12,
-    107.08,
-    104.7,
-    101.35,
-    102.81,
-    98.12,
-    95.37,
-    89.85
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/intc",
-   "news": [
-    {
-     "title": "INTC, EVAX, RCAT Stocks Move Higher Premarket — What’s Driving The Rally?",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=b4b10ee04c928c37dd72c9f39129c3de830845d7e9a3f338dc6edd5028bb5367"
-    },
-    {
-     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
-    },
-    {
-     "title": "Intel (INTC) Lands A Major Customer For Its 14A Foundry Process",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=bf38862e3ff00e62c969aa6be700ecb30acee5237891c13ab3b2baeec2ca5ea9"
-    }
-   ]
-  },
-  {
-   "symbol": "PLTR",
-   "name": "팔란티어",
-   "name_en": "",
-   "price": "186.03",
-   "chg": -7.22,
-   "spark": [
-    176.24,
-    177.64,
-    183.09,
-    184.99,
-    191.79,
-    192.59,
-    189.67,
-    187.48,
-    186.97,
-    187.05,
-    190.04,
-    188.75,
-    189.4,
-    192.07,
-    194.12,
-    198.78,
-    209.05,
-    209.0,
-    208.67,
-    200.97,
-    200.5,
-    186.03
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/pltr",
-   "news": [
-    {
-     "title": "Can Palantir’s (PLTR) Growth Justify Its Valuation?",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=a56f563a01b3ff40808ded9ce9e9761a1a8fd09b8d1a75b87fcdbeb568c87f7a"
-    },
-    {
-     "title": "Jim Cramer Set A $250 Palantir (PLTR) Share Price Target – Then The Shares Closed 11% Lower During The AI Selloff",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=2bb3b063e3d88b108b6d5fc3727601fb4284b2fab37d3f8faae781107d533951"
-    },
-    {
-     "title": "Cathie Wood-Led Ark Invest's Biggest Q3 Winners And Losers — PLTR, NVDA, TXG Led While TSLA, RKLB Dragged",
-     "source": "Yahoo",
-     "url": "https://finnhub.io/api/news?id=7e54566e336417dca1bb4cc41e90b7b0d73f38e161c17548f99dafe7f67cb646"
-    }
-   ]
-  },
-  {
-   "symbol": "CVX",
-   "name": "셰브론",
-   "name_en": "",
-   "price": "224.99",
-   "chg": 2.59,
-   "spark": [
-    211.57,
-    209.51,
-    203.67,
-    202.41,
-    205.51,
-    205.65,
-    204.45,
-    206.37,
-    204.38,
-    204.21,
-    207.1,
-    206.69,
-    206.47,
-    207.58,
-    205.15,
-    211.55,
-    211.98,
-    215.0,
-    217.73,
-    222.04,
-    219.32,
-    224.99
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
-  },
-  {
-   "symbol": "COST",
-   "name": "코스트코",
-   "name_en": "",
-   "price": "989.11",
-   "chg": 1.13,
-   "spark": [
-    893.93,
-    895.31,
-    898.48,
-    899.41,
-    904.7,
-    896.48,
-    922.765,
-    922.92,
-    924.59,
-    910.34,
-    914.94,
-    920.65,
-    923.52,
-    935.68,
-    942.25,
-    947.92,
-    946.92,
-    959.44,
-    954.63,
-    982.0,
-    978.01,
-    989.11
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/cost"
-  },
-  {
-   "symbol": "CSCO",
-   "name": "시스코",
-   "name_en": "",
-   "price": "107.39",
-   "chg": -2.24,
-   "spark": [
-    110.24,
-    109.51,
-    111.46,
-    106.44,
-    106.43,
-    106.97,
-    106.7,
-    106.74,
-    106.94,
-    107.63,
-    108.76,
-    112.2,
-    112.82,
-    117.94,
-    117.39,
-    114.89,
-    118.39,
-    115.34,
-    115.07,
-    113.64,
-    109.85,
-    107.39
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/csco"
-  },
-  {
-   "symbol": "KO",
-   "name": "코카콜라",
-   "name_en": "",
-   "price": "93.90",
-   "chg": 2.07,
-   "spark": [
-    88.06,
-    88.25,
-    87.12,
-    88.61,
-    88.09,
-    88.1,
-    87.81,
-    87.18,
-    86.84,
-    86.08,
-    86.1,
-    85.65,
-    86.51,
-    86.17,
-    85.82,
-    87.77,
-    88.05,
-    89.79,
-    90.11,
-    91.78,
-    92.0,
-    93.9
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/ko"
-  },
-  {
-   "symbol": "PG",
-   "name": "P&G",
-   "name_en": "",
-   "price": "159.35",
-   "chg": 1.45,
-   "spark": [
-    147.55,
-    146.39,
-    146.08,
-    148.22,
-    147.39,
-    145.68,
-    146.23,
-    149.03,
-    148.32,
-    145.28,
-    143.95,
-    144.91,
-    145.94,
-    148.41,
-    147.82,
-    150.59,
-    151.23,
-    153.2,
-    153.04,
-    156.53,
-    157.08,
-    159.35
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/pg"
-  },
-  {
-   "symbol": "UNH",
-   "name": "유나이티드헬스",
-   "name_en": "",
-   "price": "401.43",
-   "chg": -1.29,
-   "spark": [
-    375.21,
-    376.9,
-    377.56,
-    372.95,
-    371.29,
-    375.01,
-    376.59,
-    377.83,
-    374.94,
-    367.08,
-    365.2,
-    371.9,
-    378.58,
-    376.32,
-    375.98,
-    370.95,
-    379.3,
-    378.52,
-    377.76,
-    395.62,
-    406.67,
-    401.43
-   ],
-   "url": "https://www.nasdaq.com/market-activity/stocks/unh"
-  }
- ],
- "kr_movers": [
-  {
-   "code": "005930",
-   "name": "삼성전자",
-   "price": "223,500",
-   "chg": 3.71,
-   "url": "https://m.stock.naver.com/domestic/stock/005930",
-   "spark": [
-    248500.0,
-    250500.0,
-    253500.0,
-    256000.0,
-    260000.0,
-    275000.0,
-    277500.0,
-    286500.0,
-    270000.0,
-    275000.0,
-    269500.0,
-    274500.0,
-    276000.0,
-    273000.0,
-    269000.0,
-    263000.0,
-    251000.0,
-    234000.0,
-    234500.0,
-    207500.0,
-    217000.0,
-    223500.0
-   ],
-   "news": [
-    {
-     "title": "삼성전자, 중소·중견 99곳에 기술 126건 무상이전",
-     "source": "뉴스토마토",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsQ2FybU42Mjd2RkZLTkNXQUt1T2x4Q0lQZWtLVUhlZjFwVU13V1hvbXpLZ3hoRlZmWjA3WGc4b3ZBZGNoOHN6Z1VkY1dMN0VxYjZnZkFnY2pJbUhuMU03Qg?oc=5"
-    },
-    {
-     "title": "삼성전자, 글로벌 랜드마크에서 SSD 브랜드 캠페인 전개",
-     "source": "samsung.com",
-     "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOUnhOZ2xnLWRDQVB2aDVxckVuOUJ0aU9WMDhybVFiWHZDUGV5c0U4LTFzamVQRlRZUEJTR0h2aGJJcXJEaEJDei1PSDZxb2IySEx0T0RGWVhjU0JkVVJnYjN6aVAzTW84eEtlUW91WDBEN2RJaEhiNHVRTTVDV2pJcjVBVWtYczlqTE4xY2hzc21kUzJKTm1ZblA1TEQ1R1N4alVSQ3p2ZWxFVUd2QlBoR0VqMVZqTWxWM3VfeTBIeGlOOV9nc1QtMXgyRk82ajd2YlpBUkNvMF9IR2dKc1BnN0ppWlA2cGRVTDFmYkRnNE91bGprdUNoQlE4MWpEZXhMaDZrVjl3V2RvZXBTVVBXX0g2amQxRXRqcGZPckQwZDN1WTdJbnRIX2lwSDk2OW9aTWZjbWROWWVFQlhobmZaaFAycF93aGV5ZkE?oc=5"
-    },
-    {
-     "title": "파워오토로보틱스, 삼성전자 이동로봇 특허 이전…‘자율이동형 i-Series’ 개발 추진",
-     "source": "로봇신문",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uTXpHV1ZVcF9kamdJSy1hSGxKdk92enNqQlVZUC1fWU15REs1Zl9oN1NmdDdnZ3ljcl93U1M0TG4tVm9kWmdIUy1MOTVtUzQ1VFdXd3Zrd1gtMHlPR011dGYxeGdtX05USWlxTw?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "000660",
-   "name": "SK하이닉스",
-   "price": "1,304,000",
-   "chg": 2.52,
-   "url": "https://m.stock.naver.com/domestic/stock/000660",
-   "spark": [
-    1683000.0,
-    1712000.0,
-    1757000.0,
-    1766000.0,
-    1849000.0,
-    1879000.0,
-    1841000.0,
-    1863000.0,
-    1761000.0,
-    1790000.0,
-    1783000.0,
-    1828000.0,
-    1842000.0,
-    1784000.0,
-    1715000.0,
-    1686000.0,
-    1605000.0,
-    1456000.0,
-    1425000.0,
-    1238000.0,
-    1265000.0,
-    1304000.0
-   ]
-  },
-  {
-   "code": "402340",
-   "name": "SK스퀘어",
-   "price": "802,000",
-   "chg": 2.3,
-   "url": "https://m.stock.naver.com/domestic/stock/402340",
-   "spark": [
-    1000000.0,
-    1014000.0,
-    1017000.0,
-    1019000.0,
-    1072000.0,
-    1133000.0,
-    1134000.0,
-    1181000.0,
-    1092000.0,
-    1126000.0,
-    1132000.0,
-    1150000.0,
-    1156000.0,
-    1164000.0,
-    1136000.0,
-    1059000.0,
-    982000.0,
-    867000.0,
-    853000.0,
-    750000.0,
-    782000.0,
-    802000.0
-   ]
-  },
-  {
-   "code": "373220",
-   "name": "LG에너지솔루션",
-   "price": "428,500",
-   "chg": 6.33,
-   "url": "https://m.stock.naver.com/domestic/stock/373220",
-   "spark": [
-    351000.0,
-    363500.0,
-    366500.0,
-    367000.0,
-    363500.0,
-    355500.0,
-    352000.0,
-    352000.0,
-    360500.0,
-    353500.0,
-    355500.0,
-    360000.0,
-    369000.0,
-    388500.0,
-    387000.0,
-    403000.0,
-    396500.0,
-    412500.0,
-    420000.0,
-    393000.0,
-    403500.0,
-    428500.0
-   ],
-   "news": [
-    {
-     "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
-     "source": "한국경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NVGJUb0V2dy1VRjZ4MnZDYnZ6YlhMNmNDdk9lMVBCRDNFVXlDWlBFRlBTZ3VGTTRHcDB1d2QtWlRRSEF3dG1iU3lmdklpTjNmSUt5Vi1FNjFjUQ?oc=5"
-    },
-    {
-     "title": "“담합 악재 털어내고 LG에너지솔루션 효과 얹는 LG화학, ‘Trading Buy’ 기회 오나”",
-     "source": "뉴스퀘스트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tZGxYd2pPZXp0Qk5oZE1kV0FmNFJZbzliaFY1OEdfYURoNWl0bFdGQUhSdllIUGNCazQ1WWtTaEJwOTI2MFVxN1BVUXlNSGc4c2paSXFYSjZIdDFRYWxnQWNSMnNOaFNhWkwtLUVVVQ?oc=5"
-    },
-    {
-     "title": "[특징주]LG에너지솔루션, 기관 순매수 1위에 7.19% 오르며 장 마감…ESS 기대에 2차전지 강세",
-     "source": "남도일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11WkQ3Y0hjaTJaNGptU2ZjNnc2MFpaSEJVaDZmQTVUVk1YOGxDV2J6ZVY4WnRXSGJSaTdKYl9IZkh2ckNYRTZEMzdmYm1VNzNIb0pKX1g4bGJia2dUblYxem5TZm95XzctbVdOWUI3dlrSAXBBVV95cUxNdVpEN2NIY2kyWjRqbVNmYzZ3NjBaWkhCVWg2ZkE1VFZNWDhsQ1diemVWOFp0V0hiUmk3SmJfSGZIdnJDWEU2RDM3ZmJtVTczSG9KSl9YOGxiYmtnVG5WMXpuU2ZveV83LW1XTllCN3Za?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "009150",
-   "name": "삼성전기",
-   "price": "1,220,000",
-   "chg": 2.69,
-   "url": "https://m.stock.naver.com/domestic/stock/009150",
-   "spark": [
-    1322000.0,
-    1330000.0,
-    1372000.0,
-    1351000.0,
-    1388000.0,
-    1432000.0,
-    1489000.0,
-    1501000.0,
-    1491000.0,
-    1550000.0,
-    1514000.0,
-    1554000.0,
-    1577000.0,
-    1684000.0,
-    1607000.0,
-    1559000.0,
-    1493000.0,
-    1381000.0,
-    1377000.0,
-    1122000.0,
-    1184000.0,
-    1220000.0
-   ]
-  },
-  {
-   "code": "005380",
-   "name": "현대차",
-   "price": "324,500",
-   "chg": 4.01,
-   "url": "https://m.stock.naver.com/domestic/stock/005380",
-   "spark": [
-    367500.0,
-    369500.0,
-    362500.0,
-    364500.0,
-    366500.0,
-    361500.0,
-    362000.0,
-    357000.0,
-    354000.0,
-    350500.0,
-    347000.0,
-    349000.0,
-    347000.0,
-    348500.0,
-    336500.0,
-    324500.0,
-    318500.0,
-    311500.0,
-    313500.0,
-    289500.0,
-    314000.0,
-    324500.0
-   ],
-   "news": [
-    {
-     "title": "현대차, ‘아반떼 N 모노크롬’ 공개 | 뉴스 | 현대자동차그룹",
-     "source": "Hyundai Motor Group",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0RMa3F1M1lCUXhiWUVIM1NoNDhJVnM2ZlNlVWRXRENfS1B5dU5yZjNadWhfczBpQ1NfRGJRdXFLa1ZmeU1SWnowVF9LQXRLXzVjc2lIX3JwV2haTERJZFhsYzdTa2JBZWNrRzVnRHFFOHU4MHQ1MUl1NnNpMUJTMmp5WWlRZlR1dUJMdHNRRVpCbkJh?oc=5"
-    },
-    {
-     "title": "\"이동만 되면 됐는데 이젠 선루프 따져\"… 현대차 인도 판매점 가보니",
-     "source": "조선일보",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjQwa2QwU1JOdG9aVnduSmhiSmdRcGhEX0tHcXVFWFBKNGUycEtLamtvbUdGRXdrSjA2emdEUHRMWUg5c3FkaTNFa2JaRHdBMjVISjlVdjByWW14NURSYk1uMnhzWnJSOWYweTZfVl9feXJ0UFNKVi1CS044ZERaSVJpa3RYOGVSeHA0SEtNQQ?oc=5"
-    },
-    {
-     "title": "현대차, '모빌리티 플레이그라운드 시즌2' 성료…”차량 중심 소통의 장 마련”",
-     "source": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lVEV5OWppS2dZYmtfSDVRckZUalUzR1JYUzN6a1hYM1hONGFreXQ4V2JKX1IxSU15NnBxUGZUTmdjM2wtNUZkRG5kbFJoNnVieFl4R2g0Z09QV1Z3U2lyNFN6NDZHQk0?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "207940",
-   "name": "삼성바이오로직스",
-   "price": "1,386,000",
-   "chg": 6.78,
-   "url": "https://m.stock.naver.com/domestic/stock/207940",
-   "spark": [
-    1391207.0,
-    1398153.0,
-    1394183.0,
-    1393192.0,
-    1388230.0,
-    1392199.0,
-    1381284.0,
-    1362430.0,
-    1379299.0,
-    1373345.0,
-    1383268.0,
-    1417007.0,
-    1366000.0,
-    1318000.0,
-    1278000.0,
-    1220000.0,
-    1196000.0,
-    1204000.0,
-    1179000.0,
-    1241000.0,
-    1291000.0,
-    1386000.0
-   ],
-   "news": [
-    {
-     "title": "삼성바이오로직스, 美 ‘월드 ADC’서 통합 개발·생산 역량 소개",
-     "source": "인더스트리뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5md0xjZFVSTlp3a2tCT1VNRVc0T2V4WWZMLVQ3Sm1UN3pZOG9PdXh4cXZUNV9nOFV0NTlUZFQwX2dqeTBnZzBlTkgwdVRaMTlZN1lZM1NfX2dPdlhjb1VsaF9tSXhLRGJtZEh0XzloZnNQQQ?oc=5"
-    },
-    {
-     "title": "삼성바이오로직스, ‘월드 ADC’서 전 주기 항체·약물접합체 서비스 역량 알려",
-     "source": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtbHc5ZHd0MzI4anVBTTNWQ2VRM3FQS25uRlVOQUQ1Q1Y2NFhyUTFhVTFKVlB5cC1ZSFd6UFlmR2k5ckdfNFRHbFRHa2VXUEdBa28ycGthWTdHWGc?oc=5"
-    },
-    {
-     "title": "[제약바이오 브리프] 삼성바이오로직스·동화약품·동아제약·대원제약·SK케미칼·동아ST·휴젤",
-     "source": "대한경제",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZRmZvTVMzVGRLS1pHVHFMOEZtU29DSTdCbEJoVXdLUjVScnlEUXhWZlFLa21ybFBnQUlaRXlNVURJemtYdWNVSDdHSC1ZZmZSelhjRmNIRm1NcHlVWmJSRlYxVldJVEVyYmt2ZHdqZDZzVEk?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "105560",
-   "name": "KB금융",
-   "price": "160,700",
-   "chg": 0.44,
-   "url": "https://m.stock.naver.com/domestic/stock/105560",
-   "spark": [
-    181200.0,
-    176400.0,
-    177000.0,
-    179700.0,
-    175700.0,
-    177900.0,
-    176200.0,
-    174100.0,
-    173800.0,
-    173200.0,
-    169800.0,
-    167400.0,
-    168400.0,
-    167400.0,
-    168300.0,
-    163400.0,
-    162200.0,
-    161300.0,
-    159400.0,
-    159900.0,
-    160300.0,
-    160700.0
-   ]
-  },
-  {
-   "code": "032830",
-   "name": "삼성생명",
-   "price": "243,500",
-   "chg": 2.1,
-   "url": "https://m.stock.naver.com/domestic/stock/032830",
-   "spark": [
-    295500.0,
-    288000.0,
-    285000.0,
-    283000.0,
-    283500.0,
-    293500.0,
-    290500.0,
-    295000.0,
-    293000.0,
-    291500.0,
-    283000.0,
-    282500.0,
-    288000.0,
-    284500.0,
-    278500.0,
-    270000.0,
-    264000.0,
-    253500.0,
-    247000.0,
-    225000.0,
-    238000.0,
-    243500.0
-   ]
-  },
-  {
-   "code": "006400",
-   "name": "삼성SDI",
-   "price": "591,000",
-   "chg": 11.51,
-   "url": "https://m.stock.naver.com/domestic/stock/006400",
-   "spark": [
-    531000.0,
-    551000.0,
-    546000.0,
-    545000.0,
-    542000.0,
-    536000.0,
-    531000.0,
-    521000.0,
-    528000.0,
-    517000.0,
-    513000.0,
-    517000.0,
-    529000.0,
-    577000.0,
-    557000.0,
-    567000.0,
-    561000.0,
-    565000.0,
-    596000.0,
-    525000.0,
-    530000.0,
-    591000.0
-   ],
-   "news": [
-    {
-     "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
-     "source": "한국경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NVGJUb0V2dy1VRjZ4MnZDYnZ6YlhMNmNDdk9lMVBCRDNFVXlDWlBFRlBTZ3VGTTRHcDB1d2QtWlRRSEF3dG1iU3lmdklpTjNmSUt5Vi1FNjFjUQ?oc=5"
-    },
-    {
-     "title": "InvestingPro 적정가치 분석 적중…삼성SDI 투자 수익률 64% By Investing.com",
-     "source": "Investing.com 한국어",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96MERkbXVQQmtSX2FzUzZ3blFQUm8xN2NTMGd0bjZVb0I0ZkRjcGdBcXNKUnI4M1pHYk8zQWFZay1xTWZyTEJpbWFGQl9kU213dnVYN1lRY1BSZHF3MWdBRW40NmVBQnJVcjRhRF9fUlhTbDE3U0E?oc=5"
-    },
-    {
-     "title": "에코프로비엠 유증 청약률 103.25%…삼성SDI 웃돌아",
-     "source": "스트레이트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jNGxrRkg3clRwR18xOEpJZHZHY0x1UW1ET0Ztd1hFR3EtUW1BNFp2d3p0QXJ2blZFcEpKM3dRbk1kS1pCUUhwaGdqS1FVclN2S0F3SERJOTFWN1I4ZGQtX0V4S0o2bUtpa2FIZnFDX1docjQ?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "028260",
-   "name": "삼성물산",
-   "price": "288,500",
-   "chg": 0.7,
-   "url": "https://m.stock.naver.com/domestic/stock/028260"
-  },
-  {
-   "code": "012450",
-   "name": "한화에어로스페이스",
-   "price": "892,000",
-   "chg": 0.45,
-   "url": "https://m.stock.naver.com/domestic/stock/012450"
-  },
-  {
-   "code": "068270",
-   "name": "셀트리온",
-   "price": "196,300",
-   "chg": 1.19,
-   "url": "https://m.stock.naver.com/domestic/stock/068270"
-  },
-  {
-   "code": "000270",
-   "name": "기아",
-   "price": "114,600",
-   "chg": 3.99,
-   "url": "https://m.stock.naver.com/domestic/stock/000270",
-   "news": [
-    {
-     "title": "현대차·기아, ‘소프티어 부트캠프 9기’ 모집 | 뉴스 | 현대자동차그룹",
-     "source": "Hyundai Motor Group",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdFlDbWc3ekNNeElWNHAzTk5JTkZJMVRFSEhEYXRGN2ZuRG01Sl9XQ1Vqd05DM2hITkpnMXQ4dnlsUVllckd1REloQ05mYTFST2VITE1LdExKWXpKSGFOT0w4WXpqZDIxdEl6czV2eG01SW9wWk5LQWd3QTNFRVZaUWlPd1VHR05kMGNrSTV1Zw?oc=5"
-    },
-    {
-     "title": "\"미래 모빌리티 선점\"…현대차·기아, 임직원 아이디어로 혁신 박차(종합)",
-     "source": "연합인포맥스",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tNXR6cFZCUTU5XzNUWUYxcG5VakltVXZUYXNWRUsyWV9xODFXalBxN2laRVpHZjVLY25xdUhFMEVGa3BaVmdNTUVTMXNYckZoeHdxcktqTlFjbFNrUTZyRXA2eDFIWEw0VEVMbDFuMjA?oc=5"
-    },
-    {
-     "title": "현대차·기아, ‘미래 공장’ 전환 속도…2032년 자율화 적용",
-     "source": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jOG1Vbjd1dFpITV96RWgyQnVqdEJtcjllenRpMjdSRVV6c2NkYVhKVlJfNzhXSUdQNHM2U2dPcURId2NrRHJWSVRHemVucTl6ZkY1alJFZGgwdjU3UTJMUlVVaUY?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "055550",
-   "name": "신한지주",
-   "price": "92,500",
-   "chg": -0.96,
-   "url": "https://m.stock.naver.com/domestic/stock/055550"
-  },
-  {
-   "code": "034020",
-   "name": "두산에너빌리티",
-   "price": "67,100",
-   "chg": 3.87,
-   "url": "https://m.stock.naver.com/domestic/stock/034020",
-   "news": [
-    {
-     "title": "'2단계 확장 속도' 두산에너빌리티, 사우디 자푸라 현장 '리스크 제로' 총력전",
-     "source": "더구루",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQRS1JLUlVdlpvdlF2X1dNRmdQNUdtSDRFNHdIcmxZRzZzU185SEptbmsySnl6SW5PaWx6OF9DRjNjTExsUFBmb0hrN1dQZi05TUQ0Vjc1Ykt4eXJvUHhWS2ZsYw?oc=5"
-    },
-    {
-     "title": "재무안정성 높인 두산그룹, CFO 입지↑…'재무통' 김민철·박상현 부회장 동반 승진",
-     "source": "톱데일리",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ISHhiT3FDTmtPclFGd3Fja3pXUy1nRi1IeGkwamdWRnpVOVB3T0YzVDR2V013UkVTSjc0U1dDa0dnRzE1M2VzdUNlTXd5Nkpu?oc=5"
-    },
-    {
-     "title": "박상현 두산에너빌리티 대표이사 사장 부회장 승진",
-     "source": "경남도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfbVMzWVJTOElVdndQME5LMVZxSllQWURFQkpjUl9Ccmc4NExFTzZqbnhUcmJnWmE3N2E3bU93SnNIaFdCRXBaLUlCX3ZOalh3Z0RDRTNkRTdyUzNwa3VtOGtUdTFxOUZ0c1E?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "329180",
-   "name": "HD현대중공업",
-   "price": "347,500",
-   "chg": -1.14,
-   "url": "https://m.stock.naver.com/domestic/stock/329180"
-  },
-  {
-   "code": "034730",
-   "name": "SK",
-   "price": "460,000",
-   "chg": 0.77,
-   "url": "https://m.stock.naver.com/domestic/stock/034730"
-  },
-  {
-   "code": "086790",
-   "name": "하나금융지주",
-   "price": "122,100",
-   "chg": -0.33,
-   "url": "https://m.stock.naver.com/domestic/stock/086790"
-  },
-  {
-   "code": "012330",
-   "name": "현대모비스",
-   "price": "364,000",
-   "chg": 3.26,
-   "url": "https://m.stock.naver.com/domestic/stock/012330",
-   "news": [
-    {
-     "title": "[기업 이모저모] 현대모비스 주주는 사업 매각가 보려면 프랑스 가야 하나 |",
-     "source": "연합인포맥스",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjRFNYT3ZSUlR3b05qdi1lT20wdldIRU5EV0J1emliZFJmSC1TaW1oMDFoaUlscm41S0dXTVdyeFdQc3hfQ2lFTEI4RW1sZ3hlRUF6SFY0UkRna1hrVnp4N1FhTmhDbm5HVldlT2tmZUZwNVZr?oc=5"
-    },
-    {
-     "title": "현대모비스, 22일 홈경기 걸그룹 클라씨 시투·공연",
-     "source": "울산매일 - 울산최초, 최고의 조간신문",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yOUZLdURPSnZJazFzVUd1dWZKUVVfczdOaTdIbTE4ZWxaOGM0aDZVT3RSNjBveHhkU2tNOFR6YTYzTklaMjAyRWU1NFhhTGxlZHNxQTdtYzBOLU9uX04za0NpMEFxQ2ZBamfSAW5BVV95cUxNZF9RTkFBdm9IbmxHZUlBZTZuZGVKYXR0a2tUTWRoYjVMOW9fUDRDU250Q1RjbTh1RFlBVGhXd3YyazREVW9BR0doLU5BeXVjSzlkR2JKd3R3dUhMWnRJMV9VRUZMZnhTcDJlR0ZQZw?oc=5"
-    },
-    {
-     "title": "[마감분석] 현대모비스, 3.69% 오른 36만5500원 마감 : 기업주식정보",
-     "source": "재경일보",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yNHEzUk5uTjUwNmtLV0VrT0dTQWlBR1doemxJUDNESUl5T0Y1aGNLQksycG5pNDlUTXBIOS14LWVPUktsT2pUTFg3WQ?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "066570",
-   "name": "LG전자",
-   "price": "171,900",
-   "chg": 1.3,
-   "url": "https://m.stock.naver.com/domestic/stock/066570"
-  },
-  {
-   "code": "035420",
-   "name": "NAVER",
-   "price": "182,600",
-   "chg": 1.44,
-   "url": "https://m.stock.naver.com/domestic/stock/035420"
-  },
-  {
-   "code": "096770",
-   "name": "SK이노베이션",
-   "price": "161,500",
-   "chg": 6.25,
-   "url": "https://m.stock.naver.com/domestic/stock/096770",
-   "news": [
-    {
-     "title": "건설연–SK이노베이션, AI 데이터센터 첨단인프라 기술 협력",
-     "source": "환경일보",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pVGxkUF9kMWJ3LWF1WmE2YnhMNHNyV2xGZHpkdUloWGJjTnVJNDRZdGRLNF9COFEtTk9jMEFyNm9iYnNfaWFhVVJVWnlvYm5SajV3VHY1Vm1PdlJPSVNlQmZ3TWZvU19r?oc=5"
-    },
-    {
-     "title": "[이사회 진단] 모회사 대표가 SK이노베이션 이사회에...이해충돌 리스크",
-     "source": "주주경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yZzBTcnlZMVZyYzhjX0tzUkZYamRQVlVjWDR4T1J1TzBvT1NkOS1ObEQ3aXF4YUtNWGhkWEs0b05sTEdQQUc1R1ZhTmNNdkhKdTVUVXpldXdDQmVOc2ZrVEFsdUgwaVpW?oc=5"
-    },
-    {
-     "title": "호주 바다서 캐낸 가스 380㎞ 터널로…SK 'LNG 직구' 시대 열다",
-     "source": "한국경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UZlFGUEJXb1ZpaDA3dFVJZVpIa21aa0tiU1dCQ3czZVAtMGFVSjNFaHRxdGphTkxGa0VlcjlKV19MbUxscmV5Z2J3UnQ4RlVQcnJ5WTA1MllmZw?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "000810",
-   "name": "삼성화재",
-   "price": "598,000",
-   "chg": 2.05,
-   "url": "https://m.stock.naver.com/domestic/stock/000810"
-  },
-  {
-   "code": "010120",
-   "name": "LS ELECTRIC",
-   "price": "166,600",
-   "chg": 5.04,
-   "url": "https://m.stock.naver.com/domestic/stock/010120",
-   "news": [
-    {
-     "title": "LS일렉트릭, 美 데이터센터 수주 잇달아…올해 영업익 7000억 넘본다",
-     "source": "녹색경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPaUpCWmEyR2R5cDJ6MkIxUXctVjR2TEhsYTJEQnNXRFVpTmdQQXlPT3puOHNSMjZZdndYLUVxLW13aE9SU3BMcVhrUFhIN2xhbENYLW90ck1lS3p4S19SX211cHl3QU0?oc=5"
-    },
-    {
-     "title": "[리포트 브리핑]LS ELECTRIC, '단납기 수주로 실적개선 가속화 및 800VDC 성장성 가시화' 목표가 235,000원 - iM증권",
-     "source": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aWDN5S1I0VW9LWFNhNFZfOWpaVXd3c3M3YkFWMVVYaHJGcnVZSS1TSDlReU5jMVNETE1ISDdXU2luZTRMRmtZTENWdWljSGxrb3llR1Q1Q21rcTN3?oc=5"
-    },
-    {
-     "title": "LS Electric, RSI 25.58 극도 과매도: 매시간 업데이트",
-     "source": "Investing.com 한국어",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wTVIxWkZKNzhjS2Vkck92Ym5SV3hfUm9IdzliNGpsRmlrR1lSeTRvd0xKRUd6QWhyb081MTlTVVpwbGQ0YVBEczFORW9JNDBqOE5zN1Y1OXdxemt2Uk9EM04zRXNDaVpZV21KSW95eUJibnlFRnlB?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "005490",
-   "name": "POSCO홀딩스",
-   "price": "311,000",
-   "chg": 4.89,
-   "url": "https://m.stock.naver.com/domestic/stock/005490",
-   "news": [
-    {
-     "title": "POSCO홀딩스 주가, 10월 19일 애프터마켓 312,500원 5.40% 상승",
-     "source": "톱스타뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VSjNNWVE5TFBaZlZ2NG5UV0h5OFNuai1oQ1IyamhZMXJUTER1SkhFNV92c0dTZEgyMlBUVlB1S1lkTHRNMGNydkI3ZkJnRW91QXV6aXZUaFVMdDVqRG5HU295NWV5SHVqcHFvVW9KMU9ZZw?oc=5"
-    },
-    {
-     "title": "한탑·POSCO홀딩스 상승랠리… 환율 하락 수혜주 매수 확산",
-     "source": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GX3phaktoMGxYWWFkQXE4RWozUEg0YTJPUHpVRDBzcXItMHlXbFNXclEyaE45ZGdvb2JBLVpMTkZCM01lTldydUFKeHgzaVFSeEc3MDZVVHFLWmExYjlyN3Y1aS1QUlh6bjVnSEo4amNDOExFV3RV0gF3QVVfeXFMT0ZfemFqS2gwbFhZYWRBcThFajNQSDRhMk9QelVEMHNxci0weVdsU1dyUTJoTjlkZ29vYkEtWkxORkIzTWVOV3J1QUp4eDNpUVJ4RzcwNlVUcUtaYTFiOXI3djVpLVBSWHpuNWdISjhqY0M4TEVXdFU?oc=5"
-    },
-    {
-     "title": "[기업탐방] POSCO홀딩스, “4분기부터는 1단계 설비의 가동률을 거의 100%까지 끌어올리는 것을 목표로 하고 있고, 10월에는 2단계 공장도 준공해 시운전에 들어가”",
-     "source": "네이버 프리미엄콘텐츠",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EZjlNX2ZYSEd3WUNmSUdDZ1J5WE96UUdEOTVyT0dmVVdKQUV2Sjk2UmxmejZ4LUJuU2UyV2JzbmxFeTlveUVmZFRlT0g3blBYRk5teXhlNXJmWEJnWnZQMDBCd21wdlBTYkx0bTAtVGlUVC1JOEd4ZA?oc=5"
-    }
-   ]
-  },
-  {
-   "code": "316140",
-   "name": "우리금융지주",
-   "price": "31,450",
-   "chg": 0.32,
-   "url": "https://m.stock.naver.com/domestic/stock/316140"
-  },
-  {
-   "code": "011200",
-   "name": "HMM",
-   "price": "23,900",
-   "chg": 1.7,
-   "url": "https://m.stock.naver.com/domestic/stock/011200"
-  },
-  {
-   "code": "138040",
-   "name": "메리츠금융지주",
-   "price": "129,400",
-   "chg": -0.31,
-   "url": "https://m.stock.naver.com/domestic/stock/138040"
-  },
-  {
-   "code": "010130",
-   "name": "고려아연",
-   "price": "994,000",
-   "chg": 5.07,
-   "url": "https://m.stock.naver.com/domestic/stock/010130",
-   "news": [
-    {
-     "title": "고려아연 온산제련소, 울산대공원에 멸종위기 '물장군' 방사",
-     "source": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUNIBYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUA?oc=5"
-    },
-    {
-     "title": "MBK \"고려아연 지분 콜옵션, 엑시트 전에 행사 안한다\"",
-     "source": "비즈워치",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ycHVta19MTk91ZG53OVJkX1ZoVVZnTmlXXy1kejJVNjlUNklhX0JpVUZMZE0taDVYZ05JOWMyX096MTlMQ1E4WkNRS09YXzJ6eGNES254NzdjTmU0ZEI4U3FtcHhQQTdGQUE?oc=5"
-    },
-    {
-     "title": "고려아연, 멸종위기 곤충 복원에 연 5000만원…물장군 방사",
-     "source": "매일일보",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZWHFsNWlEeDFBa3hoRE16ODN0bW1nTWtqMlozUU1peVJWb2s3VjJUM2V1Y0xGdnN4MmlLUk1tUzExZTBxXzZKUzM0eFpxMkJFSFdPbjdoLXlib01wMEozR3hRRFU?oc=5"
-    }
-   ]
-  }
- ],
- "disclosures": [
-  {
-   "company": "삼성전기",
-   "title": "단일판매ㆍ공급계약체결",
-   "date": "20261019",
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800610"
-  },
-  {
-   "company": "한화에어로스페이스",
-   "title": "타법인주식및출자증권처분결정(종속회사의주요경영사항)",
-   "date": "20261019",
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800494"
-  },
-  {
-   "company": "HD현대중공업",
-   "title": "영업(잠정)실적(공정공시)",
-   "date": "20261019",
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800435"
-  },
-  {
-   "company": "LS ELECTRIC",
-   "title": "단일판매ㆍ공급계약체결",
-   "date": "20261019",
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800108"
-  }
- ],
- "results": [],
- "today": [],
- "sources": [
-  {
-   "name": "지수·환율·금리 (네이버)",
-   "ok": true,
-   "count": 3
-  },
-  {
-   "name": "공포·탐욕 지수 (CNN·alternative.me)",
-   "ok": true,
-   "count": 2
-  },
-  {
-   "name": "미국 상위30 등락·뉴스 (Finnhub)",
-   "ok": true,
-   "count": 28
-  },
-  {
-   "name": "한국 상위30 등락·뉴스 (네이버·구글뉴스)",
-   "ok": true,
-   "count": 30
-  },
-  {
-   "name": "한국 주요 공시 (DART)",
-   "ok": true,
-   "count": 4
-  },
-  {
-   "name": "미국 실적 결과 (Finnhub)",
-   "ok": true,
-   "count": 150
-  },
-  {
-   "name": "어제 일정 결과",
-   "ok": true,
-   "count": 0
-  }
- ],
- "week": "2026-10-19",
  "sectors": {
   "us": [
    {
     "name": "반도체",
     "code": "SMH",
-    "chg": 2.34,
-    "chg_1m": -3.6,
+    "chg": 2.51,
+    "chg_1m": -3.4,
     "spark": [
      573.0,
      596.03,
@@ -2185,14 +463,14 @@
      564.74,
      558.84,
      539.79,
-     552.4
+     553.34
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/SMH.O"
    },
    {
     "name": "기술",
     "code": "XLK",
-    "chg": 1.61,
+    "chg": 1.62,
     "chg_1m": -1.7,
     "spark": [
      189.6,
@@ -2216,15 +494,15 @@
      190.43,
      189.19,
      183.47,
-     186.43
+     186.45
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLK"
    },
    {
     "name": "경기소비재",
     "code": "XLY",
-    "chg": 0.44,
-    "chg_1m": 1.7,
+    "chg": 0.48,
+    "chg_1m": 1.8,
     "spark": [
      111.03,
      112.23,
@@ -2247,15 +525,15 @@
      111.5,
      113.41,
      112.46,
-     112.96
+     113.0
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLY"
    },
    {
     "name": "에너지",
     "code": "XLE",
-    "chg": 0.19,
-    "chg_1m": 6.3,
+    "chg": 0.28,
+    "chg_1m": 6.4,
     "spark": [
      64.31,
      62.46,
@@ -2278,15 +556,15 @@
      67.63,
      66.56,
      68.24,
-     68.37
+     68.43
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLE"
    },
    {
     "name": "헬스케어",
     "code": "XLV",
-    "chg": -0.08,
-    "chg_1m": 4.9,
+    "chg": -0.16,
+    "chg_1m": 4.8,
     "spark": [
      168.39,
      169.01,
@@ -2309,45 +587,14 @@
      173.96,
      177.19,
      176.71,
-     176.56
+     176.42
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLV"
    },
    {
-    "name": "필수소비재",
-    "code": "XLP",
-    "chg": -0.28,
-    "chg_1m": 5.5,
-    "spark": [
-     82.8,
-     81.92,
-     82.73,
-     82.43,
-     81.7,
-     82.06,
-     82.28,
-     81.85,
-     80.6,
-     80.33,
-     80.53,
-     81.04,
-     81.8,
-     81.7,
-     83.42,
-     83.43,
-     84.41,
-     84.19,
-     86.06,
-     86.68,
-     87.62,
-     87.375
-    ],
-    "url": "https://m.stock.naver.com/worldstock/etf/XLP"
-   },
-   {
     "name": "소재",
     "code": "XLB",
-    "chg": -0.29,
+    "chg": -0.28,
     "chg_1m": 1.6,
     "spark": [
      49.99,
@@ -2371,14 +618,14 @@
      49.67,
      50.56,
      50.92,
-     50.77
+     50.775
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLB"
    },
    {
     "name": "산업재",
     "code": "XLI",
-    "chg": -0.36,
+    "chg": -0.34,
     "chg_1m": -1.5,
     "spark": [
      169.75,
@@ -2402,14 +649,14 @@
      167.04,
      167.89,
      167.76,
-     167.15
+     167.185
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLI"
    },
    {
     "name": "금융",
     "code": "XLF",
-    "chg": -0.39,
+    "chg": -0.36,
     "chg_1m": -1.0,
     "spark": [
      55.86,
@@ -2433,15 +680,46 @@
      54.52,
      55.27,
      55.52,
-     55.305
+     55.32
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLF"
    },
    {
+    "name": "필수소비재",
+    "code": "XLP",
+    "chg": -0.41,
+    "chg_1m": 5.4,
+    "spark": [
+     82.8,
+     81.92,
+     82.73,
+     82.43,
+     81.7,
+     82.06,
+     82.28,
+     81.85,
+     80.6,
+     80.33,
+     80.53,
+     81.04,
+     81.8,
+     81.7,
+     83.42,
+     83.43,
+     84.41,
+     84.19,
+     86.06,
+     86.68,
+     87.62,
+     87.26
+    ],
+    "url": "https://m.stock.naver.com/worldstock/etf/XLP"
+   },
+   {
     "name": "통신서비스",
     "code": "XLC",
-    "chg": -0.43,
-    "chg_1m": -0.9,
+    "chg": -0.55,
+    "chg_1m": -1.0,
     "spark": [
      110.81,
      114.75,
@@ -2464,46 +742,15 @@
      110.82,
      112.44,
      110.32,
-     109.85
+     109.715
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLC"
    },
    {
-    "name": "부동산",
-    "code": "XLRE",
-    "chg": -0.62,
-    "chg_1m": -1.5,
-    "spark": [
-     42.53,
-     42.59,
-     42.5,
-     41.84,
-     41.65,
-     41.56,
-     41.35,
-     41.34,
-     40.91,
-     40.68,
-     40.81,
-     40.67,
-     41.1,
-     40.57,
-     40.85,
-     41.61,
-     41.92,
-     41.83,
-     41.49,
-     41.99,
-     42.16,
-     41.9
-    ],
-    "url": "https://m.stock.naver.com/worldstock/etf/XLRE.K"
-   },
-   {
     "name": "유틸리티",
     "code": "XLU",
-    "chg": -0.73,
-    "chg_1m": 1.9,
+    "chg": -0.71,
+    "chg_1m": 2.0,
     "spark": [
      41.1,
      40.66,
@@ -2526,9 +773,40 @@
      41.72,
      41.65,
      42.21,
-     41.9
+     41.91
     ],
     "url": "https://m.stock.naver.com/worldstock/etf/XLU"
+   },
+   {
+    "name": "부동산",
+    "code": "XLRE",
+    "chg": -0.77,
+    "chg_1m": -1.6,
+    "spark": [
+     42.53,
+     42.59,
+     42.5,
+     41.84,
+     41.65,
+     41.56,
+     41.35,
+     41.34,
+     40.91,
+     40.68,
+     40.81,
+     40.67,
+     41.1,
+     40.57,
+     40.85,
+     41.61,
+     41.92,
+     41.83,
+     41.49,
+     41.99,
+     42.16,
+     41.835
+    ],
+    "url": "https://m.stock.naver.com/worldstock/etf/XLRE.K"
    }
   ],
   "kr": [
@@ -2905,5 +1183,1745 @@
     "url": "https://m.stock.naver.com/domestic/stock/494670"
    }
   ]
- }
+ },
+ "us_movers": [
+  {
+   "symbol": "NVDA",
+   "name": "엔비디아",
+   "name_en": "",
+   "price": "215.56",
+   "chg": 0.67,
+   "spark": [
+    222.27,
+    227.38,
+    228.87,
+    225.51,
+    224.58,
+    225.07,
+    228.86,
+    227.21,
+    228.38,
+    230.86,
+    233.95,
+    238.9,
+    239.24,
+    237.47,
+    230.48,
+    229.28,
+    226.32,
+    228.52,
+    221.3,
+    217.23,
+    214.13,
+    215.56
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/nvda"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "애플",
+   "name_en": "",
+   "price": "344.19",
+   "chg": 0.21,
+   "spark": [
+    336.13,
+    338.98,
+    339.75,
+    337.02,
+    335.92,
+    341.07,
+    338.4,
+    329.4,
+    333.02,
+    330.32,
+    333.69,
+    332.89,
+    333.63,
+    336.67,
+    340.42,
+    336.64,
+    340.97,
+    341.27,
+    342.96,
+    342.0,
+    343.46,
+    344.185
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "알파벳",
+   "name_en": "",
+   "price": "343.07",
+   "chg": 0.73,
+   "spark": [
+    349.54,
+    354.97,
+    351.16,
+    337.83,
+    342.36,
+    343.92,
+    342.75,
+    340.92,
+    344.08,
+    338.24,
+    343.5,
+    346.47,
+    347.68,
+    350.5,
+    348.29,
+    351.66,
+    352.72,
+    353.78,
+    347.64,
+    349.22,
+    340.59,
+    343.07
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/googl"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "마이크로소프트",
+   "name_en": "",
+   "price": "531.01",
+   "chg": 0.37,
+   "spark": [
+    493.78,
+    501.61,
+    498.0,
+    500.59,
+    497.93,
+    516.17,
+    509.22,
+    508.96,
+    512.9,
+    512.8,
+    517.53,
+    525.18,
+    529.3,
+    529.76,
+    522.61,
+    535.07,
+    541.15,
+    543.45,
+    533.69,
+    539.44,
+    529.05,
+    531.01
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/msft"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "아마존",
+   "name_en": "",
+   "price": "255.84",
+   "chg": 2.33,
+   "spark": [
+    253.71,
+    258.45,
+    254.98,
+    249.27,
+    249.38,
+    249.67,
+    246.15,
+    246.67,
+    249.15,
+    248.23,
+    251.52,
+    251.4,
+    256.29,
+    259.92,
+    254.06,
+    262.43,
+    259.53,
+    258.58,
+    254.08,
+    254.76,
+    250.0,
+    255.835
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/amzn"
+  },
+  {
+   "symbol": "TSM",
+   "name": "TSMC",
+   "name_en": "",
+   "price": "417.81",
+   "chg": 1.26,
+   "spark": [
+    434.67,
+    445.14,
+    452.0,
+    446.57,
+    451.15,
+    450.61,
+    452.88,
+    456.94,
+    456.19,
+    459.2,
+    472.78,
+    485.8,
+    482.3,
+    472.2,
+    457.99,
+    453.31,
+    444.35,
+    445.12,
+    430.0,
+    422.25,
+    412.61,
+    417.81
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/tsm"
+  },
+  {
+   "symbol": "META",
+   "name": "메타",
+   "name_en": "",
+   "price": "700.37",
+   "chg": -1.26,
+   "spark": [
+    665.75,
+    741.245,
+    736.595,
+    744.1,
+    777.59,
+    751.66,
+    715.62,
+    738.79,
+    725.18,
+    725.93,
+    728.08,
+    741.9,
+    738.88,
+    721.31,
+    720.89,
+    718.67,
+    742.96,
+    762.5,
+    737.54,
+    736.72,
+    709.325,
+    700.37
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/meta"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "브로드컴",
+   "name_en": "",
+   "price": "335.87",
+   "chg": 2.17,
+   "spark": [
+    357.61,
+    362.66,
+    364.54,
+    354.99,
+    350.36,
+    352.81,
+    349.57,
+    355.1,
+    351.19,
+    343.64,
+    355.14,
+    362.51,
+    375.81,
+    376.51,
+    360.14,
+    361.54,
+    354.73,
+    357.31,
+    346.25,
+    344.33,
+    328.75,
+    335.87
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/avgo"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "테슬라",
+   "name_en": "",
+   "price": "358.47",
+   "chg": 1.06,
+   "spark": [
+    364.27,
+    375.3,
+    378.9,
+    380.12,
+    377.94,
+    372.11,
+    357.45,
+    352.84,
+    354.81,
+    354.11,
+    370.59,
+    378.73,
+    380.68,
+    377.81,
+    375.0,
+    382.7,
+    378.03,
+    375.23,
+    367.16,
+    362.44,
+    354.72,
+    358.47
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/tsla"
+  },
+  {
+   "symbol": "LLY",
+   "name": "일라이릴리",
+   "name_en": "",
+   "price": "1,251.09",
+   "chg": -0.47,
+   "spark": [
+    1152.93,
+    1164.89,
+    1170.14,
+    1150.99,
+    1181.89,
+    1183.46,
+    1184.78,
+    1184.63,
+    1157.08,
+    1149.85,
+    1142.85,
+    1143.12,
+    1157.49,
+    1188.72,
+    1169.6,
+    1179.27,
+    1182.62,
+    1166.51,
+    1208.74,
+    1251.61,
+    1257.03,
+    1251.09
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/lly"
+  },
+  {
+   "symbol": "BRK.B",
+   "name": "버크셔해서웨이",
+   "name_en": "",
+   "price": "531.10",
+   "chg": -0.17,
+   "spark": [
+    509.77,
+    502.01,
+    503.49,
+    507.17,
+    505.18,
+    505.48,
+    503.09,
+    502.35,
+    497.95,
+    500.5,
+    502.65,
+    504.26,
+    505.54,
+    506.25,
+    511.05,
+    515.62,
+    517.6,
+    520.59,
+    526.35,
+    525.68,
+    532.02,
+    531.1
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/brk-b"
+  },
+  {
+   "symbol": "MU",
+   "name": "마이크론",
+   "name_en": "",
+   "price": "911.93",
+   "chg": 3.77,
+   "spark": [
+    1015.8,
+    1043.96,
+    1096.16,
+    1071.88,
+    1080.53,
+    1082.28,
+    1053.98,
+    1065.08,
+    1065.11,
+    1097.39,
+    1074.89,
+    1063.96,
+    1045.56,
+    1088.0,
+    1035.84,
+    1029.0,
+    989.04,
+    953.19,
+    914.13,
+    931.24,
+    878.84,
+    911.935
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/mu",
+   "news": [
+    {
+     "title": "Why Are Nasdaq Futures Soaring Premarket? NBIS, MU, TSLA, SPCX, ASTS, SLS Stocks In Focus",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=53b75400ae16484145fc89562d5a50bebc003b7f07b895ea03fad361b2c50bb0"
+    },
+    {
+     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
+    },
+    {
+     "title": "Does Micron (MU) Have an Economic Moat at All?",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=651c6fe646651c3e525d8508a8e45105dad2a61c0d5abd55b08897a3d9c16ba8"
+    }
+   ]
+  },
+  {
+   "symbol": "JPM",
+   "name": "JP모건",
+   "name_en": "",
+   "price": "337.29",
+   "chg": -0.72,
+   "spark": [
+    349.67,
+    352.04,
+    340.0,
+    337.53,
+    338.56,
+    343.06,
+    336.59,
+    334.98,
+    330.83,
+    333.18,
+    332.38,
+    332.38,
+    331.28,
+    329.58,
+    331.42,
+    332.99,
+    334.3,
+    331.43,
+    335.28,
+    335.53,
+    339.72,
+    337.29
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/jpm"
+  },
+  {
+   "symbol": "WMT",
+   "name": "월마트",
+   "name_en": "",
+   "price": "118.51",
+   "chg": -0.25,
+   "spark": [
+    106.73,
+    107.44,
+    110.12,
+    110.53,
+    107.59,
+    107.98,
+    108.73,
+    106.8,
+    103.92,
+    104.26,
+    104.26,
+    105.07,
+    107.2,
+    108.16,
+    110.56,
+    111.35,
+    113.08,
+    112.28,
+    116.16,
+    117.87,
+    118.81,
+    118.51
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/wmt"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "name_en": "",
+   "price": "551.76",
+   "chg": 4.35,
+   "spark": [
+    559.82,
+    615.52,
+    623.77,
+    614.61,
+    629.26,
+    630.63,
+    607.87,
+    607.57,
+    611.76,
+    615.73,
+    633.91,
+    631.75,
+    649.42,
+    645.86,
+    620.68,
+    608.1,
+    594.24,
+    605.53,
+    570.82,
+    562.23,
+    528.75,
+    551.76
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/amd",
+   "news": [
+    {
+     "title": "Spotlight on Levered Chip Financing Heightens: What is Happening at Nvidia and AMD?",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=2219ec1c384a32060b7f005e469b58946367b6724325e7a9a22f9d69e82ff0ac"
+    },
+    {
+     "title": "AMD Stock Is Up Over 140% This Year. I'd Still Buy It Before Its Nov. 3 Report.",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=4e3c4372e6fb18ed9e6e9c801915c4ee3ca9dd0e1f8cdf7b653752a4a44e1325"
+    },
+    {
+     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
+    }
+   ]
+  },
+  {
+   "symbol": "V",
+   "name": "비자",
+   "name_en": "",
+   "price": "402.29",
+   "chg": -0.08,
+   "spark": [
+    368.29,
+    369.95,
+    362.04,
+    361.52,
+    367.98,
+    367.38,
+    367.74,
+    365.88,
+    359.33,
+    359.85,
+    360.66,
+    369.71,
+    370.64,
+    372.1,
+    375.1,
+    385.45,
+    389.27,
+    396.06,
+    391.43,
+    399.75,
+    402.61,
+    402.2899
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/v"
+  },
+  {
+   "symbol": "XOM",
+   "name": "엑슨모빌",
+   "name_en": "",
+   "price": "179.13",
+   "chg": 0.09,
+   "spark": [
+    163.54,
+    158.3,
+    158.71,
+    161.23,
+    162.14,
+    160.59,
+    162.52,
+    161.35,
+    162.75,
+    163.82,
+    164.01,
+    164.0,
+    164.48,
+    164.05,
+    168.5,
+    168.94,
+    172.15,
+    174.08,
+    177.01,
+    174.68,
+    178.98,
+    179.135
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/xom"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "name_en": "",
+   "price": "1,668.68",
+   "chg": 1.65,
+   "spark": [
+    1679.92,
+    1711.32,
+    1747.9,
+    1744.61,
+    1722.5,
+    1743.94,
+    1771.41,
+    1834.39,
+    1811.67,
+    1808.49,
+    1867.31,
+    1859.86,
+    1834.1,
+    1804.96,
+    1769.79,
+    1780.34,
+    1750.24,
+    1717.76,
+    1650.0,
+    1657.44,
+    1641.52,
+    1668.685
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/asml"
+  },
+  {
+   "symbol": "JNJ",
+   "name": "존슨앤드존슨",
+   "name_en": "",
+   "price": "254.04",
+   "chg": -0.59,
+   "spark": [
+    269.99,
+    269.47,
+    269.19,
+    269.17,
+    270.68,
+    271.22,
+    271.95,
+    267.57,
+    264.74,
+    258.66,
+    256.03,
+    252.93,
+    254.78,
+    258.45,
+    256.48,
+    261.44,
+    263.73,
+    248.61,
+    253.91,
+    253.28,
+    255.56,
+    254.04
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/jnj"
+  },
+  {
+   "symbol": "MA",
+   "name": "마스터카드",
+   "name_en": "",
+   "price": "616.41",
+   "chg": -0.16,
+   "spark": [
+    565.24,
+    567.65,
+    555.89,
+    559.92,
+    566.08,
+    567.65,
+    568.26,
+    563.58,
+    551.47,
+    550.0,
+    552.26,
+    564.59,
+    566.58,
+    570.06,
+    574.76,
+    589.14,
+    595.09,
+    604.8,
+    603.24,
+    616.32,
+    617.42,
+    616.415
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/ma"
+  },
+  {
+   "symbol": "ABBV",
+   "name": "애브비",
+   "name_en": "",
+   "price": "285.29",
+   "chg": -0.05,
+   "spark": [
+    263.96,
+    264.48,
+    265.21,
+    265.08,
+    265.12,
+    264.34,
+    266.28,
+    263.29,
+    261.59,
+    259.93,
+    262.82,
+    265.76,
+    266.69,
+    271.36,
+    272.42,
+    276.47,
+    281.12,
+    274.36,
+    283.48,
+    283.4,
+    285.42,
+    285.29
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/abbv"
+  },
+  {
+   "symbol": "INTC",
+   "name": "인텔",
+   "name_en": "",
+   "price": "94.72",
+   "chg": 5.42,
+   "spark": [
+    108.6,
+    121.78,
+    123.86,
+    122.6,
+    127.39,
+    123.0,
+    116.03,
+    115.93,
+    120.23,
+    120.0,
+    119.33,
+    116.19,
+    112.5,
+    113.12,
+    107.08,
+    104.7,
+    101.35,
+    102.81,
+    98.12,
+    95.37,
+    89.85,
+    94.72
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/intc",
+   "news": [
+    {
+     "title": "INTC, EVAX, RCAT Stocks Move Higher Premarket — What’s Driving The Rally?",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=b4b10ee04c928c37dd72c9f39129c3de830845d7e9a3f338dc6edd5028bb5367"
+    },
+    {
+     "title": "INTC, AMD, MU, SNDK: US Chip Stocks Rebound After Worst Week Since March",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=39a3e45fe00cb49aa7b5fb6765d12adce7a0d00e6d079aa5a6ef77cfab9f604b"
+    },
+    {
+     "title": "Intel (INTC) Lands A Major Customer For Its 14A Foundry Process",
+     "source": "Yahoo",
+     "url": "https://finnhub.io/api/news?id=bf38862e3ff00e62c969aa6be700ecb30acee5237891c13ab3b2baeec2ca5ea9"
+    }
+   ]
+  },
+  {
+   "symbol": "PLTR",
+   "name": "팔란티어",
+   "name_en": "",
+   "price": "190.38",
+   "chg": 2.34,
+   "spark": [
+    177.64,
+    183.09,
+    184.99,
+    191.79,
+    192.59,
+    189.67,
+    187.48,
+    186.97,
+    187.05,
+    190.04,
+    188.75,
+    189.4,
+    192.07,
+    194.12,
+    198.78,
+    209.05,
+    209.0,
+    208.67,
+    200.97,
+    200.5,
+    186.03,
+    190.375
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/pltr"
+  },
+  {
+   "symbol": "CVX",
+   "name": "셰브론",
+   "name_en": "",
+   "price": "225.08",
+   "chg": 0.04,
+   "spark": [
+    209.51,
+    203.67,
+    202.41,
+    205.51,
+    205.65,
+    204.45,
+    206.37,
+    204.38,
+    204.21,
+    207.1,
+    206.69,
+    206.47,
+    207.58,
+    205.15,
+    211.55,
+    211.98,
+    215.0,
+    217.73,
+    222.04,
+    219.32,
+    224.99,
+    225.08
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/cvx"
+  },
+  {
+   "symbol": "COST",
+   "name": "코스트코",
+   "name_en": "",
+   "price": "989.36",
+   "chg": 0.03,
+   "spark": [
+    895.31,
+    898.48,
+    899.41,
+    904.7,
+    896.48,
+    922.765,
+    922.92,
+    924.59,
+    910.34,
+    914.94,
+    920.65,
+    923.52,
+    935.68,
+    942.25,
+    947.92,
+    946.92,
+    959.44,
+    954.63,
+    982.0,
+    978.01,
+    989.11,
+    989.36
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/cost"
+  },
+  {
+   "symbol": "CSCO",
+   "name": "시스코",
+   "name_en": "",
+   "price": "107.37",
+   "chg": -0.02,
+   "spark": [
+    109.51,
+    111.46,
+    106.44,
+    106.43,
+    106.97,
+    106.7,
+    106.74,
+    106.94,
+    107.63,
+    108.76,
+    112.2,
+    112.82,
+    117.94,
+    117.39,
+    114.89,
+    118.39,
+    115.34,
+    115.07,
+    113.64,
+    109.85,
+    107.39,
+    107.37
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/csco"
+  },
+  {
+   "symbol": "KO",
+   "name": "코카콜라",
+   "name_en": "",
+   "price": "93.43",
+   "chg": -0.5,
+   "spark": [
+    88.25,
+    87.12,
+    88.61,
+    88.09,
+    88.1,
+    87.81,
+    87.18,
+    86.84,
+    86.08,
+    86.1,
+    85.65,
+    86.51,
+    86.17,
+    85.82,
+    87.77,
+    88.05,
+    89.79,
+    90.11,
+    91.78,
+    92.0,
+    93.9,
+    93.4295
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/ko"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "오라클",
+   "name_en": "",
+   "price": "129.81",
+   "chg": 1.24,
+   "spark": [
+    147.61,
+    148.56,
+    149.2,
+    144.56,
+    139.54,
+    137.1,
+    132.6,
+    137.79,
+    137.3,
+    138.07,
+    142.3,
+    142.48,
+    144.77,
+    143.56,
+    135.69,
+    141.4,
+    137.39,
+    143.2,
+    130.55,
+    134.47,
+    128.23,
+    129.815
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/orcl"
+  },
+  {
+   "symbol": "PG",
+   "name": "P&G",
+   "name_en": "",
+   "price": "158.04",
+   "chg": -0.82,
+   "spark": [
+    146.39,
+    146.08,
+    148.22,
+    147.39,
+    145.68,
+    146.23,
+    149.03,
+    148.32,
+    145.28,
+    143.95,
+    144.91,
+    145.94,
+    148.41,
+    147.82,
+    150.59,
+    151.23,
+    153.2,
+    153.04,
+    156.53,
+    157.08,
+    159.35,
+    158.04
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/pg"
+  },
+  {
+   "symbol": "UNH",
+   "name": "유나이티드헬스",
+   "name_en": "",
+   "price": "404.82",
+   "chg": 0.85,
+   "spark": [
+    376.9,
+    377.56,
+    372.95,
+    371.29,
+    375.01,
+    376.59,
+    377.83,
+    374.94,
+    367.08,
+    365.2,
+    371.9,
+    378.58,
+    376.32,
+    375.98,
+    370.95,
+    379.3,
+    378.52,
+    377.76,
+    395.62,
+    406.67,
+    401.43,
+    404.8231
+   ],
+   "url": "https://www.nasdaq.com/market-activity/stocks/unh"
+  }
+ ],
+ "kr_movers": [
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "price": "223,500",
+   "chg": 3.71,
+   "url": "https://m.stock.naver.com/domestic/stock/005930",
+   "spark": [
+    248500.0,
+    250500.0,
+    253500.0,
+    256000.0,
+    260000.0,
+    275000.0,
+    277500.0,
+    286500.0,
+    270000.0,
+    275000.0,
+    269500.0,
+    274500.0,
+    276000.0,
+    273000.0,
+    269000.0,
+    263000.0,
+    251000.0,
+    234000.0,
+    234500.0,
+    207500.0,
+    217000.0,
+    223500.0
+   ],
+   "news": [
+    {
+     "title": "삼성전자, 중소·중견 99곳에 기술 126건 무상이전",
+     "source": "뉴스토마토",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsQ2FybU42Mjd2RkZLTkNXQUt1T2x4Q0lQZWtLVUhlZjFwVU13V1hvbXpLZ3hoRlZmWjA3WGc4b3ZBZGNoOHN6Z1VkY1dMN0VxYjZnZkFnY2pJbUhuMU03Qg?oc=5"
+    },
+    {
+     "title": "파워오토로보틱스, 삼성전자 이동로봇 특허 이전…‘자율이동형 i-Series’ 개발 추진",
+     "source": "로봇신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uTXpHV1ZVcF9kamdJSy1hSGxKdk92enNqQlVZUC1fWU15REs1Zl9oN1NmdDdnZ3ljcl93U1M0TG4tVm9kWmdIUy1MOTVtUzQ1VFdXd3Zrd1gtMHlPR011dGYxeGdtX05USWlxTw?oc=5"
+    },
+    {
+     "title": "삼성전자, 글로벌 랜드마크에서 SSD 브랜드 캠페인 전개",
+     "source": "samsung.com",
+     "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOUnhOZ2xnLWRDQVB2aDVxckVuOUJ0aU9WMDhybVFiWHZDUGV5c0U4LTFzamVQRlRZUEJTR0h2aGJJcXJEaEJDei1PSDZxb2IySEx0T0RGWVhjU0JkVVJnYjN6aVAzTW84eEtlUW91WDBEN2RJaEhiNHVRTTVDV2pJcjVBVWtYczlqTE4xY2hzc21kUzJKTm1ZblA1TEQ1R1N4alVSQ3p2ZWxFVUd2QlBoR0VqMVZqTWxWM3VfeTBIeGlOOV9nc1QtMXgyRk82ajd2YlpBUkNvMF9IR2dKc1BnN0ppWlA2cGRVTDFmYkRnNE91bGprdUNoQlE4MWpEZXhMaDZrVjl3V2RvZXBTVVBXX0g2amQxRXRqcGZPckQwZDN1WTdJbnRIX2lwSDk2OW9aTWZjbWROWWVFQlhobmZaaFAycF93aGV5ZkE?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "price": "1,304,000",
+   "chg": 2.52,
+   "url": "https://m.stock.naver.com/domestic/stock/000660",
+   "spark": [
+    1683000.0,
+    1712000.0,
+    1757000.0,
+    1766000.0,
+    1849000.0,
+    1879000.0,
+    1841000.0,
+    1863000.0,
+    1761000.0,
+    1790000.0,
+    1783000.0,
+    1828000.0,
+    1842000.0,
+    1784000.0,
+    1715000.0,
+    1686000.0,
+    1605000.0,
+    1456000.0,
+    1425000.0,
+    1238000.0,
+    1265000.0,
+    1304000.0
+   ]
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "price": "802,000",
+   "chg": 2.3,
+   "url": "https://m.stock.naver.com/domestic/stock/402340",
+   "spark": [
+    1000000.0,
+    1014000.0,
+    1017000.0,
+    1019000.0,
+    1072000.0,
+    1133000.0,
+    1134000.0,
+    1181000.0,
+    1092000.0,
+    1126000.0,
+    1132000.0,
+    1150000.0,
+    1156000.0,
+    1164000.0,
+    1136000.0,
+    1059000.0,
+    982000.0,
+    867000.0,
+    853000.0,
+    750000.0,
+    782000.0,
+    802000.0
+   ]
+  },
+  {
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "price": "428,500",
+   "chg": 6.33,
+   "url": "https://m.stock.naver.com/domestic/stock/373220",
+   "spark": [
+    351000.0,
+    363500.0,
+    366500.0,
+    367000.0,
+    363500.0,
+    355500.0,
+    352000.0,
+    352000.0,
+    360500.0,
+    353500.0,
+    355500.0,
+    360000.0,
+    369000.0,
+    388500.0,
+    387000.0,
+    403000.0,
+    396500.0,
+    412500.0,
+    420000.0,
+    393000.0,
+    403500.0,
+    428500.0
+   ],
+   "news": [
+    {
+     "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
+     "source": "한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NVGJUb0V2dy1VRjZ4MnZDYnZ6YlhMNmNDdk9lMVBCRDNFVXlDWlBFRlBTZ3VGTTRHcDB1d2QtWlRRSEF3dG1iU3lmdklpTjNmSUt5Vi1FNjFjUQ?oc=5"
+    },
+    {
+     "title": "“담합 악재 털어내고 LG에너지솔루션 효과 얹는 LG화학, ‘Trading Buy’ 기회 오나”",
+     "source": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tZGxYd2pPZXp0Qk5oZE1kV0FmNFJZbzliaFY1OEdfYURoNWl0bFdGQUhSdllIUGNCazQ1WWtTaEJwOTI2MFVxN1BVUXlNSGc4c2paSXFYSjZIdDFRYWxnQWNSMnNOaFNhWkwtLUVVVQ?oc=5"
+    },
+    {
+     "title": "[특징주]LG에너지솔루션, 기관 순매수 1위에 7.19% 오르며 장 마감…ESS 기대에 2차전지 강세",
+     "source": "남도일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11WkQ3Y0hjaTJaNGptU2ZjNnc2MFpaSEJVaDZmQTVUVk1YOGxDV2J6ZVY4WnRXSGJSaTdKYl9IZkh2ckNYRTZEMzdmYm1VNzNIb0pKX1g4bGJia2dUblYxem5TZm95XzctbVdOWUI3dlrSAXBBVV95cUxNdVpEN2NIY2kyWjRqbVNmYzZ3NjBaWkhCVWg2ZkE1VFZNWDhsQ1diemVWOFp0V0hiUmk3SmJfSGZIdnJDWEU2RDM3ZmJtVTczSG9KSl9YOGxiYmtnVG5WMXpuU2ZveV83LW1XTllCN3Za?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "price": "1,220,000",
+   "chg": 2.69,
+   "url": "https://m.stock.naver.com/domestic/stock/009150",
+   "spark": [
+    1322000.0,
+    1330000.0,
+    1372000.0,
+    1351000.0,
+    1388000.0,
+    1432000.0,
+    1489000.0,
+    1501000.0,
+    1491000.0,
+    1550000.0,
+    1514000.0,
+    1554000.0,
+    1577000.0,
+    1684000.0,
+    1607000.0,
+    1559000.0,
+    1493000.0,
+    1381000.0,
+    1377000.0,
+    1122000.0,
+    1184000.0,
+    1220000.0
+   ]
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "price": "324,500",
+   "chg": 4.01,
+   "url": "https://m.stock.naver.com/domestic/stock/005380",
+   "spark": [
+    367500.0,
+    369500.0,
+    362500.0,
+    364500.0,
+    366500.0,
+    361500.0,
+    362000.0,
+    357000.0,
+    354000.0,
+    350500.0,
+    347000.0,
+    349000.0,
+    347000.0,
+    348500.0,
+    336500.0,
+    324500.0,
+    318500.0,
+    311500.0,
+    313500.0,
+    289500.0,
+    314000.0,
+    324500.0
+   ],
+   "news": [
+    {
+     "title": "현대차, ‘아반떼 N 모노크롬’ 공개 | 뉴스 | 현대자동차그룹",
+     "source": "Hyundai Motor Group",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0RMa3F1M1lCUXhiWUVIM1NoNDhJVnM2ZlNlVWRXRENfS1B5dU5yZjNadWhfczBpQ1NfRGJRdXFLa1ZmeU1SWnowVF9LQXRLXzVjc2lIX3JwV2haTERJZFhsYzdTa2JBZWNrRzVnRHFFOHU4MHQ1MUl1NnNpMUJTMmp5WWlRZlR1dUJMdHNRRVpCbkJh?oc=5"
+    },
+    {
+     "title": "현대차, '모빌리티 플레이그라운드 시즌2' 성료…”차량 중심 소통의 장 마련”",
+     "source": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lVEV5OWppS2dZYmtfSDVRckZUalUzR1JYUzN6a1hYM1hONGFreXQ4V2JKX1IxSU15NnBxUGZUTmdjM2wtNUZkRG5kbFJoNnVieFl4R2g0Z09QV1Z3U2lyNFN6NDZHQk0?oc=5"
+    },
+    {
+     "title": "\"이동만 되면 됐는데 이젠 선루프 따져\"… 현대차 인도 판매점 가보니",
+     "source": "조선일보",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjQwa2QwU1JOdG9aVnduSmhiSmdRcGhEX0tHcXVFWFBKNGUycEtLamtvbUdGRXdrSjA2emdEUHRMWUg5c3FkaTNFa2JaRHdBMjVISjlVdjByWW14NURSYk1uMnhzWnJSOWYweTZfVl9feXJ0UFNKVi1CS044ZERaSVJpa3RYOGVSeHA0SEtNQQ?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "price": "1,386,000",
+   "chg": 6.78,
+   "url": "https://m.stock.naver.com/domestic/stock/207940",
+   "spark": [
+    1391207.0,
+    1398153.0,
+    1394183.0,
+    1393192.0,
+    1388230.0,
+    1392199.0,
+    1381284.0,
+    1362430.0,
+    1379299.0,
+    1373345.0,
+    1383268.0,
+    1417007.0,
+    1366000.0,
+    1318000.0,
+    1278000.0,
+    1220000.0,
+    1196000.0,
+    1204000.0,
+    1179000.0,
+    1241000.0,
+    1291000.0,
+    1386000.0
+   ],
+   "news": [
+    {
+     "title": "삼성바이오로직스, 美 ‘월드 ADC’서 통합 개발·생산 역량 소개",
+     "source": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5md0xjZFVSTlp3a2tCT1VNRVc0T2V4WWZMLVQ3Sm1UN3pZOG9PdXh4cXZUNV9nOFV0NTlUZFQwX2dqeTBnZzBlTkgwdVRaMTlZN1lZM1NfX2dPdlhjb1VsaF9tSXhLRGJtZEh0XzloZnNQQQ?oc=5"
+    },
+    {
+     "title": "삼성바이오로직스, ‘월드 ADC’서 전 주기 항체·약물접합체 서비스 역량 알려",
+     "source": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtbHc5ZHd0MzI4anVBTTNWQ2VRM3FQS25uRlVOQUQ1Q1Y2NFhyUTFhVTFKVlB5cC1ZSFd6UFlmR2k5ckdfNFRHbFRHa2VXUEdBa28ycGthWTdHWGc?oc=5"
+    },
+    {
+     "title": "[제약바이오 브리프] 삼성바이오로직스·동화약품·동아제약·대원제약·SK케미칼·동아ST·휴젤",
+     "source": "대한경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZRmZvTVMzVGRLS1pHVHFMOEZtU29DSTdCbEJoVXdLUjVScnlEUXhWZlFLa21ybFBnQUlaRXlNVURJemtYdWNVSDdHSC1ZZmZSelhjRmNIRm1NcHlVWmJSRlYxVldJVEVyYmt2ZHdqZDZzVEk?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "price": "160,700",
+   "chg": 0.44,
+   "url": "https://m.stock.naver.com/domestic/stock/105560",
+   "spark": [
+    181200.0,
+    176400.0,
+    177000.0,
+    179700.0,
+    175700.0,
+    177900.0,
+    176200.0,
+    174100.0,
+    173800.0,
+    173200.0,
+    169800.0,
+    167400.0,
+    168400.0,
+    167400.0,
+    168300.0,
+    163400.0,
+    162200.0,
+    161300.0,
+    159400.0,
+    159900.0,
+    160300.0,
+    160700.0
+   ]
+  },
+  {
+   "code": "032830",
+   "name": "삼성생명",
+   "price": "243,500",
+   "chg": 2.1,
+   "url": "https://m.stock.naver.com/domestic/stock/032830",
+   "spark": [
+    295500.0,
+    288000.0,
+    285000.0,
+    283000.0,
+    283500.0,
+    293500.0,
+    290500.0,
+    295000.0,
+    293000.0,
+    291500.0,
+    283000.0,
+    282500.0,
+    288000.0,
+    284500.0,
+    278500.0,
+    270000.0,
+    264000.0,
+    253500.0,
+    247000.0,
+    225000.0,
+    238000.0,
+    243500.0
+   ]
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "price": "591,000",
+   "chg": 11.51,
+   "url": "https://m.stock.naver.com/domestic/stock/006400",
+   "spark": [
+    531000.0,
+    551000.0,
+    546000.0,
+    545000.0,
+    542000.0,
+    536000.0,
+    531000.0,
+    521000.0,
+    528000.0,
+    517000.0,
+    513000.0,
+    517000.0,
+    529000.0,
+    577000.0,
+    557000.0,
+    567000.0,
+    561000.0,
+    565000.0,
+    596000.0,
+    525000.0,
+    530000.0,
+    591000.0
+   ],
+   "news": [
+    {
+     "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
+     "source": "한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NVGJUb0V2dy1VRjZ4MnZDYnZ6YlhMNmNDdk9lMVBCRDNFVXlDWlBFRlBTZ3VGTTRHcDB1d2QtWlRRSEF3dG1iU3lmdklpTjNmSUt5Vi1FNjFjUQ?oc=5"
+    },
+    {
+     "title": "InvestingPro 적정가치 분석 적중…삼성SDI 투자 수익률 64% By Investing.com",
+     "source": "Investing.com 한국어",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96MERkbXVQQmtSX2FzUzZ3blFQUm8xN2NTMGd0bjZVb0I0ZkRjcGdBcXNKUnI4M1pHYk8zQWFZay1xTWZyTEJpbWFGQl9kU213dnVYN1lRY1BSZHF3MWdBRW40NmVBQnJVcjRhRF9fUlhTbDE3U0E?oc=5"
+    },
+    {
+     "title": "에코프로비엠 유증 청약률 103.25%…삼성SDI 웃돌아",
+     "source": "스트레이트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jNGxrRkg3clRwR18xOEpJZHZHY0x1UW1ET0Ztd1hFR3EtUW1BNFp2d3p0QXJ2blZFcEpKM3dRbk1kS1pCUUhwaGdqS1FVclN2S0F3SERJOTFWN1I4ZGQtX0V4S0o2bUtpa2FIZnFDX1docjQ?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "028260",
+   "name": "삼성물산",
+   "price": "288,500",
+   "chg": 0.7,
+   "url": "https://m.stock.naver.com/domestic/stock/028260"
+  },
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "price": "892,000",
+   "chg": 0.45,
+   "url": "https://m.stock.naver.com/domestic/stock/012450"
+  },
+  {
+   "code": "068270",
+   "name": "셀트리온",
+   "price": "196,300",
+   "chg": 1.19,
+   "url": "https://m.stock.naver.com/domestic/stock/068270"
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "price": "114,600",
+   "chg": 3.99,
+   "url": "https://m.stock.naver.com/domestic/stock/000270",
+   "news": [
+    {
+     "title": "현대차·기아, ‘소프티어 부트캠프 9기’ 모집 | 뉴스 | 현대자동차그룹",
+     "source": "Hyundai Motor Group",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdFlDbWc3ekNNeElWNHAzTk5JTkZJMVRFSEhEYXRGN2ZuRG01Sl9XQ1Vqd05DM2hITkpnMXQ4dnlsUVllckd1REloQ05mYTFST2VITE1LdExKWXpKSGFOT0w4WXpqZDIxdEl6czV2eG01SW9wWk5LQWd3QTNFRVZaUWlPd1VHR05kMGNrSTV1Zw?oc=5"
+    },
+    {
+     "title": "\"미래 모빌리티 선점\"…현대차·기아, 임직원 아이디어로 혁신 박차(종합)",
+     "source": "연합인포맥스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tNXR6cFZCUTU5XzNUWUYxcG5VakltVXZUYXNWRUsyWV9xODFXalBxN2laRVpHZjVLY25xdUhFMEVGa3BaVmdNTUVTMXNYckZoeHdxcktqTlFjbFNrUTZyRXA2eDFIWEw0VEVMbDFuMjA?oc=5"
+    },
+    {
+     "title": "현대차·기아, ‘미래 공장’ 전환 속도…2032년 자율화 적용",
+     "source": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jOG1Vbjd1dFpITV96RWgyQnVqdEJtcjllenRpMjdSRVV6c2NkYVhKVlJfNzhXSUdQNHM2U2dPcURId2NrRHJWSVRHemVucTl6ZkY1alJFZGgwdjU3UTJMUlVVaUY?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "price": "92,500",
+   "chg": -0.96,
+   "url": "https://m.stock.naver.com/domestic/stock/055550"
+  },
+  {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "price": "67,100",
+   "chg": 3.87,
+   "url": "https://m.stock.naver.com/domestic/stock/034020",
+   "news": [
+    {
+     "title": "'2단계 확장 속도' 두산에너빌리티, 사우디 자푸라 현장 '리스크 제로' 총력전",
+     "source": "더구루",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQRS1JLUlVdlpvdlF2X1dNRmdQNUdtSDRFNHdIcmxZRzZzU185SEptbmsySnl6SW5PaWx6OF9DRjNjTExsUFBmb0hrN1dQZi05TUQ0Vjc1Ykt4eXJvUHhWS2ZsYw?oc=5"
+    },
+    {
+     "title": "박상현 두산에너빌리티 대표이사 사장 부회장 승진",
+     "source": "경남도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfbVMzWVJTOElVdndQME5LMVZxSllQWURFQkpjUl9Ccmc4NExFTzZqbnhUcmJnWmE3N2E3bU93SnNIaFdCRXBaLUlCX3ZOalh3Z0RDRTNkRTdyUzNwa3VtOGtUdTFxOUZ0c1E?oc=5"
+    },
+    {
+     "title": "두산에너빌리티에서 박상현 송용진 역할 커져, AI발 에너지 호황 지속 위해 변수 차단 특명",
+     "source": "비즈니스포스트",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2MGpNajlzRWZwNmFqWlNtLUd5RWtGdDFmQVMtWkUxY3ZpX0pEWEc1WW4zd1RUczgxTXlfUEpHS0FDSWphdFJrNnFhMzBqempJZXdxM19VbmtUUXpIS3RjZHI5Zko1a3hyS2pXeEtRcktXTHc?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "price": "347,500",
+   "chg": -1.14,
+   "url": "https://m.stock.naver.com/domestic/stock/329180"
+  },
+  {
+   "code": "034730",
+   "name": "SK",
+   "price": "460,000",
+   "chg": 0.77,
+   "url": "https://m.stock.naver.com/domestic/stock/034730"
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "price": "122,100",
+   "chg": -0.33,
+   "url": "https://m.stock.naver.com/domestic/stock/086790"
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "price": "364,000",
+   "chg": 3.26,
+   "url": "https://m.stock.naver.com/domestic/stock/012330",
+   "news": [
+    {
+     "title": "[기업 이모저모] 현대모비스 주주는 사업 매각가 보려면 프랑스 가야 하나 |",
+     "source": "연합인포맥스",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjRFNYT3ZSUlR3b05qdi1lT20wdldIRU5EV0J1emliZFJmSC1TaW1oMDFoaUlscm41S0dXTVdyeFdQc3hfQ2lFTEI4RW1sZ3hlRUF6SFY0UkRna1hrVnp4N1FhTmhDbm5HVldlT2tmZUZwNVZr?oc=5"
+    },
+    {
+     "title": "현대모비스, 22일 홈경기 걸그룹 클라씨 시투·공연",
+     "source": "울산매일 - 울산최초, 최고의 조간신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yOUZLdURPSnZJazFzVUd1dWZKUVVfczdOaTdIbTE4ZWxaOGM0aDZVT3RSNjBveHhkU2tNOFR6YTYzTklaMjAyRWU1NFhhTGxlZHNxQTdtYzBOLU9uX04za0NpMEFxQ2ZBamfSAW5BVV95cUxNZF9RTkFBdm9IbmxHZUlBZTZuZGVKYXR0a2tUTWRoYjVMOW9fUDRDU250Q1RjbTh1RFlBVGhXd3YyazREVW9BR0doLU5BeXVjSzlkR2JKd3R3dUhMWnRJMV9VRUZMZnhTcDJlR0ZQZw?oc=5"
+    },
+    {
+     "title": "[마감분석] 현대모비스, 3.69% 오른 36만5500원 마감 : 기업주식정보",
+     "source": "재경일보",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0yNHEzUk5uTjUwNmtLV0VrT0dTQWlBR1doemxJUDNESUl5T0Y1aGNLQksycG5pNDlUTXBIOS14LWVPUktsT2pUTFg3WQ?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "066570",
+   "name": "LG전자",
+   "price": "171,900",
+   "chg": 1.3,
+   "url": "https://m.stock.naver.com/domestic/stock/066570"
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "price": "182,600",
+   "chg": 1.44,
+   "url": "https://m.stock.naver.com/domestic/stock/035420"
+  },
+  {
+   "code": "096770",
+   "name": "SK이노베이션",
+   "price": "161,500",
+   "chg": 6.25,
+   "url": "https://m.stock.naver.com/domestic/stock/096770",
+   "news": [
+    {
+     "title": "건설연–SK이노베이션, AI 데이터센터 첨단인프라 기술 협력",
+     "source": "환경일보",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pVGxkUF9kMWJ3LWF1WmE2YnhMNHNyV2xGZHpkdUloWGJjTnVJNDRZdGRLNF9COFEtTk9jMEFyNm9iYnNfaWFhVVJVWnlvYm5SajV3VHY1Vm1PdlJPSVNlQmZ3TWZvU19r?oc=5"
+    },
+    {
+     "title": "[이사회 진단] 모회사 대표가 SK이노베이션 이사회에...이해충돌 리스크",
+     "source": "주주경제신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yZzBTcnlZMVZyYzhjX0tzUkZYamRQVlVjWDR4T1J1TzBvT1NkOS1ObEQ3aXF4YUtNWGhkWEs0b05sTEdQQUc1R1ZhTmNNdkhKdTVUVXpldXdDQmVOc2ZrVEFsdUgwaVpW?oc=5"
+    },
+    {
+     "title": "호주 바다서 캐낸 가스 380㎞ 터널로…SK 'LNG 직구' 시대 열다",
+     "source": "한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UZlFGUEJXb1ZpaDA3dFVJZVpIa21aa0tiU1dCQ3czZVAtMGFVSjNFaHRxdGphTkxGa0VlcjlKV19MbUxscmV5Z2J3UnQ4RlVQcnJ5WTA1MllmZw?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "000810",
+   "name": "삼성화재",
+   "price": "598,000",
+   "chg": 2.05,
+   "url": "https://m.stock.naver.com/domestic/stock/000810"
+  },
+  {
+   "code": "010120",
+   "name": "LS ELECTRIC",
+   "price": "166,600",
+   "chg": 5.04,
+   "url": "https://m.stock.naver.com/domestic/stock/010120",
+   "news": [
+    {
+     "title": "LS일렉트릭, 美 데이터센터 수주 잇달아…올해 영업익 7000억 넘본다",
+     "source": "녹색경제신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPaUpCWmEyR2R5cDJ6MkIxUXctVjR2TEhsYTJEQnNXRFVpTmdQQXlPT3puOHNSMjZZdndYLUVxLW13aE9SU3BMcVhrUFhIN2xhbENYLW90ck1lS3p4S19SX211cHl3QU0?oc=5"
+    },
+    {
+     "title": "[리포트 브리핑]LS ELECTRIC, '단납기 수주로 실적개선 가속화 및 800VDC 성장성 가시화' 목표가 235,000원 - iM증권",
+     "source": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aWDN5S1I0VW9LWFNhNFZfOWpaVXd3c3M3YkFWMVVYaHJGcnVZSS1TSDlReU5jMVNETE1ISDdXU2luZTRMRmtZTENWdWljSGxrb3llR1Q1Q21rcTN3?oc=5"
+    },
+    {
+     "title": "LS Electric, RSI 25.58 극도 과매도: 매시간 업데이트",
+     "source": "Investing.com 한국어",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wTVIxWkZKNzhjS2Vkck92Ym5SV3hfUm9IdzliNGpsRmlrR1lSeTRvd0xKRUd6QWhyb081MTlTVVpwbGQ0YVBEczFORW9JNDBqOE5zN1Y1OXdxemt2Uk9EM04zRXNDaVpZV21KSW95eUJibnlFRnlB?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "price": "311,000",
+   "chg": 4.89,
+   "url": "https://m.stock.naver.com/domestic/stock/005490",
+   "news": [
+    {
+     "title": "POSCO홀딩스 주가, 10월 19일 애프터마켓 312,500원 5.40% 상승",
+     "source": "톱스타뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VSjNNWVE5TFBaZlZ2NG5UV0h5OFNuai1oQ1IyamhZMXJUTER1SkhFNV92c0dTZEgyMlBUVlB1S1lkTHRNMGNydkI3ZkJnRW91QXV6aXZUaFVMdDVqRG5HU295NWV5SHVqcHFvVW9KMU9ZZw?oc=5"
+    },
+    {
+     "title": "한탑·POSCO홀딩스 상승랠리… 환율 하락 수혜주 매수 확산",
+     "source": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GX3phaktoMGxYWWFkQXE4RWozUEg0YTJPUHpVRDBzcXItMHlXbFNXclEyaE45ZGdvb2JBLVpMTkZCM01lTldydUFKeHgzaVFSeEc3MDZVVHFLWmExYjlyN3Y1aS1QUlh6bjVnSEo4amNDOExFV3RV0gF3QVVfeXFMT0ZfemFqS2gwbFhZYWRBcThFajNQSDRhMk9QelVEMHNxci0weVdsU1dyUTJoTjlkZ29vYkEtWkxORkIzTWVOV3J1QUp4eDNpUVJ4RzcwNlVUcUtaYTFiOXI3djVpLVBSWHpuNWdISjhqY0M4TEVXdFU?oc=5"
+    },
+    {
+     "title": "[기업탐방] POSCO홀딩스, “4분기부터는 1단계 설비의 가동률을 거의 100%까지 끌어올리는 것을 목표로 하고 있고, 10월에는 2단계 공장도 준공해 시운전에 들어가”",
+     "source": "네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EZjlNX2ZYSEd3WUNmSUdDZ1J5WE96UUdEOTVyT0dmVVdKQUV2Sjk2UmxmejZ4LUJuU2UyV2JzbmxFeTlveUVmZFRlT0g3blBYRk5teXhlNXJmWEJnWnZQMDBCd21wdlBTYkx0bTAtVGlUVC1JOEd4ZA?oc=5"
+    }
+   ]
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "price": "31,450",
+   "chg": 0.32,
+   "url": "https://m.stock.naver.com/domestic/stock/316140"
+  },
+  {
+   "code": "011200",
+   "name": "HMM",
+   "price": "23,900",
+   "chg": 1.7,
+   "url": "https://m.stock.naver.com/domestic/stock/011200"
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "price": "129,400",
+   "chg": -0.31,
+   "url": "https://m.stock.naver.com/domestic/stock/138040"
+  },
+  {
+   "code": "010130",
+   "name": "고려아연",
+   "price": "994,000",
+   "chg": 5.07,
+   "url": "https://m.stock.naver.com/domestic/stock/010130",
+   "news": [
+    {
+     "title": "고려아연 온산제련소, 울산대공원에 멸종위기 '물장군' 방사",
+     "source": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUNIBYEFVX3lxTFBYeC1wV05wUTAyX3Q4a1B4MXpBSHlIX2pIdHEyUUV3QUVabEFncE9RRTlidWJBTE8wdUtSakZoVU0tb1dNMGZBd1JPOUhPbVlROVlMOHQ1ZDMweGc1VHpKUA?oc=5"
+    },
+    {
+     "title": "MBK \"고려아연 지분 콜옵션, 엑시트 전에 행사 안한다\"",
+     "source": "비즈워치",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ycHVta19MTk91ZG53OVJkX1ZoVVZnTmlXXy1kejJVNjlUNklhX0JpVUZMZE0taDVYZ05JOWMyX096MTlMQ1E4WkNRS09YXzJ6eGNES254NzdjTmU0ZEI4U3FtcHhQQTdGQUE?oc=5"
+    },
+    {
+     "title": "고려아연, 멸종위기 곤충 복원에 연 5000만원…물장군 방사",
+     "source": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZWHFsNWlEeDFBa3hoRE16ODN0bW1nTWtqMlozUU1peVJWb2s3VjJUM2V1Y0xGdnN4MmlLUk1tUzExZTBxXzZKUzM0eFpxMkJFSFdPbjdoLXlib01wMEozR3hRRFU?oc=5"
+    }
+   ]
+  }
+ ],
+ "disclosures": [
+  {
+   "company": "삼성전기",
+   "title": "단일판매ㆍ공급계약체결",
+   "date": "20261019",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800610"
+  },
+  {
+   "company": "한화에어로스페이스",
+   "title": "타법인주식및출자증권처분결정(종속회사의주요경영사항)",
+   "date": "20261019",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800494"
+  },
+  {
+   "company": "HD현대중공업",
+   "title": "영업(잠정)실적(공정공시)",
+   "date": "20261019",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800435"
+  },
+  {
+   "company": "LS ELECTRIC",
+   "title": "단일판매ㆍ공급계약체결",
+   "date": "20261019",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019800108"
+  }
+ ],
+ "results": [],
+ "today": [],
+ "sources": [
+  {
+   "name": "지수·환율·금리 (네이버)",
+   "ok": true,
+   "count": 3
+  },
+  {
+   "name": "공포·탐욕 지수 (CNN·alternative.me)",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "섹터 흐름 (업종 ETF·네이버)",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "미국 상위30 등락·뉴스 (Finnhub)",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "name": "한국 상위30 등락·뉴스 (네이버·구글뉴스)",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "name": "한국 주요 공시 (DART)",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "미국 실적 결과 (Finnhub)",
+   "ok": true,
+   "count": 150
+  },
+  {
+   "name": "어제 일정 결과",
+   "ok": true,
+   "count": 0
+  }
+ ],
+ "week": "2026-10-19"
 }
