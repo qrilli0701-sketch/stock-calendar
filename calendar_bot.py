@@ -21,7 +21,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
-from bs4 import BeautifulSoup
 
 KST = ZoneInfo("Asia/Seoul")
 ET_TZ = ZoneInfo("America/New_York")
@@ -212,36 +211,20 @@ def kr_earnings(start, end, top):
     return uniq
 
 
-def kr_listings(start, end):
-    """38커뮤니케이션 신규상장 표 (스팩 제외)."""
-    url = "www.38.co.kr/html/fund/index.htm?o=nw"
-    try:
-        r = requests.get("https://" + url, headers=UA, timeout=20)
-    except requests.exceptions.SSLError:
-        # 38 서버의 구형 TLS를 리눅스(GitHub Actions)의 OpenSSL이 거부함 → 공개 페이지라 http로 재시도
-        r = requests.get("http://" + url, headers=UA, timeout=20)
-    r.encoding = "euc-kr"
-    soup = BeautifulSoup(r.text, "html.parser")
-    out = []
-    for tr in soup.find_all("tr"):
-        tds = [td.get_text(" ", strip=True) for td in tr.find_all("td", recursive=False)]
-        if len(tds) < 3 or not re.fullmatch(r"\d{4}/\d{2}/\d{2}", tds[1]):
-            continue
-        d = datetime.strptime(tds[1], "%Y/%m/%d").date()
-        name = re.sub(r"\(구\..*?\)", "", tds[0]).strip()
-        if start <= d <= end and "스팩" not in name:
-            out.append({"date": d, "country": "KR", "kind": "event",
-                        "title": f"{name} 상장", "time": ""})
-    return out
-
-
 def us_macro(start, end):
-    r = requests.get("https://api.stlouisfed.org/fred/releases/dates", params={
-        "api_key": env("FRED_API_KEY"), "file_type": "json",
-        "realtime_start": (start - timedelta(days=1)).isoformat(),
-        "realtime_end": end.isoformat(),
-        "include_release_dates_with_no_data": "true", "limit": 1000}, timeout=30)
-    r.raise_for_status()
+    params = {"api_key": env("FRED_API_KEY"), "file_type": "json",
+              "realtime_start": (start - timedelta(days=1)).isoformat(),
+              "realtime_end": end.isoformat(),
+              "include_release_dates_with_no_data": "true", "limit": 1000}
+    for attempt in range(3):  # FRED가 가끔 응답이 느려서 재시도
+        try:
+            r = requests.get("https://api.stlouisfed.org/fred/releases/dates", params=params, timeout=60)
+            r.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt == 2:
+                raise
+            time.sleep(10)
     out = []
     for x in r.json()["release_dates"]:
         if x["release_id"] not in FRED_RELEASES:
@@ -404,7 +387,6 @@ def main():
         items += collect("미국 실적", us_earnings, start, end, us_top)
     if kr_top:
         items += collect("한국 실적(DART)", kr_earnings, start, end, kr_top)
-    items += collect("한국 신규상장", kr_listings, start, end)
     items += collect("미국 경제지표", us_macro, start, end)
     items += collect("한국 수출입", kr_trade_stats, start, end)
     items += collect("고정 일정", static_events, start, end)
