@@ -131,7 +131,7 @@ def sector_row(name, code, closes, url):
     vals = [v for _, v in closes]
     month = vals[-SPARK_N] if len(vals) >= SPARK_N else vals[0]
     return {"name": name, "code": code, "chg": round((vals[-1] / vals[-2] - 1) * 100, 2),
-            "chg_1m": round((vals[-1] / month - 1) * 100, 1), "url": url}
+            "chg_1m": round((vals[-1] / month - 1) * 100, 1), "spark": vals[-SPARK_N:], "url": url}
 
 
 def sectors():
@@ -487,13 +487,16 @@ def sector_rows(rows, scale):
         side = "left" if r["chg"] >= 0 else "right"  # 막대가 가운데(50%)에서 시작
         out.append(f'<a class="se" href="{esc(r["url"])}"><span class="sn">{esc(r["name"])}</span>'
                    f'<span class="sb"><i class="{"pos" if r["chg"] >= 0 else "neg"}" style="{side}:50%;width:{w:.1f}%"></i></span>'
-                   f'<span class="sc">{chg_html(r["chg"], 1)}</span><span class="sm">1M {r["chg_1m"]:+.0f}%</span></a>')
+                   f'<span class="sc">{chg_html(r["chg"], 1)}</span>{spark(r.get("spark"), w=44, h=14)}</a>')
     return "".join(out)
 
 
-def company_rows(rows):
+def company_rows(rows, cur):
+    def price(m):
+        return f'${m["price"]}' if cur == "USD" else f'{m["price"]}원'
     return "".join(
         f'<a class="co" href="{esc(m["url"])}"><span class="cn">{esc(m["name"])}</span>'
+        f'<span class="cp">{esc(price(m))}</span>'
         f'{spark(m.get("spark"), w=60, h=16)}<span class="cc">{chg_html(m["chg"], 1)}</span></a>'
         for m in rows[:SPARK_TOP])
 
@@ -552,7 +555,7 @@ def render_card(data):
     if sec.get("us") or sec.get("kr"):
         def scale(rows):  # 막대 길이는 나라별 최대 등락 기준
             return max([abs(r["chg"]) for r in rows] + [1.0])
-        sector_blk = (f'<div class="blk"><div class="bt">섹터 흐름 <span class="at">업종 대표 ETF · 1일 등락순 · 막대 길이는 나라별 기준</span></div>'
+        sector_blk = (f'<div class="blk"><div class="bt">섹터 흐름 <span class="at">업종 대표 ETF · 1일 등락순 · 막대 길이는 나라별 기준 · 1개월 추이</span></div>'
                       f'<div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{sector_rows(sec.get("us", []), scale(sec.get("us", [])))}</div>'
                       f'<div><div class="ch">{FLAG["KR"]} 한국</div>{sector_rows(sec.get("kr", []), scale(sec.get("kr", [])))}</div></div></div>')
 
@@ -561,8 +564,8 @@ def render_card(data):
 <div class="blk"><div class="bt">시장 <span class="at">{esc(asof)} 마감 · 1개월 추이</span></div><div class="grid">{"".join(grid)}</div>{flow}</div>
 {sector_blk}
 <div class="blk"><div class="bt">주요 기업 <span class="at">시총 상위 {SPARK_TOP} · 1개월 추이</span></div>
-<div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{company_rows(data["us_movers"])}</div>
-<div><div class="ch">{FLAG["KR"]} 한국</div>{company_rows(data["kr_movers"])}</div></div></div>
+<div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{company_rows(data["us_movers"], "USD")}</div>
+<div><div class="ch">{FLAG["KR"]} 한국</div>{company_rows(data["kr_movers"], "KRW")}</div></div></div>
 <div class="blk"><div class="bt">어제 일정 결과</div>{res}</div>
 <div class="blk"><div class="bt">오늘의 이슈</div>{iss}</div>
 <div class="blk"><div class="bt">오늘 일정</div>{today}</div>
@@ -651,11 +654,13 @@ h1{font-size:27px;font-weight:900;letter-spacing:-1px}
 .tc{font-size:11.5px;font-weight:700;margin-top:1px}
 .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--sub)}
 .flow{font-size:11.5px;color:#7d746c;margin-top:8px}
-.cos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cos{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
 .ch{font-size:12px;font-weight:800;margin-bottom:3px}
-.co{display:flex;align-items:center;gap:6px;padding:3px 0;border-top:1px solid #f5eee7;font-size:12.5px}
+.co{display:flex;align-items:center;gap:5px;padding:3px 0;border-top:1px solid #f5eee7;font-size:12.5px}
 .cn{flex:1;min-width:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.co .sp{width:52px;height:15px;flex:none}
+.co .sp{width:38px;height:15px;flex:none}
+.cp{flex:none;font-size:10.5px;font-weight:600;color:#5f5750;text-align:right;letter-spacing:-.2px}
+.se .sp{width:40px;height:14px;flex:none}
 .se{display:flex;align-items:center;gap:4px;padding:2.5px 0;font-size:12px}
 .sn{width:56px;flex:none;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sb{flex:1;position:relative;height:9px}
@@ -663,9 +668,9 @@ h1{font-size:27px;font-weight:900;letter-spacing:-1px}
 .sb i{position:absolute;top:0;height:9px}
 .sb i.pos{background:var(--up);border-radius:0 3px 3px 0}
 .sb i.neg{background:var(--down);border-radius:3px 0 0 3px}
-.sc{width:44px;text-align:right;font-size:11px;font-weight:700;flex:none}
+.sc{width:46px;white-space:nowrap;text-align:right;font-size:11px;font-weight:700;flex:none}
 .sm{width:42px;white-space:nowrap;text-align:right;font-size:9.5px;color:var(--sub);flex:none}
-.cc{width:56px;text-align:right;font-size:11.5px;font-weight:700;flex:none}
+.cc{width:50px;white-space:nowrap;text-align:right;font-size:11.5px;font-weight:700;flex:none}
 .fg{margin-bottom:10px}.fg:last-child{margin-bottom:2px}
 .fgh{display:flex;align-items:baseline;gap:7px}
 .fgl{font-size:13px;font-weight:700;flex:1}
