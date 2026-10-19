@@ -112,11 +112,26 @@ def markets():
                index_tile("foreign/index", ".VIX", "VIX", f"{nv}/worldstock/index/.VIX")],
         "kr": [dict(index_tile("domestic/index", "KOSPI", "코스피", f"{nv}/domestic/index/KOSPI"), flow=kr_flow("KOSPI")),
                dict(index_tile("domestic/index", "KOSDAQ", "코스닥", f"{nv}/domestic/index/KOSDAQ"), flow=kr_flow("KOSDAQ"))],
-        "macro": [market_tile("exchange/FX_USDKRW", "원/달러"),
-                  market_tile("bond/US10YT=RR", "미 10년물", suffix="%"),
+        "fx": [market_tile("exchange/FX_USDKRW", "원/달러"),
+               index_tile("foreign/index", ".DXY", "달러인덱스", f"{nv}/worldstock/index/.DXY"),
+               market_tile("exchange/FX_JPYKRW", "원/100엔"),
+               market_tile("exchange/FX_CNYKRW", "원/위안"),
+               market_tile("exchange/FX_EURKRW", "원/유로")],
+        "rates": [market_tile("bond/US10YT=RR", "미 10년물", suffix="%"),
                   market_tile("energy/CLcv1", "WTI", prefix="$"),
                   market_tile("metals/GCcv1", "금", prefix="$", digits=0)],
+        "crypto": [crypto_tile("BTC-USD", "비트코인"), crypto_tile("ETH-USD", "이더리움")],
     }
+
+
+def crypto_tile(product, name):
+    """코인베이스 일봉 (UTC 기준, 최신이 맨 앞): [시각, 저가, 고가, 시가, 종가, 거래량]."""
+    rows = get_retry(f"https://api.exchange.coinbase.com/products/{product}/candles",
+                     params={"granularity": 86400}, headers=UA, tries=2).json()
+    vals = [r[4] for r in reversed(rows[:SPARK_N])]
+    at = datetime.fromtimestamp(rows[0][0], KST).strftime("%Y-%m-%d")
+    return {"name": name, "value": f"${vals[-1]:,.0f}", "chg": round((vals[-1] / vals[-2] - 1) * 100, 2),
+            "at": at, "spark": vals, "url": f"https://www.coinbase.com/price/{product.split('-')[0].lower()}"}
 
 
 US_SECTORS = [("기술", "XLK"), ("반도체", "SMH"), ("통신서비스", "XLC"), ("경기소비재", "XLY"),
@@ -522,19 +537,29 @@ STATUS_ICON = {"good": "✅", "bad": "⚠️", "neutral": "☑️", "news": "�
 def render_card(data):
     day = date.fromisoformat(data["date"])
     mk, fg = data["markets"] or {}, data["fear_greed"] or {}
-    us, kr, macro = mk.get("us", []), mk.get("kr", []), mk.get("macro", [])
-    grid = [tile(r) for r in us + kr + macro]
-    if fg.get("cnn"):
-        grid.append(fg_tile("CNN 공포·탐욕", fg["cnn"]))
-    if fg.get("crypto"):
-        grid.append(fg_tile("크립토 공포·탐욕", fg["crypto"]))
+    us, kr = mk.get("us", []), mk.get("kr", [])
+    us_tiles = [tile(r) for r in us] + ([fg_tile("CNN 공포·탐욕", fg["cnn"])] if fg.get("cnn") else [])
+    flow_rows = "".join(
+        f'<div class="fr"><b>{esc(k["name"])}</b> 외국인 {esc(k["flow"]["외국인"])} · 기관 {esc(k["flow"]["기관"])}'
+        f' · 개인 {esc(k["flow"]["개인"])}</div>' for k in kr if (k.get("flow") or {}).get("외국인"))
+    kr_tiles = [tile(r) for r in kr] + (
+        [f'<div class="tile flowt" style="grid-column:span 3"><div class="tl">순매수 (억원)</div>{flow_rows}</div>']
+        if flow_rows else [])
+    crypto_tiles = [tile(r) for r in mk.get("crypto", [])] + (
+        [fg_tile("공포·탐욕", fg["crypto"])] if fg.get("crypto") else [])
+
+    def group(label, tiles, cols):
+        return (f'<div class="mg" style="flex:{cols}"><div class="mgl">{label}</div>'
+                f'<div class="grid" style="grid-template-columns:repeat({cols},minmax(0,1fr))">{"".join(tiles)}</div></div>')
+    grid = "".join(f'<div class="mrow">{"".join(g)}</div>' for g in [
+        [group(f'{FLAG["US"]} 미국 증시', us_tiles, 5)],
+        [group(f'{FLAG["KR"]} 한국 증시', kr_tiles, 5)],
+        [group("💱 환율", [tile(r) for r in mk.get("fx", [])], 5)],
+        [group("📈 금리·원자재", [tile(r) for r in mk.get("rates", [])], 3),
+         group("🪙 크립토", crypto_tiles, 3)],
+    ])
     asof = " · ".join(x for x in (f'미국 {us[0]["at"][5:].replace("-", "/")}' if us else "",
                                   f'한국 {kr[0]["at"][5:].replace("-", "/")}' if kr else "") if x)
-    flow = ""
-    if kr and (kr[0].get("flow") or {}).get("외국인"):
-        f = kr[0]["flow"]
-        flow = (f'<div class="flow">코스피 순매수(억원) 외국인 <b>{esc(f["외국인"])}</b> · 기관 <b>{esc(f["기관"])}</b>'
-                f' · 개인 <b>{esc(f["개인"])}</b></div>')
 
     def one(flag, title, extra="", sub=""):
         return (f'<div class="ln"><span class="flag">{flag}</span><b>{esc(title)}</b>{extra}'
@@ -561,7 +586,7 @@ def render_card(data):
 
     return f'''<div id="card">
 <div class="head"><h1>데일리 브리핑</h1><div class="range">{day.month}.{day.day} ({WEEKDAYS[day.weekday()]})</div></div>
-<div class="blk"><div class="bt">시장 <span class="at">{esc(asof)} 마감 · 1개월 추이</span></div><div class="grid">{"".join(grid)}</div>{flow}</div>
+<div class="blk"><div class="bt">시장 <span class="at">{esc(asof)} 마감 · 1개월 추이</span></div>{grid}</div>
 {sector_blk}
 <div class="blk"><div class="bt">주요 기업 <span class="at">시총 상위 {SPARK_TOP} · 1개월 추이</span></div>
 <div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{company_rows(data["us_movers"], "USD")}</div>
@@ -642,16 +667,22 @@ h1{font-size:27px;font-weight:900;letter-spacing:-1px}
 .blk{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:11px 12px 10px;margin-bottom:8px}
 .bt{font-size:12.5px;font-weight:800;color:#7d746c;margin-bottom:7px}
 .at{font-weight:600;color:var(--sub);margin-left:4px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-.tile{min-width:0;background:#faf6f1;border-radius:10px;padding:7px 8px 5px;display:flex;flex-direction:column}
-.tile .sp{width:100%;height:22px;margin-top:3px}
+.grid{display:grid;gap:5px}
+.mrow{display:flex;gap:8px;margin-bottom:8px}.mrow:last-child{margin-bottom:0}
+.mg{min-width:0}
+.mgl{font-size:11px;font-weight:800;color:#7d746c;margin-bottom:4px}
+.flowt{justify-content:center;gap:3px}
+.fr{font-size:11.5px;color:#5f5750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fr b{color:var(--ink);margin-right:4px}
+.tile{min-width:0;background:#faf6f1;border-radius:9px;padding:6px 7px 4px;display:flex;flex-direction:column}
+.tile .sp{width:100%;height:20px;margin-top:3px}
 .tv small{font-size:11px;font-weight:700}
 .mbar{position:relative;height:6px;border-radius:3px;margin-top:8px;background:linear-gradient(90deg,#5b8bd6,#c9c3bd 50%,#e8774a)}
 .mbar span{position:absolute;top:-3px;width:3px;height:12px;margin-left:-1.5px;border-radius:2px;background:var(--ink);box-shadow:0 0 0 1.5px #fff}
 .mticks{display:flex;justify-content:space-between;font-size:9.5px;color:var(--sub);margin-top:2px}
-.tl{font-size:11.5px;color:#7d746c;font-weight:600}
-.tv{font-size:14px;font-weight:800;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tc{font-size:11.5px;font-weight:700;margin-top:1px}
+.tl{font-size:10.5px;color:#7d746c;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tv{font-size:13px;letter-spacing:-.3px;font-weight:800;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tc{font-size:10.5px;white-space:nowrap;font-weight:700;margin-top:1px}
 .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--sub)}
 .flow{font-size:11.5px;color:#7d746c;margin-top:8px}
 .cos{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
@@ -705,7 +736,7 @@ td,th{text-align:left;padding:5px 6px;border-top:1px solid var(--line)}
 .err{color:#c0492b;word-break:break-all}
 .meta{font-size:12px;color:var(--sub);margin-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 .meta a{color:var(--accent);font-weight:700}
-@media (max-width:420px){#card{padding:22px 12px 18px}.grid{grid-template-columns:repeat(3,1fr)}.cos{grid-template-columns:1fr}h1{font-size:24px}}'''
+@media (max-width:420px){#card{padding:22px 12px 18px}.cos{grid-template-columns:1fr}h1{font-size:24px}}'''
 
 
 def render_index():
