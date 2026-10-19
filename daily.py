@@ -119,6 +119,35 @@ def markets():
     }
 
 
+US_SECTORS = [("기술", "XLK"), ("반도체", "SMH"), ("통신서비스", "XLC"), ("경기소비재", "XLY"),
+              ("금융", "XLF"), ("헬스케어", "XLV"), ("산업재", "XLI"), ("에너지", "XLE"), ("소재", "XLB"),
+              ("필수소비재", "XLP"), ("유틸리티", "XLU"), ("부동산", "XLRE")]
+KR_SECTORS = [("반도체", "091160"), ("2차전지", "305720"), ("자동차", "091180"), ("조선", "494670"),
+              ("방산", "449450"), ("바이오", "244580"), ("인터넷", "365000"), ("은행", "091170"),
+              ("증권", "102970"), ("철강", "117680"), ("화학", "117460"), ("건설", "117700")]
+
+
+def sector_row(name, code, closes, url):
+    vals = [v for _, v in closes]
+    month = vals[-SPARK_N] if len(vals) >= SPARK_N else vals[0]
+    return {"name": name, "code": code, "chg": round((vals[-1] / vals[-2] - 1) * 100, 2),
+            "chg_1m": round((vals[-1] / month - 1) * 100, 1), "url": url}
+
+
+def sectors():
+    """업종 대표 ETF로 본 섹터 흐름 (1일·1개월 등락)."""
+    us, kr = [], []
+    for name, sym in US_SECTORS:
+        rows = us_closes(sym)
+        if len(rows) >= 2:
+            us.append(sector_row(name, sym, rows, f"https://m.stock.naver.com/worldstock/etf/{_US_CODE.get(sym, sym)}"))
+    for name, code in KR_SECTORS:
+        rows = naver_closes("domestic/item", code)
+        if len(rows) >= 2:
+            kr.append(sector_row(name, code, rows, f"https://m.stock.naver.com/domestic/stock/{code}"))
+    return {"us": sorted(us, key=lambda r: -r["chg"]), "kr": sorted(kr, key=lambda r: -r["chg"])}
+
+
 def fear_greed():
     out = {}
     d = get_retry("https://production.dataviz.cnn.io/index/fearandgreed/graphdata", tries=2, headers={
@@ -374,6 +403,7 @@ def collect(day):
 
     mk = run("지수·환율·금리 (네이버)", markets, default={})
     fg = run("공포·탐욕 지수 (CNN·alternative.me)", fear_greed, default={})
+    sec = run("섹터 흐름 (업종 ETF·네이버)", sectors, default={})
     us_mv = run("미국 상위30 등락·뉴스 (Finnhub)", us_movers, us_rank, prev_day) if us_rank else []
     kr_mv = run("한국 상위30 등락·뉴스 (네이버·구글뉴스)", kr_movers, kr_rank) if kr_rank else []
     disc = run("한국 주요 공시 (DART)", kr_disclosures, kr_rank, prev_day, day) if kr_rank else []
@@ -392,7 +422,7 @@ def collect(day):
     return {
         "date": day.isoformat(), "updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "window": [window_start.isoformat(), now.isoformat()],
-        "markets": mk, "fear_greed": fg, "us_movers": us_mv, "kr_movers": kr_mv,
+        "markets": mk, "fear_greed": fg, "sectors": sec, "us_movers": us_mv, "kr_movers": kr_mv,
         "disclosures": disc, "results": res, "today": today_items, "sources": sources,
         "week": (day - timedelta(days=day.weekday())).isoformat(),
     }
@@ -401,6 +431,7 @@ def collect(day):
 # ---------------------------------------------------------------- 페이지
 
 def chg_html(v, digits=2):
+    v = round(v, digits)  # 반올림해서 0이면 보합으로
     cls = "up" if v > 0 else "down" if v < 0 else "flat"
     arrow = "▲" if v > 0 else "▼" if v < 0 else "–"
     return f'<span class="{cls}">{arrow} {abs(v):.{digits}f}%</span>'
@@ -446,6 +477,18 @@ def meter(label, fg):
             f'<span class="fgp">전일 {fg["prev_close"]}</span></div>'
             f'<div class="bar"><span style="left:{s}%"></span></div>'
             f'<div class="ticks"><span>극단적 공포</span><span>중립</span><span>극단적 탐욕</span></div></div>')
+
+
+def sector_rows(rows, scale):
+    """0을 가운데 둔 양방향 막대: 상승은 오른쪽 빨강, 하락은 왼쪽 파랑."""
+    out = []
+    for r in rows:
+        w = min(abs(r["chg"]) / scale * 50, 50)
+        side = "left" if r["chg"] >= 0 else "right"  # 막대가 가운데(50%)에서 시작
+        out.append(f'<a class="se" href="{esc(r["url"])}"><span class="sn">{esc(r["name"])}</span>'
+                   f'<span class="sb"><i class="{"pos" if r["chg"] >= 0 else "neg"}" style="{side}:50%;width:{w:.1f}%"></i></span>'
+                   f'<span class="sc">{chg_html(r["chg"], 1)}</span><span class="sm">1M {r["chg_1m"]:+.0f}%</span></a>')
+    return "".join(out)
 
 
 def company_rows(rows):
@@ -504,9 +547,19 @@ def render_card(data):
                         f'<span class="t">{esc(i["time"])}</span>' + ('<span class="badge">★ 핵심</span>' if i.get("key") else ""))
                     for i in data["today"]) or '<div class="ln muted">오늘은 큰 일정이 없어요</div>'
 
+    sec = data.get("sectors") or {}
+    sector_blk = ""
+    if sec.get("us") or sec.get("kr"):
+        def scale(rows):  # 막대 길이는 나라별 최대 등락 기준
+            return max([abs(r["chg"]) for r in rows] + [1.0])
+        sector_blk = (f'<div class="blk"><div class="bt">섹터 흐름 <span class="at">업종 대표 ETF · 1일 등락순 · 막대 길이는 나라별 기준</span></div>'
+                      f'<div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{sector_rows(sec.get("us", []), scale(sec.get("us", [])))}</div>'
+                      f'<div><div class="ch">{FLAG["KR"]} 한국</div>{sector_rows(sec.get("kr", []), scale(sec.get("kr", [])))}</div></div></div>')
+
     return f'''<div id="card">
 <div class="head"><h1>데일리 브리핑</h1><div class="range">{day.month}.{day.day} ({WEEKDAYS[day.weekday()]})</div></div>
 <div class="blk"><div class="bt">시장 <span class="at">{esc(asof)} 마감 · 1개월 추이</span></div><div class="grid">{"".join(grid)}</div>{flow}</div>
+{sector_blk}
 <div class="blk"><div class="bt">주요 기업 <span class="at">시총 상위 {SPARK_TOP} · 1개월 추이</span></div>
 <div class="cos"><div><div class="ch">{FLAG["US"]} 미국</div>{company_rows(data["us_movers"])}</div>
 <div><div class="ch">{FLAG["KR"]} 한국</div>{company_rows(data["kr_movers"])}</div></div></div>
@@ -598,11 +651,20 @@ h1{font-size:27px;font-weight:900;letter-spacing:-1px}
 .tc{font-size:11.5px;font-weight:700;margin-top:1px}
 .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--sub)}
 .flow{font-size:11.5px;color:#7d746c;margin-top:8px}
-.cos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .ch{font-size:12px;font-weight:800;margin-bottom:3px}
 .co{display:flex;align-items:center;gap:6px;padding:3px 0;border-top:1px solid #f5eee7;font-size:12.5px}
 .cn{flex:1;min-width:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .co .sp{width:52px;height:15px;flex:none}
+.se{display:flex;align-items:center;gap:4px;padding:2.5px 0;font-size:12px}
+.sn{width:56px;flex:none;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb{flex:1;position:relative;height:9px}
+.sb::before{content:'';position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#cfc5bb}
+.sb i{position:absolute;top:0;height:9px}
+.sb i.pos{background:var(--up);border-radius:0 3px 3px 0}
+.sb i.neg{background:var(--down);border-radius:3px 0 0 3px}
+.sc{width:44px;text-align:right;font-size:11px;font-weight:700;flex:none}
+.sm{width:42px;white-space:nowrap;text-align:right;font-size:9.5px;color:var(--sub);flex:none}
 .cc{width:56px;text-align:right;font-size:11.5px;font-weight:700;flex:none}
 .fg{margin-bottom:10px}.fg:last-child{margin-bottom:2px}
 .fgh{display:flex;align-items:baseline;gap:7px}

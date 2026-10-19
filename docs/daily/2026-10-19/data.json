@@ -2155,5 +2155,179 @@
    "count": 0
   }
  ],
- "week": "2026-10-19"
+ "week": "2026-10-19",
+ "sectors": {
+  "us": [
+   {
+    "name": "반도체",
+    "code": "SMH",
+    "chg": 2.38,
+    "chg_1m": -3.6,
+    "url": "https://m.stock.naver.com/worldstock/etf/SMH.O"
+   },
+   {
+    "name": "기술",
+    "code": "XLK",
+    "chg": 1.61,
+    "chg_1m": -1.7,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLK"
+   },
+   {
+    "name": "경기소비재",
+    "code": "XLY",
+    "chg": 0.52,
+    "chg_1m": 1.8,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLY"
+   },
+   {
+    "name": "에너지",
+    "code": "XLE",
+    "chg": 0.19,
+    "chg_1m": 6.3,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLE"
+   },
+   {
+    "name": "헬스케어",
+    "code": "XLV",
+    "chg": -0.08,
+    "chg_1m": 4.9,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLV"
+   },
+   {
+    "name": "필수소비재",
+    "code": "XLP",
+    "chg": -0.28,
+    "chg_1m": 5.5,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLP"
+   },
+   {
+    "name": "소재",
+    "code": "XLB",
+    "chg": -0.29,
+    "chg_1m": 1.6,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLB"
+   },
+   {
+    "name": "산업재",
+    "code": "XLI",
+    "chg": -0.36,
+    "chg_1m": -1.5,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLI"
+   },
+   {
+    "name": "금융",
+    "code": "XLF",
+    "chg": -0.39,
+    "chg_1m": -1.0,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLF"
+   },
+   {
+    "name": "통신서비스",
+    "code": "XLC",
+    "chg": -0.43,
+    "chg_1m": -0.9,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLC"
+   },
+   {
+    "name": "부동산",
+    "code": "XLRE",
+    "chg": -0.62,
+    "chg_1m": -1.5,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLRE.K"
+   },
+   {
+    "name": "유틸리티",
+    "code": "XLU",
+    "chg": -0.73,
+    "chg_1m": 1.9,
+    "url": "https://m.stock.naver.com/worldstock/etf/XLU"
+   }
+  ],
+  "kr": [
+   {
+    "name": "2차전지",
+    "code": "305720",
+    "chg": 8.2,
+    "chg_1m": 9.9,
+    "url": "https://m.stock.naver.com/domestic/stock/305720"
+   },
+   {
+    "name": "철강",
+    "code": "117680",
+    "chg": 5.4,
+    "chg_1m": -6.2,
+    "url": "https://m.stock.naver.com/domestic/stock/117680"
+   },
+   {
+    "name": "화학",
+    "code": "117460",
+    "chg": 4.96,
+    "chg_1m": 0.8,
+    "url": "https://m.stock.naver.com/domestic/stock/117460"
+   },
+   {
+    "name": "자동차",
+    "code": "091180",
+    "chg": 3.91,
+    "chg_1m": -5.0,
+    "url": "https://m.stock.naver.com/domestic/stock/091180"
+   },
+   {
+    "name": "방산",
+    "code": "449450",
+    "chg": 3.44,
+    "chg_1m": -16.4,
+    "url": "https://m.stock.naver.com/domestic/stock/449450"
+   },
+   {
+    "name": "바이오",
+    "code": "244580",
+    "chg": 3.01,
+    "chg_1m": 0.4,
+    "url": "https://m.stock.naver.com/domestic/stock/244580"
+   },
+   {
+    "name": "건설",
+    "code": "117700",
+    "chg": 2.17,
+    "chg_1m": -18.7,
+    "url": "https://m.stock.naver.com/domestic/stock/117700"
+   },
+   {
+    "name": "증권",
+    "code": "102970",
+    "chg": 2.04,
+    "chg_1m": -14.4,
+    "url": "https://m.stock.naver.com/domestic/stock/102970"
+   },
+   {
+    "name": "은행",
+    "code": "091170",
+    "chg": 1.11,
+    "chg_1m": -12.4,
+    "url": "https://m.stock.naver.com/domestic/stock/091170"
+   },
+   {
+    "name": "인터넷",
+    "code": "365000",
+    "chg": 1.02,
+    "chg_1m": -0.6,
+    "url": "https://m.stock.naver.com/domestic/stock/365000"
+   },
+   {
+    "name": "반도체",
+    "code": "091160",
+    "chg": 0.02,
+    "chg_1m": -5.9,
+    "url": "https://m.stock.naver.com/domestic/stock/091160"
+   },
+   {
+    "name": "조선",
+    "code": "494670",
+    "chg": 0.0,
+    "chg_1m": -22.5,
+    "url": "https://m.stock.naver.com/domestic/stock/494670"
+   }
+  ]
+ }
 }
