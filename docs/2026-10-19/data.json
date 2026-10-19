@@ -1,7 +1,7 @@
 {
  "week_start": "2026-10-19",
  "week_end": "2026-10-25",
- "updated_at": "2026-10-19 21:43",
+ "updated_at": "2026-10-19 22:03",
  "items": [
   {
    "date": "2026-10-19",
@@ -110,8 +110,8 @@
    "title": "한국은행 금통위 금리 결정",
    "time": "오전",
    "key": true,
-   "detail": "",
-   "url": "",
+   "detail": "통화정책방향 결정 후 오전 11시 10분 총재 기자간담회",
+   "url": "https://www.bok.or.kr/portal/main/main.do",
    "filtered": false
   },
   {
