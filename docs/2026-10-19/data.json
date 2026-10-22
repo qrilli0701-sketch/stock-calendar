@@ -39,7 +39,9 @@
    "key": false,
    "detail": "정기 발표일 규칙으로 계산 (공휴일은 반영 안 됨)",
    "url": "https://www.customs.go.kr",
-   "filtered": false
+   "filtered": false,
+   "result": "📰 반도체가 이끈 10월 수출…20일까지 616억 달러, 전년비 105% 폭증",
+   "result_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pYmF3VklnSHZraUdqbWxKS0k5Wjk1SF8zZHpoN2QzQjJ5LXc1azVYeDB4WmRoM2U1U2cxYXZEVEhUR3R1SUVhOHd0U2tpeXoydmNvRjdpbEdKREwwc1NOSDVRcmdCRjZweW1vRtIBb0FVX3lxTE94Vk5zNkV1TkRXV05RbkFVSUFraUlsLTVINmU2ZmY5Mi1tYnZRY0pJR1YzV2pwQ0lPQklJMkxnOC0yZlpDWnVVUEI3M3Z3WkZaa1EwMVNyREJ1WmF3WDN5TEdtUlA4dm1ueF9KMzN6OA?oc=5"
   },
   {
    "date": "2026-10-21",
@@ -133,7 +135,9 @@
    "rank": 6,
    "url": "https://www.nasdaq.com/market-activity/stocks/meta/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 7위"
+   "filter_reason": "미국 시총 7위",
+   "result": "EPS $7.40 (예상 $6.00) 서프라이즈 +23% · 매출 $64.6B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/meta/earnings"
   },
   {
    "date": "2026-10-22",
@@ -147,7 +151,9 @@
    "rank": 8,
    "url": "https://www.nasdaq.com/market-activity/stocks/tsla/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 9위"
+   "filter_reason": "미국 시총 9위",
+   "result": "EPS $0.48 (예상 $0.44) 서프라이즈 +10% · 매출 $28.0B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/tsla/earnings"
   },
   {
    "date": "2026-10-22",
