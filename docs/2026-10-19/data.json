@@ -133,7 +133,9 @@
    "key": true,
    "detail": "통화정책방향 결정 후 오전 11시 10분 총재 기자간담회",
    "url": "https://www.bok.or.kr/portal/main/main.do",
-   "filtered": false
+   "filtered": false,
+   "result": "📰 한국은행, ‘기준금리 3% 유지’ 전원일치 결정… “2회 인상 효과 점검 필요” - 조선비즈",
+   "result_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGNhbmM2Wm5Ycm5yY25EajBrQzd5VGxySHVLd1p5ZmxIRVlhNHJia212d0VvU1FvQWd4SDkwU09iV1FVamhybjhObFFfcGl6RVFJd3Ewa1E4TWJuYXdSeHRnbS02RTZ2cDJtZ1JLVG83WWpJd0NoWFRvMnlxWGhxSTd3dXROZ9IBmgFBVV95cUxNT090ZjdPOEVleGdqd3dNZnFfT0tBLUxsMHRTQ0VGSk4yMWtmbktIYmh2dmJiRkxBTjZzMkxwd1pWN3NlQkxZWm00V3RWbTd1Q213OEZab0I5UlhHOHBMUTY4X1BWRmpZNm9IT2VjVTVxM0tlM0FhVEliMmN2c3cxUGhneHNwNk1JQkZka2dibU5YdjVWYUUzbm1B?oc=5"
   },
   {
    "date": "2026-10-22",
@@ -145,7 +147,9 @@
    "detail": "2026년 3분기 경영실적 발표 · 투자자 면담(One-on-One 및 소그룹)",
    "rank": 25,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800162"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800162",
+   "result": "📰 “중국 적자 털어내고 2340억 쐈다…LS ELECTRIC, 전력인프라 날개 달고 ‘지붕 뚫은 실적’”",
+   "result_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2UFdEUGthLUk3SUVHbUJBZTBIelJKSU9zaDhuY2k3X3FOOTAwdzFUaWJ6VjZMRnVFUl9Za2ZabmtlVWxQLTh5alpyaFZyZjVxWTVyQUVXN2JrTVFIbTZHNTZHcXBUR1pUeTI5MlQ5Yw?oc=5"
   },
   {
    "date": "2026-10-22",
@@ -191,7 +195,9 @@
    "rank": 27,
    "url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 28위"
+   "filter_reason": "미국 시총 28위",
+   "result": "EPS $2.00 (예상 $1.94) 서프라이즈 +3% · 매출 $23.3B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/pg/earnings"
   },
   {
    "date": "2026-10-22",
