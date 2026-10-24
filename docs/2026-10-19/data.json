@@ -251,7 +251,9 @@
    "detail": "2026년도 3분기 경영실적 발표 · 인터넷 영상 생중계를 통한 경영실적 발표 및 질의응답",
    "rank": 17,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800202"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800202",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800558"
   },
   {
    "date": "2026-10-23",
@@ -263,7 +265,9 @@
    "detail": "2026년 3분기 경영실적 발표 · 오디오 인터넷 생중계 및 컨퍼런스콜을 통한 경영실적 발",
    "rank": 24,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020800482"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020800482",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800648"
   },
   {
    "date": "2026-10-23",
@@ -273,7 +277,9 @@
    "key": false,
    "detail": "미 동부 10:00 발표 · Surveys of Consumers",
    "url": "https://fred.stlouisfed.org/release?rid=91",
-   "filtered": false
+   "filtered": false,
+   "result": "소비자심리 48.1 (직전 51.7, 2026-09 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=91"
   },
   {
    "date": "2026-10-23",
