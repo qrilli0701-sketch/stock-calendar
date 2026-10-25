@@ -1,0 +1,1004 @@
+{
+ "week_start": "2026-10-26",
+ "week_end": "2026-11-01",
+ "updated_at": "2026-10-26 08:48",
+ "items": [
+  {
+   "date": "2026-10-27",
+   "country": "KR",
+   "title": "신한지주 실적",
+   "group": "신한지주",
+   "time": "오후 2시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · 인터넷 생중계를 통한 경영실적발표 및 질의응답",
+   "rank": 12,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800533"
+  },
+  {
+   "date": "2026-10-27",
+   "country": "US",
+   "title": "코카콜라 실적",
+   "group": "코카콜라",
+   "time": "밤",
+   "symbol": "KO",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $0.91 · 매출 예상 $13.3B",
+   "rank": 26,
+   "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 27위"
+  },
+  {
+   "date": "2026-10-28",
+   "country": "KR",
+   "title": "SK하이닉스 실적",
+   "group": "SK하이닉스",
+   "time": "오전 9시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · Conference Call",
+   "rank": 1,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014800385"
+  },
+  {
+   "date": "2026-10-28",
+   "country": "KR",
+   "title": "삼성전기 실적",
+   "group": "삼성전기",
+   "time": "오후 1시",
+   "key": false,
+   "detail": "2026년도 3분기 경영실적 발표 · Conference Call",
+   "rank": 4,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255"
+  },
+  {
+   "date": "2026-10-28",
+   "country": "KR",
+   "title": "HD현대중공업 실적",
+   "group": "HD현대중공업",
+   "time": "오후 2시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · 컨퍼런스콜",
+   "rank": 17,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389"
+  },
+  {
+   "date": "2026-10-28",
+   "country": "KR",
+   "title": "LG전자 실적",
+   "group": "LG전자",
+   "time": "오후 4시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · Conference Call (한국어/영어 동시 진행)",
+   "rank": 22,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800158"
+  },
+  {
+   "date": "2026-10-28",
+   "country": "US",
+   "title": "비자 실적",
+   "group": "비자",
+   "time": "새벽",
+   "symbol": "V",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $3.51 · 매출 예상 $12.3B",
+   "rank": 15,
+   "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 16위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "FOMC 금리 결정",
+   "time": "새벽 3시",
+   "key": true,
+   "detail": "성명서 발표 후 30분 뒤 의장 기자회견",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "filtered": false
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "삼성전자 실적",
+   "group": "삼성전자",
+   "time": "오전 10시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · Conference Call",
+   "rank": 0,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800028"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "현대차 실적",
+   "group": "현대차",
+   "time": "오후 2시 10분",
+   "key": false,
+   "detail": "2026년 3분기 경영실적발표 · 컨퍼런스콜",
+   "rank": 6,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800377"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "KB금융 실적",
+   "group": "KB금융",
+   "time": "오후 4시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 등 · 인터넷 생중계 및 Conference Call을 통한 ",
+   "rank": 7,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800283"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "삼성SDI 실적",
+   "group": "삼성SDI",
+   "time": "오전 10시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 설명회 · Conference Call",
+   "rank": 14,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800501"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "두산에너빌리티 실적",
+   "group": "두산에너빌리티",
+   "time": "오후 3시 45분",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · 컨퍼런스 콜",
+   "rank": 15,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800622"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "KR",
+   "title": "SK이노베이션 실적",
+   "group": "SK이노베이션",
+   "time": "오전 11시",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · Online 실적발표 후 질의응답 (Conference",
+   "rank": 24,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800448"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "GDP",
+   "time": "밤 9시 30분",
+   "key": false,
+   "detail": "미 동부 8:30 발표 · Gross Domestic Product",
+   "url": "https://fred.stlouisfed.org/release?rid=53",
+   "filtered": false
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "PCE 물가",
+   "time": "밤 9시 30분",
+   "key": false,
+   "detail": "미 동부 8:30 발표 · Personal Income and Outlays",
+   "url": "https://fred.stlouisfed.org/release?rid=54",
+   "filtered": false
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "알파벳 실적",
+   "group": "알파벳",
+   "time": "새벽",
+   "symbol": "GOOGL",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $3.11 · 매출 예상 $132.0B",
+   "rank": 2,
+   "url": "https://www.nasdaq.com/market-activity/stocks/googl/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 3위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "마이크로소프트 실적",
+   "group": "마이크로소프트",
+   "time": "새벽",
+   "symbol": "MSFT",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $4.82 · 매출 예상 $92.5B",
+   "rank": 3,
+   "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 4위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "일라이릴리 실적",
+   "group": "일라이릴리",
+   "time": "밤",
+   "symbol": "LLY",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $7.01 · 매출 예상 $22.8B",
+   "rank": 9,
+   "url": "https://www.nasdaq.com/market-activity/stocks/lly/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 10위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "마스터카드 실적",
+   "group": "마스터카드",
+   "time": "밤",
+   "symbol": "MA",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $5.31 · 매출 예상 $9.9B",
+   "rank": 19,
+   "url": "https://www.nasdaq.com/market-activity/stocks/ma/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 20위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "캐터필러 실적",
+   "group": "캐터필러",
+   "time": "밤",
+   "symbol": "CAT",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $7.16 · 매출 예상 $20.9B",
+   "rank": 32,
+   "url": "https://www.nasdaq.com/market-activity/stocks/cat/earnings",
+   "filtered": true,
+   "filter_reason": "미국 시총 33위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "린데 실적",
+   "group": "린데",
+   "time": "밤",
+   "symbol": "LIN",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $4.56 · 매출 예상 $9.2B",
+   "rank": 43,
+   "url": "https://www.nasdaq.com/market-activity/stocks/lin/earnings",
+   "filtered": true,
+   "filter_reason": "미국 시총 44위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "KLA 실적",
+   "group": "KLA",
+   "time": "새벽",
+   "symbol": "KLAC",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $1.20 · 매출 예상 $4.1B",
+   "rank": 48,
+   "url": "https://www.nasdaq.com/market-activity/stocks/klac/earnings",
+   "filtered": true,
+   "filter_reason": "미국 시총 49위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "서비스나우 실적",
+   "group": "서비스나우",
+   "time": "새벽",
+   "symbol": "NOW",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $1.04 · 매출 예상 $4.1B",
+   "rank": 53,
+   "url": "https://www.nasdaq.com/market-activity/stocks/now/earnings",
+   "filtered": true,
+   "filter_reason": "미국 시총 54위"
+  },
+  {
+   "date": "2026-10-29",
+   "country": "US",
+   "title": "T모바일 실적",
+   "group": "T모바일",
+   "time": "새벽",
+   "symbol": "TMUS",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $2.97 · 매출 예상 $23.6B",
+   "rank": 54,
+   "url": "https://www.nasdaq.com/market-activity/stocks/tmus/earnings",
+   "filtered": true,
+   "filter_reason": "미국 시총 55위"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "KR",
+   "title": "현대모비스 실적",
+   "group": "현대모비스",
+   "time": "오전 10시 10분",
+   "key": false,
+   "detail": "2026년 3분기 경영실적 발표 · 컨퍼런스콜",
+   "rank": 19,
+   "filtered": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800231"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "US",
+   "title": "아마존 실적",
+   "group": "아마존",
+   "time": "새벽",
+   "symbol": "AMZN",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $2.00 · 매출 예상 $206.3B",
+   "rank": 4,
+   "url": "https://www.nasdaq.com/market-activity/stocks/amzn/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 5위"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "US",
+   "title": "엑슨모빌 실적",
+   "group": "엑슨모빌",
+   "time": "밤",
+   "symbol": "XOM",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $4.12 · 매출 예상 $106.4B",
+   "rank": 16,
+   "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 17위"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "US",
+   "title": "애브비 실적",
+   "group": "애브비",
+   "time": "밤",
+   "symbol": "ABBV",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $3.82 · 매출 예상 $17.7B",
+   "rank": 20,
+   "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 21위"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "US",
+   "title": "셰브론 실적",
+   "group": "셰브론",
+   "time": "밤",
+   "symbol": "CVX",
+   "key": false,
+   "detail": "미국 장 시작 전 · EPS 예상 $4.93 · 매출 예상 $61.7B",
+   "rank": 22,
+   "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 23위"
+  },
+  {
+   "date": "2026-10-30",
+   "country": "US",
+   "title": "인텔 실적",
+   "group": "인텔",
+   "time": "새벽",
+   "symbol": "INTC",
+   "key": false,
+   "detail": "미국 장 마감 후 · EPS 예상 $0.40 · 매출 예상 $16.8B",
+   "rank": 23,
+   "url": "https://www.nasdaq.com/market-activity/stocks/intc/earnings",
+   "filtered": false,
+   "filter_reason": "미국 시총 24위"
+  }
+ ],
+ "sources": [
+  {
+   "name": "미국 시총 순위 (Finnhub)",
+   "ok": true,
+   "count": 63
+  },
+  {
+   "name": "한국 시총 순위 (네이버)",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "name": "미국 실적 (Finnhub)",
+   "ok": true,
+   "count": 16
+  },
+  {
+   "name": "한국 실적 (DART)",
+   "ok": true,
+   "count": 12
+  },
+  {
+   "name": "미국 경제지표 (FRED)",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "한국 수출입 (규칙)",
+   "ok": true,
+   "count": 0
+  },
+  {
+   "name": "고정 일정 (events.json)",
+   "ok": true,
+   "count": 1
+  }
+ ],
+ "us_ranking": [
+  {
+   "symbol": "NVDA",
+   "name": "엔비디아",
+   "name_en": "NVIDIA Corp",
+   "cap_usd_b": 5084.1
+  },
+  {
+   "symbol": "AAPL",
+   "name": "애플",
+   "name_en": "Apple Inc",
+   "cap_usd_b": 5074.8
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "알파벳",
+   "name_en": "Alphabet Inc",
+   "cap_usd_b": 3916.2
+  },
+  {
+   "symbol": "MSFT",
+   "name": "마이크로소프트",
+   "name_en": "Microsoft Corp",
+   "cap_usd_b": 3895.2
+  },
+  {
+   "symbol": "AMZN",
+   "name": "아마존",
+   "name_en": "Amazon.com Inc",
+   "cap_usd_b": 2675.0
+  },
+  {
+   "symbol": "TSM",
+   "name": "TSMC",
+   "name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+   "cap_usd_b": 2170.6
+  },
+  {
+   "symbol": "META",
+   "name": "메타",
+   "name_en": "Meta Platforms Inc",
+   "cap_usd_b": 1636.7
+  },
+  {
+   "symbol": "AVGO",
+   "name": "브로드컴",
+   "name_en": "Broadcom Inc",
+   "cap_usd_b": 1535.6
+  },
+  {
+   "symbol": "TSLA",
+   "name": "테슬라",
+   "name_en": "Tesla Inc",
+   "cap_usd_b": 1471.3
+  },
+  {
+   "symbol": "LLY",
+   "name": "일라이릴리",
+   "name_en": "Eli Lilly and Co",
+   "cap_usd_b": 1198.8
+  },
+  {
+   "symbol": "BRK.B",
+   "name": "버크셔해서웨이",
+   "name_en": "Berkshire Hathaway Inc",
+   "cap_usd_b": 1161.1
+  },
+  {
+   "symbol": "MU",
+   "name": "마이크론",
+   "name_en": "Micron Technology Inc",
+   "cap_usd_b": 992.9
+  },
+  {
+   "symbol": "WMT",
+   "name": "월마트",
+   "name_en": "Walmart Inc",
+   "cap_usd_b": 934.6
+  },
+  {
+   "symbol": "JPM",
+   "name": "JP모건",
+   "name_en": "JPMorgan Chase & Co",
+   "cap_usd_b": 881.4
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "name_en": "Advanced Micro Devices Inc",
+   "cap_usd_b": 843.6
+  },
+  {
+   "symbol": "V",
+   "name": "비자",
+   "name_en": "Visa Inc",
+   "cap_usd_b": 763.4
+  },
+  {
+   "symbol": "XOM",
+   "name": "엑슨모빌",
+   "name_en": "Exxonmobil Holdings Corp",
+   "cap_usd_b": 732.3
+  },
+  {
+   "symbol": "JNJ",
+   "name": "존슨앤드존슨",
+   "name_en": "Johnson & Johnson",
+   "cap_usd_b": 635.1
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "name_en": "ASML Holding NV",
+   "cap_usd_b": 610.1
+  },
+  {
+   "symbol": "MA",
+   "name": "마스터카드",
+   "name_en": "Mastercard Inc",
+   "cap_usd_b": 546.3
+  },
+  {
+   "symbol": "ABBV",
+   "name": "애브비",
+   "name_en": "AbbVie Inc",
+   "cap_usd_b": 504.8
+  },
+  {
+   "symbol": "PLTR",
+   "name": "팔란티어",
+   "name_en": "Palantir Technologies Inc",
+   "cap_usd_b": 472.8
+  },
+  {
+   "symbol": "CVX",
+   "name": "셰브론",
+   "name_en": "Chevron Corp",
+   "cap_usd_b": 460.8
+  },
+  {
+   "symbol": "INTC",
+   "name": "인텔",
+   "name_en": "Intel Corp",
+   "cap_usd_b": 459.7
+  },
+  {
+   "symbol": "COST",
+   "name": "코스트코",
+   "name_en": "Costco Wholesale Corp",
+   "cap_usd_b": 444.6
+  },
+  {
+   "symbol": "CSCO",
+   "name": "시스코",
+   "name_en": "Cisco Systems Inc",
+   "cap_usd_b": 419.9
+  },
+  {
+   "symbol": "KO",
+   "name": "코카콜라",
+   "name_en": "Coca-Cola Co",
+   "cap_usd_b": 398.9
+  },
+  {
+   "symbol": "ORCL",
+   "name": "오라클",
+   "name_en": "Oracle Corp",
+   "cap_usd_b": 381.5
+  },
+  {
+   "symbol": "UNH",
+   "name": "유나이티드헬스",
+   "name_en": "UnitedHealth Group Inc",
+   "cap_usd_b": 375.3
+  },
+  {
+   "symbol": "PG",
+   "name": "P&G",
+   "name_en": "Procter & Gamble Co",
+   "cap_usd_b": 374.0
+  },
+  {
+   "symbol": "BAC",
+   "name": "뱅크오브아메리카",
+   "name_en": "Bank of America Corp",
+   "cap_usd_b": 350.0
+  },
+  {
+   "symbol": "HD",
+   "name": "홈디포",
+   "name_en": "Home Depot Inc",
+   "cap_usd_b": 319.1
+  },
+  {
+   "symbol": "CAT",
+   "name": "캐터필러",
+   "name_en": "Caterpillar Inc",
+   "cap_usd_b": 315.8
+  },
+  {
+   "symbol": "PM",
+   "name": "필립모리스",
+   "name_en": "Philip Morris International Inc",
+   "cap_usd_b": 310.9
+  },
+  {
+   "symbol": "AMAT",
+   "name": "어플라이드머티어리얼즈",
+   "name_en": "Applied Materials Inc",
+   "cap_usd_b": 299.4
+  },
+  {
+   "symbol": "GE",
+   "name": "GE에어로스페이스",
+   "name_en": "General Electric Co",
+   "cap_usd_b": 295.2
+  },
+  {
+   "symbol": "LRCX",
+   "name": "램리서치",
+   "name_en": "Lam Research Corp",
+   "cap_usd_b": 288.0
+  },
+  {
+   "symbol": "MS",
+   "name": "모건스탠리",
+   "name_en": "Morgan Stanley",
+   "cap_usd_b": 281.9
+  },
+  {
+   "symbol": "NFLX",
+   "name": "넷플릭스",
+   "name_en": "Netflix Inc",
+   "cap_usd_b": 270.4
+  },
+  {
+   "symbol": "RTX",
+   "name": "RTX",
+   "name_en": "RTX Corp",
+   "cap_usd_b": 257.8
+  },
+  {
+   "symbol": "GS",
+   "name": "골드만삭스",
+   "name_en": "Goldman Sachs Group Inc",
+   "cap_usd_b": 255.0
+  },
+  {
+   "symbol": "WFC",
+   "name": "웰스파고",
+   "name_en": "Wells Fargo & Co",
+   "cap_usd_b": 247.4
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "name_en": "International Business Machines Corp",
+   "cap_usd_b": 238.9
+  },
+  {
+   "symbol": "LIN",
+   "name": "린데",
+   "name_en": "Linde PLC",
+   "cap_usd_b": 234.6
+  },
+  {
+   "symbol": "ANET",
+   "name": "아리스타",
+   "name_en": "Arista Networks Inc",
+   "cap_usd_b": 217.4
+  },
+  {
+   "symbol": "AXP",
+   "name": "아메리칸익스프레스",
+   "name_en": "American Express Co",
+   "cap_usd_b": 211.5
+  },
+  {
+   "symbol": "CRM",
+   "name": "세일즈포스",
+   "name_en": "Salesforce Inc",
+   "cap_usd_b": 204.6
+  },
+  {
+   "symbol": "DIS",
+   "name": "디즈니",
+   "name_en": "Walt Disney Co",
+   "cap_usd_b": 194.3
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA",
+   "name_en": "KLA Corp",
+   "cap_usd_b": 190.0
+  },
+  {
+   "symbol": "QCOM",
+   "name": "퀄컴",
+   "name_en": "Qualcomm Inc",
+   "cap_usd_b": 187.8
+  },
+  {
+   "symbol": "PEP",
+   "name": "펩시코",
+   "name_en": "PepsiCo Inc",
+   "cap_usd_b": 185.0
+  },
+  {
+   "symbol": "ABT",
+   "name": "애보트",
+   "name_en": "Abbott Laboratories",
+   "cap_usd_b": 179.4
+  },
+  {
+   "symbol": "MCD",
+   "name": "맥도날드",
+   "name_en": "McDonald's Corp",
+   "cap_usd_b": 175.8
+  },
+  {
+   "symbol": "NOW",
+   "name": "서비스나우",
+   "name_en": "ServiceNow Inc",
+   "cap_usd_b": 164.4
+  },
+  {
+   "symbol": "TMUS",
+   "name": "T모바일",
+   "name_en": "T-Mobile US Inc",
+   "cap_usd_b": 157.2
+  },
+  {
+   "symbol": "ISRG",
+   "name": "인튜이티브서지컬",
+   "name_en": "Intuitive Surgical Inc",
+   "cap_usd_b": 156.8
+  },
+  {
+   "symbol": "SCHW",
+   "name": "찰스슈왑",
+   "name_en": "Charles Schwab Corp",
+   "cap_usd_b": 156.6
+  },
+  {
+   "symbol": "BX",
+   "name": "블랙스톤",
+   "name_en": "Blackstone Inc",
+   "cap_usd_b": 145.6
+  },
+  {
+   "symbol": "T",
+   "name": "AT&T",
+   "name_en": "AT&T Inc",
+   "cap_usd_b": 141.0
+  },
+  {
+   "symbol": "UBER",
+   "name": "우버",
+   "name_en": "Uber Technologies Inc",
+   "cap_usd_b": 136.2
+  },
+  {
+   "symbol": "BKNG",
+   "name": "부킹홀딩스",
+   "name_en": "Booking Holdings Inc",
+   "cap_usd_b": 117.1
+  },
+  {
+   "symbol": "INTU",
+   "name": "인튜이트",
+   "name_en": "Intuit Inc",
+   "cap_usd_b": 91.8
+  },
+  {
+   "symbol": "APP",
+   "name": "앱러빈",
+   "name_en": "Applovin Corp",
+   "cap_usd_b": 87.1
+  }
+ ],
+ "kr_ranking": [
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "cap_krw_eok": 12598730
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "cap_krw_eok": 9328388
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "market": "KOSPI",
+   "cap_krw_eok": 1022411
+  },
+  {
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "market": "KOSPI",
+   "cap_krw_eok": 896220
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "market": "KOSPI",
+   "cap_krw_eok": 838063
+  },
+  {
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "market": "KOSPI",
+   "cap_krw_eok": 678625
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "cap_krw_eok": 601243
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "cap_krw_eok": 542672
+  },
+  {
+   "code": "032830",
+   "name": "삼성생명",
+   "market": "KOSPI",
+   "cap_krw_eok": 490000
+  },
+  {
+   "code": "028260",
+   "name": "삼성물산",
+   "market": "KOSPI",
+   "cap_krw_eok": 467043
+  },
+  {
+   "code": "068270",
+   "name": "셀트리온",
+   "market": "KOSPI",
+   "cap_krw_eok": 451150
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "market": "KOSPI",
+   "cap_krw_eok": 417351
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 413586
+  },
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "market": "KOSPI",
+   "cap_krw_eok": 408382
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "market": "KOSPI",
+   "cap_krw_eok": 395272
+  },
+  {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "market": "KOSPI",
+   "cap_krw_eok": 380493
+  },
+  {
+   "code": "034730",
+   "name": "SK",
+   "market": "KOSPI",
+   "cap_krw_eok": 337500
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "market": "KOSPI",
+   "cap_krw_eok": 320132
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 315138
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "market": "KOSPI",
+   "cap_krw_eok": 295061
+  },
+  {
+   "code": "000810",
+   "name": "삼성화재",
+   "market": "KOSPI",
+   "cap_krw_eok": 268778
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "market": "KOSPI",
+   "cap_krw_eok": 264061
+  },
+  {
+   "code": "066570",
+   "name": "LG전자",
+   "market": "KOSPI",
+   "cap_krw_eok": 255892
+  },
+  {
+   "code": "010120",
+   "name": "LS ELECTRIC",
+   "market": "KOSPI",
+   "cap_krw_eok": 235350
+  },
+  {
+   "code": "096770",
+   "name": "SK이노베이션",
+   "market": "KOSPI",
+   "cap_krw_eok": 233462
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 221773
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "cap_krw_eok": 218310
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 213870
+  },
+  {
+   "code": "011200",
+   "name": "HMM",
+   "market": "KOSPI",
+   "cap_krw_eok": 213643
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "cap_krw_eok": 196617
+  }
+ ]
+}
