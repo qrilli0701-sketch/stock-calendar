@@ -13,7 +13,9 @@
    "detail": "2026년 3분기 경영실적 발표 · 인터넷 생중계를 통한 경영실적발표 및 질의응답",
    "rank": 13,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800533"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800533",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)(자회사의 주요경영사항)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800218"
   },
   {
    "date": "2026-10-27",
@@ -27,7 +29,9 @@
    "rank": 27,
    "url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 28위"
+   "filter_reason": "미국 시총 28위",
+   "result": "EPS $0.91 (예상 $0.91) 부합 +0% · 매출 $13.4B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/ko/earnings"
   },
   {
    "date": "2026-10-28",
@@ -89,7 +93,9 @@
    "rank": 16,
    "url": "https://www.nasdaq.com/market-activity/stocks/v/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 17위"
+   "filter_reason": "미국 시총 17위",
+   "result": "EPS $3.48 (예상 $3.50) 부합 -1% · 매출 $12.1B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/v/earnings"
   },
   {
    "date": "2026-10-29",
