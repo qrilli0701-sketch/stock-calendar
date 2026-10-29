@@ -43,7 +43,9 @@
    "detail": "2026년 3분기 경영실적 발표 · Conference Call",
    "rank": 1,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800052"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800052",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800036"
   },
   {
    "date": "2026-10-28",
@@ -55,7 +57,9 @@
    "detail": "2026년도 3분기 경영실적 발표 · Conference Call",
    "rank": 3,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800255",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800169"
   },
   {
    "date": "2026-10-28",
@@ -67,7 +71,9 @@
    "detail": "2026년 3분기 경영실적 발표 · 컨퍼런스콜",
    "rank": 19,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021800389",
+   "result": "잠정실적 공시 · 영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800211"
   },
   {
    "date": "2026-10-28",
@@ -79,7 +85,9 @@
    "detail": "2026년 3분기 경영실적 발표 · Conference Call (한국어/영어 동시 진행)",
    "rank": 22,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800158"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007800158",
+   "result": "잠정실적 공시 · [기재정정]연결재무제표기준영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800266"
   },
   {
    "date": "2026-10-28",
@@ -105,7 +113,9 @@
    "key": true,
    "detail": "성명서 발표 후 30분 뒤 의장 기자회견",
    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-   "filtered": false
+   "filtered": false,
+   "result": "📰 워시 \"내년 금리 결정 FOMC는 7번만…내후년은 6번\"(종합)",
+   "result_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Yel9hX1BDR1hLX0RaY09vTkR6TTdZU3M3MFN3SHFzX2FZTWdsSTZDOEpoOVg4R1pYVzFyckUtVDNGTGIwcVZ2TmNiTFRmbUpSQkNCeVlKanA0MVnSAWBBVV95cUxQSWtTamJtWmxvV2NCOXRLekVwdWhnbkd3VzluVXVqeGU4WXlfYVVvdzdNNlp0RGFoSnJOX3E2VzdVY0ZiZUtwSmNIQ0pJT09NZlNTNzdLcmNXVDJzZE10SEU?oc=5"
   },
   {
    "date": "2026-10-29",
@@ -211,7 +221,9 @@
    "rank": 2,
    "url": "https://www.nasdaq.com/market-activity/stocks/googl/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 3위"
+   "filter_reason": "미국 시총 3위",
+   "result": "EPS $2.12 (예상 $3.11) 쇼크 -32% · 매출 $111.2B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/googl/earnings"
   },
   {
    "date": "2026-10-29",
@@ -225,7 +237,9 @@
    "rank": 3,
    "url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 4위"
+   "filter_reason": "미국 시총 4위",
+   "result": "EPS $4.89 (예상 $4.82) 부합 +2% · 매출 $92.3B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/msft/earnings"
   },
   {
    "date": "2026-10-29",
