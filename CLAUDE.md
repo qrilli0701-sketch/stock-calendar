@@ -13,7 +13,7 @@
 ## 데이터 위치
 - 데일리 브리핑: `docs/daily/<YYYY-MM-DD>/data.json` (시장 지표, 공포·탐욕, 섹터, 상위 30 등락·뉴스, 공시, 어제 일정 결과, 오늘 일정)
 - 주간 캘린더: `docs/<그 주 월요일>/data.json` (일정, 시총 순위, 기준에서 빠진 실적)
-- 웹 페이지: https://qrilli0701-sketch.github.io/stock-calendar/ (데일리는 `/daily/`)
+- 웹 페이지: GitHub Pages (`https://<아이디>.github.io/<저장소>/`, 데일리는 `/daily/`)
 - 최신 데이터는 GitHub Actions가 매일 커밋하므로, 답하기 전에 `git pull`로 받는다.
 
 ## 코드

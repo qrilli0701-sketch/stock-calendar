@@ -26,7 +26,8 @@ KST = ZoneInfo("Asia/Seoul")
 ET_TZ = ZoneInfo("America/New_York")
 ROOT = Path(__file__).parent
 DOCS = ROOT / "docs"
-PAGES_URL = os.environ.get("PAGES_URL", "https://qrilli0701-sketch.github.io/stock-calendar").rstrip("/")
+# GitHub Pages 주소. Actions에서는 워크플로가 저장소 이름으로 채워준다 (https://<아이디>.github.io/<저장소>)
+PAGES_URL = os.environ.get("PAGES_URL", "").rstrip("/")
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
 WEEKDAYS = "월화수목금토일"
 FLAG = {"KR": "🇰🇷", "US": "🇺🇸", "CN": "🇨🇳", "JP": "🇯🇵", "EU": "🇪🇺"}
