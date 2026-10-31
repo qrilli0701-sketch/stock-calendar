@@ -369,7 +369,9 @@
    "detail": "2026년 3분기 경영실적 발표 · 컨퍼런스콜",
    "rank": 18,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800231"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800231",
+   "result": "잠정실적 공시 · 연결재무제표기준영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800221"
   },
   {
    "date": "2026-10-30",
@@ -399,7 +401,9 @@
    "rank": 15,
    "url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 16위"
+   "filter_reason": "미국 시총 16위",
+   "result": "EPS $4.23 (예상 $4.12) 부합 +3% · 매출 $113.2B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/xom/earnings"
   },
   {
    "date": "2026-10-30",
@@ -413,7 +417,9 @@
    "rank": 20,
    "url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 21위"
+   "filter_reason": "미국 시총 21위",
+   "result": "EPS $3.82 (예상 $3.83) 부합 -0% · 매출 $17.4B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/abbv/earnings"
   },
   {
    "date": "2026-10-30",
@@ -443,7 +449,9 @@
    "rank": 23,
    "url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 24위"
+   "filter_reason": "미국 시총 24위",
+   "result": "EPS $5.28 (예상 $4.93) 서프라이즈 +7% · 매출 $67.8B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/cvx/earnings"
   }
  ],
  "sources": [
