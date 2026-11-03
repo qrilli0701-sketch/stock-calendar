@@ -11,7 +11,9 @@
    "key": false,
    "detail": "정기 발표일 규칙으로 계산 (공휴일은 반영 안 됨)",
    "url": "https://www.motie.go.kr",
-   "filtered": false
+   "filtered": false,
+   "result": "📰 우리나라 수출 첫 9000억 달러 돌파…\"11월 중 1조 달성 확실시\"",
+   "result_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zQzFBUU9vSzlTT0lIN05DajFSemlrQXBVOGdXYWxPY0poSERESERKWDNDc0RDbEhCYTJwaXZoUXgxbnB2MkJIZkJ4anF1S1NxZmlqZEFRYk15YjRiVnJIcHI2Y3lOa2pidjY1Yw?oc=5"
   },
   {
    "date": "2026-11-03",
@@ -37,7 +39,9 @@
    "rank": 0,
    "url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 1위"
+   "filter_reason": "미국 시총 1위",
+   "result": "EPS $2.05 (예상 $2.03) 부합 +1% · 매출 $114.5B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/aapl/earnings"
   },
   {
    "date": "2026-11-04",
