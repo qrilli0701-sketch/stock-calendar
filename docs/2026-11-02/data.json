@@ -25,7 +25,9 @@
    "detail": "2026년 3분기 경영실적 발표 · Conference Call(한국어/영어 동시 진행)",
    "rank": 4,
    "filtered": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800068"
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008800068",
+   "result": "잠정실적 공시 · [기재정정]연결재무제표기준영업(잠정)실적(공정공시)",
+   "result_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800087"
   },
   {
    "date": "2026-11-03",
@@ -51,7 +53,9 @@
    "key": false,
    "detail": "미 동부 10:00 발표 · Job Openings and Labor Turnover Survey",
    "url": "https://fred.stlouisfed.org/release?rid=192",
-   "filtered": false
+   "filtered": false,
+   "result": "구인건수(천건) 7,523.0 (직전 7,190.0, 2026-09 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=192"
   },
   {
    "date": "2026-11-04",
@@ -65,7 +69,9 @@
    "rank": 14,
    "url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 15위"
+   "filter_reason": "미국 시총 15위",
+   "result": "EPS $2.09 (예상 $1.97) 서프라이즈 +6% · 매출 $13.4B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/amd/earnings"
   },
   {
    "date": "2026-11-04",
