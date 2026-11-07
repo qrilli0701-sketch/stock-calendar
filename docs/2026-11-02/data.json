@@ -193,7 +193,9 @@
    "key": true,
    "detail": "미 동부 8:30 발표 · Employment Situation",
    "url": "https://fred.stlouisfed.org/release?rid=50",
-   "filtered": false
+   "filtered": false,
+   "result": "비농업 고용(천명) +165 (직전 +60, 2026-10 기준) · 실업률 4.1% (직전 4.2%, 2026-10 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=50"
   }
  ],
  "sources": [
