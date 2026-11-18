@@ -11,7 +11,9 @@
    "key": false,
    "detail": "미 동부 8:30 발표 · Advance Monthly Sales for Retail and Food Services",
    "url": "https://fred.stlouisfed.org/release?rid=9",
-   "filtered": false
+   "filtered": false,
+   "result": "소매판매 0.2% (직전 0.8%, 2026-10 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=9"
   },
   {
    "date": "2026-11-17",
@@ -53,7 +55,9 @@
    "rank": 2,
    "url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 3위"
+   "filter_reason": "미국 시총 3위",
+   "result": "EPS $2.68 (예상 $2.52) 서프라이즈 +6% · 매출 $115.8B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/nvda/earnings"
   },
   {
    "date": "2026-11-19",
