@@ -71,7 +71,9 @@
    "rank": 11,
    "url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings",
    "filtered": false,
-   "filter_reason": "미국 시총 12위"
+   "filter_reason": "미국 시총 12위",
+   "result": "EPS $0.65 (예상 $0.64) 부합 +1% · 매출 $188.8B",
+   "result_url": "https://www.nasdaq.com/market-activity/stocks/wmt/earnings"
   },
   {
    "date": "2026-11-20",
