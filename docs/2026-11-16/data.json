@@ -97,7 +97,9 @@
    "key": false,
    "detail": "미 동부 10:00 발표 · Surveys of Consumers",
    "url": "https://fred.stlouisfed.org/release?rid=91",
-   "filtered": false
+   "filtered": false,
+   "result": "소비자심리 48.0 (직전 48.1, 2026-10 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=91"
   }
  ],
  "sources": [
