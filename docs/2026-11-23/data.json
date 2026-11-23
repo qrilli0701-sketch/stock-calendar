@@ -1,7 +1,7 @@
 {
  "week_start": "2026-11-23",
  "week_end": "2026-11-29",
- "updated_at": "2026-11-23 15:21",
+ "updated_at": "2026-11-23 15:37",
  "items": [
   {
    "date": "2026-11-23",
@@ -466,49 +466,49 @@
    "code": "005930",
    "name": "삼성전자",
    "market": "KOSPI",
-   "cap_krw_eok": 10400530
+   "cap_krw_eok": 10377145
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "market": "KOSPI",
-   "cap_krw_eok": 7682906
+   "cap_krw_eok": 7668770
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "market": "KOSPI",
-   "cap_krw_eok": 901041
+   "cap_krw_eok": 897083
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "market": "KOSPI",
-   "cap_krw_eok": 683280
+   "cap_krw_eok": 682110
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
    "market": "KOSPI",
-   "cap_krw_eok": 595765
+   "cap_krw_eok": 596227
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "market": "KOSPI",
-   "cap_krw_eok": 583358
+   "cap_krw_eok": 581117
   },
   {
    "code": "105560",
    "name": "KB금융",
    "market": "KOSPI",
-   "cap_krw_eok": 511460
+   "cap_krw_eok": 509686
   },
   {
    "code": "005380",
    "name": "현대차",
    "market": "KOSPI",
-   "cap_krw_eok": 502562
+   "cap_krw_eok": 503580
   },
   {
    "code": "068270",
@@ -526,61 +526,61 @@
    "code": "028260",
    "name": "삼성물산",
    "market": "KOSPI",
-   "cap_krw_eok": 402176
+   "cap_krw_eok": 399743
   },
   {
    "code": "055550",
    "name": "신한지주",
    "market": "KOSPI",
-   "cap_krw_eok": 381902
+   "cap_krw_eok": 380976
   },
   {
    "code": "000270",
    "name": "기아",
    "market": "KOSPI",
-   "cap_krw_eok": 336926
+   "cap_krw_eok": 337317
   },
   {
    "code": "034730",
    "name": "SK",
    "market": "KOSPI",
-   "cap_krw_eok": 323000
+   "cap_krw_eok": 321912
   },
   {
    "code": "006400",
    "name": "삼성SDI",
    "market": "KOSPI",
-   "cap_krw_eok": 319522
+   "cap_krw_eok": 319119
   },
   {
    "code": "086790",
    "name": "하나금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 316443
+   "cap_krw_eok": 315636
   },
   {
    "code": "012450",
    "name": "한화에어로스페이스",
    "market": "KOSPI",
-   "cap_krw_eok": 298036
+   "cap_krw_eok": 296490
   },
   {
    "code": "012330",
    "name": "현대모비스",
    "market": "KOSPI",
-   "cap_krw_eok": 282935
+   "cap_krw_eok": 281588
   },
   {
    "code": "034020",
    "name": "두산에너빌리티",
    "market": "KOSPI",
-   "cap_krw_eok": 254943
+   "cap_krw_eok": 254303
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
    "market": "KOSPI",
-   "cap_krw_eok": 251382
+   "cap_krw_eok": 250333
   },
   {
    "code": "035420",
@@ -592,25 +592,19 @@
    "code": "316140",
    "name": "우리금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 225807
+   "cap_krw_eok": 223966
   },
   {
    "code": "000810",
    "name": "삼성화재",
    "market": "KOSPI",
-   "cap_krw_eok": 214978
+   "cap_krw_eok": 215201
   },
   {
    "code": "138040",
    "name": "메리츠금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 203160
-  },
-  {
-   "code": "011200",
-   "name": "HMM",
-   "market": "KOSPI",
-   "cap_krw_eok": 201381
+   "cap_krw_eok": 202825
   },
   {
    "code": "066570",
@@ -619,28 +613,34 @@
    "cap_krw_eok": 201325
   },
   {
+   "code": "011200",
+   "name": "HMM",
+   "market": "KOSPI",
+   "cap_krw_eok": 200910
+  },
+  {
    "code": "005490",
    "name": "POSCO홀딩스",
    "market": "KOSPI",
-   "cap_krw_eok": 191764
+   "cap_krw_eok": 192161
   },
   {
    "code": "033780",
    "name": "KT&G",
    "market": "KOSPI",
-   "cap_krw_eok": 186132
+   "cap_krw_eok": 185613
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
    "market": "KOSPI",
-   "cap_krw_eok": 165600
+   "cap_krw_eok": 165300
   },
   {
    "code": "015760",
    "name": "한국전력",
    "market": "KOSPI",
-   "cap_krw_eok": 160170
+   "cap_krw_eok": 159528
   }
  ]
 }
