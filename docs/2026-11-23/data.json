@@ -1,0 +1,646 @@
+{
+ "week_start": "2026-11-23",
+ "week_end": "2026-11-29",
+ "updated_at": "2026-11-23 11:09",
+ "items": [
+  {
+   "date": "2026-11-23",
+   "country": "KR",
+   "title": "11월 1~20일 수출입 (관세청)",
+   "time": "",
+   "key": false,
+   "detail": "정기 발표일 규칙으로 계산 (공휴일은 반영 안 됨)",
+   "url": "https://www.customs.go.kr",
+   "filtered": false
+  },
+  {
+   "date": "2026-11-25",
+   "country": "US",
+   "title": "GDP",
+   "time": "밤 10시 30분",
+   "key": false,
+   "detail": "미 동부 8:30 발표 · Gross Domestic Product",
+   "url": "https://fred.stlouisfed.org/release?rid=53",
+   "filtered": false
+  },
+  {
+   "date": "2026-11-25",
+   "country": "US",
+   "title": "PCE 물가",
+   "time": "밤 10시 30분",
+   "key": false,
+   "detail": "미 동부 8:30 발표 · Personal Income and Outlays",
+   "url": "https://fred.stlouisfed.org/release?rid=54",
+   "filtered": false
+  },
+  {
+   "date": "2026-11-26",
+   "country": "KR",
+   "title": "한국은행 금통위 금리 결정",
+   "time": "오전",
+   "key": true,
+   "detail": "통화정책방향 결정 후 오전 11시 10분 총재 기자간담회",
+   "url": "https://www.bok.or.kr/portal/main/main.do",
+   "filtered": false
+  }
+ ],
+ "sources": [
+  {
+   "name": "미국 시총 순위 (Finnhub)",
+   "ok": true,
+   "count": 63
+  },
+  {
+   "name": "한국 시총 순위 (네이버)",
+   "ok": true,
+   "count": 30
+  },
+  {
+   "name": "미국 실적 (Finnhub)",
+   "ok": true,
+   "count": 0
+  },
+  {
+   "name": "한국 실적 (DART)",
+   "ok": true,
+   "count": 0
+  },
+  {
+   "name": "미국 경제지표 (FRED)",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "한국 수출입 (규칙)",
+   "ok": true,
+   "count": 1
+  },
+  {
+   "name": "고정 일정 (events.json)",
+   "ok": true,
+   "count": 1
+  }
+ ],
+ "us_ranking": [
+  {
+   "symbol": "AAPL",
+   "name": "애플",
+   "name_en": "Apple Inc.",
+   "cap_usd_b": 4978.1
+  },
+  {
+   "symbol": "MSFT",
+   "name": "마이크로소프트",
+   "name_en": "Microsoft Corporation",
+   "cap_usd_b": 3598.1
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "알파벳",
+   "name_en": "Alphabet Inc.",
+   "cap_usd_b": 3261.5
+  },
+  {
+   "symbol": "NVDA",
+   "name": "엔비디아",
+   "name_en": "NVIDIA Corporation",
+   "cap_usd_b": 3025.3
+  },
+  {
+   "symbol": "AMZN",
+   "name": "아마존",
+   "name_en": "Amazon.com Inc",
+   "cap_usd_b": 2668.9
+  },
+  {
+   "symbol": "TSM",
+   "name": "TSMC",
+   "name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
+   "cap_usd_b": 1653.0
+  },
+  {
+   "symbol": "TSLA",
+   "name": "테슬라",
+   "name_en": "Tesla Inc",
+   "cap_usd_b": 1501.2
+  },
+  {
+   "symbol": "AVGO",
+   "name": "브로드컴",
+   "name_en": "Broadcom Inc",
+   "cap_usd_b": 1453.1
+  },
+  {
+   "symbol": "META",
+   "name": "메타",
+   "name_en": "Meta Platforms, Inc.",
+   "cap_usd_b": 1433.6
+  },
+  {
+   "symbol": "LLY",
+   "name": "일라이릴리",
+   "name_en": "Eli Lilly and Company",
+   "cap_usd_b": 1267.3
+  },
+  {
+   "symbol": "BRK.B",
+   "name": "버크셔해서웨이",
+   "name_en": "Berkshire Hathaway Inc",
+   "cap_usd_b": 1210.1
+  },
+  {
+   "symbol": "WMT",
+   "name": "월마트",
+   "name_en": "Walmart Inc.",
+   "cap_usd_b": 979.9
+  },
+  {
+   "symbol": "JPM",
+   "name": "JP모건",
+   "name_en": "JPMorgan Chase & Co.",
+   "cap_usd_b": 825.0
+  },
+  {
+   "symbol": "V",
+   "name": "비자",
+   "name_en": "Visa Inc.",
+   "cap_usd_b": 768.7
+  },
+  {
+   "symbol": "XOM",
+   "name": "엑슨모빌",
+   "name_en": "Exxonmobil Holdings Corp",
+   "cap_usd_b": 763.8
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "name_en": "Advanced Micro Devices, Inc.",
+   "cap_usd_b": 696.0
+  },
+  {
+   "symbol": "MU",
+   "name": "마이크론",
+   "name_en": "Micron Technology, Inc.",
+   "cap_usd_b": 672.6
+  },
+  {
+   "symbol": "JNJ",
+   "name": "존슨앤드존슨",
+   "name_en": "Johnson & Johnson",
+   "cap_usd_b": 651.1
+  },
+  {
+   "symbol": "MA",
+   "name": "마스터카드",
+   "name_en": "Mastercard Incorporated",
+   "cap_usd_b": 545.5
+  },
+  {
+   "symbol": "ABBV",
+   "name": "애브비",
+   "name_en": "AbbVie Inc.",
+   "cap_usd_b": 505.9
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "name_en": "ASML Holding NV",
+   "cap_usd_b": 491.5
+  },
+  {
+   "symbol": "COST",
+   "name": "코스트코",
+   "name_en": "Costco Wholesale Corp",
+   "cap_usd_b": 488.4
+  },
+  {
+   "symbol": "KO",
+   "name": "코카콜라",
+   "name_en": "Coca-Cola Co",
+   "cap_usd_b": 417.2
+  },
+  {
+   "symbol": "CVX",
+   "name": "셰브론",
+   "name_en": "Chevron Corporation",
+   "cap_usd_b": 409.5
+  },
+  {
+   "symbol": "PG",
+   "name": "P&G",
+   "name_en": "The Procter & Gamble Company",
+   "cap_usd_b": 392.6
+  },
+  {
+   "symbol": "UNH",
+   "name": "유나이티드헬스",
+   "name_en": "UnitedHealth Group Incorporated",
+   "cap_usd_b": 365.3
+  },
+  {
+   "symbol": "CSCO",
+   "name": "시스코",
+   "name_en": "Cisco Systems Inc",
+   "cap_usd_b": 357.3
+  },
+  {
+   "symbol": "PLTR",
+   "name": "팔란티어",
+   "name_en": "Palantir Technologies Inc.",
+   "cap_usd_b": 345.7
+  },
+  {
+   "symbol": "HD",
+   "name": "홈디포",
+   "name_en": "The Home Depot, Inc.",
+   "cap_usd_b": 338.3
+  },
+  {
+   "symbol": "BAC",
+   "name": "뱅크오브아메리카",
+   "name_en": "Bank of America Corporation",
+   "cap_usd_b": 324.9
+  },
+  {
+   "symbol": "GE",
+   "name": "GE에어로스페이스",
+   "name_en": "General Electric Company",
+   "cap_usd_b": 320.0
+  },
+  {
+   "symbol": "ORCL",
+   "name": "오라클",
+   "name_en": "Oracle Corporation",
+   "cap_usd_b": 306.0
+  },
+  {
+   "symbol": "PM",
+   "name": "필립모리스",
+   "name_en": "Philip Morris International Inc.",
+   "cap_usd_b": 286.9
+  },
+  {
+   "symbol": "INTC",
+   "name": "인텔",
+   "name_en": "Intel Corp",
+   "cap_usd_b": 272.6
+  },
+  {
+   "symbol": "MS",
+   "name": "모건스탠리",
+   "name_en": "Morgan Stanley",
+   "cap_usd_b": 258.9
+  },
+  {
+   "symbol": "RTX",
+   "name": "RTX",
+   "name_en": "RTX Corporation",
+   "cap_usd_b": 256.9
+  },
+  {
+   "symbol": "WFC",
+   "name": "웰스파고",
+   "name_en": "Wells Fargo & Company",
+   "cap_usd_b": 250.4
+  },
+  {
+   "symbol": "AMAT",
+   "name": "어플라이드머티어리얼즈",
+   "name_en": "Applied Materials Inc",
+   "cap_usd_b": 240.2
+  },
+  {
+   "symbol": "CAT",
+   "name": "캐터필러",
+   "name_en": "Caterpillar Inc",
+   "cap_usd_b": 233.6
+  },
+  {
+   "symbol": "NFLX",
+   "name": "넷플릭스",
+   "name_en": "Netflix, Inc.",
+   "cap_usd_b": 233.0
+  },
+  {
+   "symbol": "LIN",
+   "name": "린데",
+   "name_en": "Linde PLC",
+   "cap_usd_b": 230.8
+  },
+  {
+   "symbol": "LRCX",
+   "name": "램리서치",
+   "name_en": "Lam Research Corporation",
+   "cap_usd_b": 228.9
+  },
+  {
+   "symbol": "GS",
+   "name": "골드만삭스",
+   "name_en": "The Goldman Sachs Group, Inc.",
+   "cap_usd_b": 228.1
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "name_en": "International Business Machines Corporation",
+   "cap_usd_b": 212.1
+  },
+  {
+   "symbol": "ANET",
+   "name": "아리스타",
+   "name_en": "Arista Networks, Inc.",
+   "cap_usd_b": 211.8
+  },
+  {
+   "symbol": "AXP",
+   "name": "아메리칸익스프레스",
+   "name_en": "American Express Company",
+   "cap_usd_b": 202.3
+  },
+  {
+   "symbol": "DIS",
+   "name": "디즈니",
+   "name_en": "The Walt Disney Company",
+   "cap_usd_b": 201.5
+  },
+  {
+   "symbol": "MCD",
+   "name": "맥도날드",
+   "name_en": "McDonald's Corp",
+   "cap_usd_b": 192.8
+  },
+  {
+   "symbol": "PEP",
+   "name": "펩시코",
+   "name_en": "PepsiCo, Inc.",
+   "cap_usd_b": 191.5
+  },
+  {
+   "symbol": "ABT",
+   "name": "애보트",
+   "name_en": "Abbott Laboratories",
+   "cap_usd_b": 178.4
+  },
+  {
+   "symbol": "TMUS",
+   "name": "T모바일",
+   "name_en": "T-Mobile US Inc",
+   "cap_usd_b": 175.4
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA",
+   "name_en": "KLA Corporation",
+   "cap_usd_b": 165.3
+  },
+  {
+   "symbol": "QCOM",
+   "name": "퀄컴",
+   "name_en": "QUALCOMM Incorporated",
+   "cap_usd_b": 160.4
+  },
+  {
+   "symbol": "SCHW",
+   "name": "찰스슈왑",
+   "name_en": "The Charles Schwab Corporation",
+   "cap_usd_b": 155.7
+  },
+  {
+   "symbol": "T",
+   "name": "AT&T",
+   "name_en": "AT&T Inc.",
+   "cap_usd_b": 150.3
+  },
+  {
+   "symbol": "CRM",
+   "name": "세일즈포스",
+   "name_en": "Salesforce, Inc.",
+   "cap_usd_b": 148.7
+  },
+  {
+   "symbol": "ISRG",
+   "name": "인튜이티브서지컬",
+   "name_en": "Intuitive Surgical, Inc.",
+   "cap_usd_b": 138.3
+  },
+  {
+   "symbol": "BX",
+   "name": "블랙스톤",
+   "name_en": "Blackstone Inc.",
+   "cap_usd_b": 136.8
+  },
+  {
+   "symbol": "UBER",
+   "name": "우버",
+   "name_en": "Uber Technologies, Inc.",
+   "cap_usd_b": 136.3
+  },
+  {
+   "symbol": "APP",
+   "name": "앱러빈",
+   "name_en": "AppLovin Corporation",
+   "cap_usd_b": 115.4
+  },
+  {
+   "symbol": "BKNG",
+   "name": "부킹홀딩스",
+   "name_en": "Booking Holdings Inc.",
+   "cap_usd_b": 107.8
+  },
+  {
+   "symbol": "NOW",
+   "name": "서비스나우",
+   "name_en": "ServiceNow, Inc.",
+   "cap_usd_b": 91.0
+  },
+  {
+   "symbol": "INTU",
+   "name": "인튜이트",
+   "name_en": "Intuit Inc.",
+   "cap_usd_b": 72.3
+  }
+ ],
+ "kr_ranking": [
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "cap_krw_eok": 10271912
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "cap_krw_eok": 7612226
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "market": "KOSPI",
+   "cap_krw_eok": 883891
+  },
+  {
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "market": "KOSPI",
+   "cap_krw_eok": 682695
+  },
+  {
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "market": "KOSPI",
+   "cap_krw_eok": 592061
+  },
+  {
+   "code": "009150",
+   "name": "삼성전기",
+   "market": "KOSPI",
+   "cap_krw_eok": 576635
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "cap_krw_eok": 517135
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "cap_krw_eok": 496458
+  },
+  {
+   "code": "068270",
+   "name": "셀트리온",
+   "market": "KOSPI",
+   "cap_krw_eok": 467740
+  },
+  {
+   "code": "032830",
+   "name": "삼성생명",
+   "market": "KOSPI",
+   "cap_krw_eok": 445000
+  },
+  {
+   "code": "028260",
+   "name": "삼성물산",
+   "market": "KOSPI",
+   "cap_krw_eok": 396500
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 385605
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "market": "KOSPI",
+   "cap_krw_eok": 337902
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 320210
+  },
+  {
+   "code": "034730",
+   "name": "SK",
+   "market": "KOSPI",
+   "cap_krw_eok": 319737
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "market": "KOSPI",
+   "cap_krw_eok": 315089
+  },
+  {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "market": "KOSPI",
+   "cap_krw_eok": 299583
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "market": "KOSPI",
+   "cap_krw_eok": 280689
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "market": "KOSPI",
+   "cap_krw_eok": 254531
+  },
+  {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "market": "KOSPI",
+   "cap_krw_eok": 252061
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 225071
+  },
+  {
+   "code": "035420",
+   "name": "NAVER",
+   "market": "KOSPI",
+   "cap_krw_eok": 224235
+  },
+  {
+   "code": "000810",
+   "name": "삼성화재",
+   "market": "KOSPI",
+   "cap_krw_eok": 215647
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 203327
+  },
+  {
+   "code": "011200",
+   "name": "HMM",
+   "market": "KOSPI",
+   "cap_krw_eok": 202796
+  },
+  {
+   "code": "066570",
+   "name": "LG전자",
+   "market": "KOSPI",
+   "cap_krw_eok": 201325
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "cap_krw_eok": 193349
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "cap_krw_eok": 187897
+  },
+  {
+   "code": "010120",
+   "name": "LS ELECTRIC",
+   "market": "KOSPI",
+   "cap_krw_eok": 163200
+  },
+  {
+   "code": "015760",
+   "name": "한국전력",
+   "market": "KOSPI",
+   "cap_krw_eok": 160170
+  }
+ ]
+}
