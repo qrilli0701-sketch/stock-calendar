@@ -1,7 +1,7 @@
 {
  "week_start": "2026-11-23",
  "week_end": "2026-11-29",
- "updated_at": "2026-11-23 11:09",
+ "updated_at": "2026-11-23 15:21",
  "items": [
   {
    "date": "2026-11-23",
@@ -466,151 +466,151 @@
    "code": "005930",
    "name": "삼성전자",
    "market": "KOSPI",
-   "cap_krw_eok": 10271912
+   "cap_krw_eok": 10400530
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "market": "KOSPI",
-   "cap_krw_eok": 7612226
+   "cap_krw_eok": 7682906
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "market": "KOSPI",
-   "cap_krw_eok": 883891
+   "cap_krw_eok": 901041
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "market": "KOSPI",
-   "cap_krw_eok": 682695
+   "cap_krw_eok": 683280
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
    "market": "KOSPI",
-   "cap_krw_eok": 592061
+   "cap_krw_eok": 595765
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "market": "KOSPI",
-   "cap_krw_eok": 576635
+   "cap_krw_eok": 583358
   },
   {
    "code": "105560",
    "name": "KB금융",
    "market": "KOSPI",
-   "cap_krw_eok": 517135
+   "cap_krw_eok": 511460
   },
   {
    "code": "005380",
    "name": "현대차",
    "market": "KOSPI",
-   "cap_krw_eok": 496458
+   "cap_krw_eok": 502562
   },
   {
    "code": "068270",
    "name": "셀트리온",
    "market": "KOSPI",
-   "cap_krw_eok": 467740
+   "cap_krw_eok": 468901
   },
   {
    "code": "032830",
    "name": "삼성생명",
    "market": "KOSPI",
-   "cap_krw_eok": 445000
+   "cap_krw_eok": 450000
   },
   {
    "code": "028260",
    "name": "삼성물산",
    "market": "KOSPI",
-   "cap_krw_eok": 396500
+   "cap_krw_eok": 402176
   },
   {
    "code": "055550",
    "name": "신한지주",
    "market": "KOSPI",
-   "cap_krw_eok": 385605
+   "cap_krw_eok": 381902
   },
   {
    "code": "000270",
    "name": "기아",
    "market": "KOSPI",
-   "cap_krw_eok": 337902
-  },
-  {
-   "code": "086790",
-   "name": "하나금융지주",
-   "market": "KOSPI",
-   "cap_krw_eok": 320210
+   "cap_krw_eok": 336926
   },
   {
    "code": "034730",
    "name": "SK",
    "market": "KOSPI",
-   "cap_krw_eok": 319737
+   "cap_krw_eok": 323000
   },
   {
    "code": "006400",
    "name": "삼성SDI",
    "market": "KOSPI",
-   "cap_krw_eok": 315089
+   "cap_krw_eok": 319522
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 316443
   },
   {
    "code": "012450",
    "name": "한화에어로스페이스",
    "market": "KOSPI",
-   "cap_krw_eok": 299583
+   "cap_krw_eok": 298036
   },
   {
    "code": "012330",
    "name": "현대모비스",
    "market": "KOSPI",
-   "cap_krw_eok": 280689
-  },
-  {
-   "code": "329180",
-   "name": "HD현대중공업",
-   "market": "KOSPI",
-   "cap_krw_eok": 254531
+   "cap_krw_eok": 282935
   },
   {
    "code": "034020",
    "name": "두산에너빌리티",
    "market": "KOSPI",
-   "cap_krw_eok": 252061
+   "cap_krw_eok": 254943
   },
   {
-   "code": "316140",
-   "name": "우리금융지주",
+   "code": "329180",
+   "name": "HD현대중공업",
    "market": "KOSPI",
-   "cap_krw_eok": 225071
+   "cap_krw_eok": 251382
   },
   {
    "code": "035420",
    "name": "NAVER",
    "market": "KOSPI",
-   "cap_krw_eok": 224235
+   "cap_krw_eok": 228190
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "cap_krw_eok": 225807
   },
   {
    "code": "000810",
    "name": "삼성화재",
    "market": "KOSPI",
-   "cap_krw_eok": 215647
+   "cap_krw_eok": 214978
   },
   {
    "code": "138040",
    "name": "메리츠금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 203327
+   "cap_krw_eok": 203160
   },
   {
    "code": "011200",
    "name": "HMM",
    "market": "KOSPI",
-   "cap_krw_eok": 202796
+   "cap_krw_eok": 201381
   },
   {
    "code": "066570",
@@ -622,19 +622,19 @@
    "code": "005490",
    "name": "POSCO홀딩스",
    "market": "KOSPI",
-   "cap_krw_eok": 193349
+   "cap_krw_eok": 191764
   },
   {
    "code": "033780",
    "name": "KT&G",
    "market": "KOSPI",
-   "cap_krw_eok": 187897
+   "cap_krw_eok": 186132
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
    "market": "KOSPI",
-   "cap_krw_eok": 163200
+   "cap_krw_eok": 165600
   },
   {
    "code": "015760",
