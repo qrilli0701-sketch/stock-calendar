@@ -1,7 +1,7 @@
 {
  "week_start": "2026-11-23",
  "week_end": "2026-11-29",
- "updated_at": "2026-11-24 14:48",
+ "updated_at": "2026-11-25 07:14",
  "items": [
   {
    "date": "2026-11-23",
@@ -118,7 +118,7 @@
    "symbol": "TSM",
    "name": "TSMC",
    "name_en": "Taiwan Semiconductor Manufacturing Co Ltd",
-   "cap_usd_b": 1885.8
+   "cap_usd_b": 1811.1
   },
   {
    "symbol": "META",
@@ -136,7 +136,7 @@
    "symbol": "AVGO",
    "name": "브로드컴",
    "name_en": "Broadcom Inc",
-   "cap_usd_b": 1496.8
+   "cap_usd_b": 1437.4
   },
   {
    "symbol": "LLY",
@@ -148,7 +148,7 @@
    "symbol": "BRK.B",
    "name": "버크셔해서웨이",
    "name_en": "Berkshire Hathaway Inc",
-   "cap_usd_b": 1216.9
+   "cap_usd_b": 1228.8
   },
   {
    "symbol": "WMT",
@@ -202,7 +202,7 @@
    "symbol": "ASML",
    "name": "ASML",
    "name_en": "ASML Holding NV",
-   "cap_usd_b": 537.1
+   "cap_usd_b": 518.6
   },
   {
    "symbol": "ABBV",
@@ -214,7 +214,7 @@
    "symbol": "COST",
    "name": "코스트코",
    "name_en": "Costco Wholesale Corp",
-   "cap_usd_b": 486.5
+   "cap_usd_b": 473.2
   },
   {
    "symbol": "KO",
@@ -274,7 +274,7 @@
    "symbol": "GE",
    "name": "GE에어로스페이스",
    "name_en": "General Electric Company",
-   "cap_usd_b": 332.0
+   "cap_usd_b": 324.5
   },
   {
    "symbol": "INTC",
@@ -298,7 +298,7 @@
    "symbol": "MS",
    "name": "모건스탠리",
    "name_en": "Morgan Stanley",
-   "cap_usd_b": 269.8
+   "cap_usd_b": 263.3
   },
   {
    "symbol": "RTX",
@@ -331,34 +331,34 @@
    "cap_usd_b": 238.6
   },
   {
-   "symbol": "GS",
-   "name": "골드만삭스",
-   "name_en": "The Goldman Sachs Group, Inc.",
-   "cap_usd_b": 237.6
-  },
-  {
    "symbol": "LIN",
    "name": "린데",
    "name_en": "Linde PLC",
    "cap_usd_b": 237.3
   },
   {
-   "symbol": "ANET",
-   "name": "아리스타",
-   "name_en": "Arista Networks, Inc.",
-   "cap_usd_b": 225.3
+   "symbol": "GS",
+   "name": "골드만삭스",
+   "name_en": "The Goldman Sachs Group, Inc.",
+   "cap_usd_b": 229.8
   },
   {
    "symbol": "IBM",
    "name": "IBM",
    "name_en": "International Business Machines Corporation",
-   "cap_usd_b": 220.2
+   "cap_usd_b": 219.7
+  },
+  {
+   "symbol": "ANET",
+   "name": "아리스타",
+   "name_en": "Arista Networks, Inc.",
+   "cap_usd_b": 208.8
   },
   {
    "symbol": "AXP",
    "name": "아메리칸익스프레스",
    "name_en": "American Express Company",
-   "cap_usd_b": 205.8
+   "cap_usd_b": 205.7
   },
   {
    "symbol": "DIS",
@@ -370,7 +370,7 @@
    "symbol": "MCD",
    "name": "맥도날드",
    "name_en": "McDonald's Corp",
-   "cap_usd_b": 195.1
+   "cap_usd_b": 196.9
   },
   {
    "symbol": "PEP",
@@ -388,7 +388,7 @@
    "symbol": "ABT",
    "name": "애보트",
    "name_en": "Abbott Laboratories",
-   "cap_usd_b": 178.9
+   "cap_usd_b": 184.2
   },
   {
    "symbol": "QCOM",
@@ -406,7 +406,7 @@
    "symbol": "SCHW",
    "name": "찰스슈왑",
    "name_en": "The Charles Schwab Corporation",
-   "cap_usd_b": 159.4
+   "cap_usd_b": 161.5
   },
   {
    "symbol": "CRM",
@@ -424,13 +424,13 @@
    "symbol": "ISRG",
    "name": "인튜이티브서지컬",
    "name_en": "Intuitive Surgical, Inc.",
-   "cap_usd_b": 144.3
+   "cap_usd_b": 149.6
   },
   {
    "symbol": "BX",
    "name": "블랙스톤",
    "name_en": "Blackstone Inc.",
-   "cap_usd_b": 143.0
+   "cap_usd_b": 144.1
   },
   {
    "symbol": "UBER",
@@ -442,13 +442,13 @@
    "symbol": "APP",
    "name": "앱러빈",
    "name_en": "AppLovin Corporation",
-   "cap_usd_b": 123.9
+   "cap_usd_b": 125.5
   },
   {
    "symbol": "BKNG",
    "name": "부킹홀딩스",
    "name_en": "Booking Holdings Inc.",
-   "cap_usd_b": 107.8
+   "cap_usd_b": 108.9
   },
   {
    "symbol": "NOW",
@@ -468,181 +468,181 @@
    "code": "005930",
    "name": "삼성전자",
    "market": "KOSPI",
-   "cap_krw_eok": 11224855
+   "cap_krw_eok": 10692844
   },
   {
    "code": "000660",
    "name": "SK하이닉스",
    "market": "KOSPI",
-   "cap_krw_eok": 8319025
+   "cap_krw_eok": 7866674
   },
   {
    "code": "402340",
    "name": "SK스퀘어",
    "market": "KOSPI",
-   "cap_krw_eok": 953811
+   "cap_krw_eok": 907637
   },
   {
    "code": "373220",
    "name": "LG에너지솔루션",
    "market": "KOSPI",
-   "cap_krw_eok": 739440
+   "cap_krw_eok": 712530
   },
   {
    "code": "009150",
    "name": "삼성전기",
    "market": "KOSPI",
-   "cap_krw_eok": 647594
+   "cap_krw_eok": 612488
   },
   {
    "code": "207940",
    "name": "삼성바이오로직스",
    "market": "KOSPI",
-   "cap_krw_eok": 597616
+   "cap_krw_eok": 597153
   },
   {
    "code": "005380",
    "name": "현대차",
    "market": "KOSPI",
-   "cap_krw_eok": 565637
+   "cap_krw_eok": 538169
   },
   {
    "code": "105560",
    "name": "KB금융",
    "market": "KOSPI",
-   "cap_krw_eok": 538061
-  },
-  {
-   "code": "032830",
-   "name": "삼성생명",
-   "market": "KOSPI",
-   "cap_krw_eok": 494000
+   "cap_krw_eok": 530258
   },
   {
    "code": "068270",
    "name": "셀트리온",
    "market": "KOSPI",
-   "cap_krw_eok": 487471
+   "cap_krw_eok": 480507
+  },
+  {
+   "code": "032830",
+   "name": "삼성생명",
+   "market": "KOSPI",
+   "cap_krw_eok": 476000
   },
   {
    "code": "028260",
    "name": "삼성물산",
    "market": "KOSPI",
-   "cap_krw_eok": 433798
+   "cap_krw_eok": 415149
   },
   {
    "code": "055550",
    "name": "신한지주",
    "market": "KOSPI",
-   "cap_krw_eok": 400419
+   "cap_krw_eok": 395790
   },
   {
    "code": "000270",
    "name": "기아",
    "market": "KOSPI",
-   "cap_krw_eok": 376749
+   "cap_krw_eok": 361522
   },
   {
    "code": "006400",
    "name": "삼성SDI",
    "market": "KOSPI",
-   "cap_krw_eok": 368679
+   "cap_krw_eok": 347324
   },
   {
    "code": "034730",
    "name": "SK",
    "market": "KOSPI",
-   "cap_krw_eok": 349101
+   "cap_krw_eok": 334962
   },
   {
    "code": "086790",
    "name": "하나금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 330166
-  },
-  {
-   "code": "012330",
-   "name": "현대모비스",
-   "market": "KOSPI",
-   "cap_krw_eok": 326049
+   "cap_krw_eok": 328552
   },
   {
    "code": "012450",
    "name": "한화에어로스페이스",
    "market": "KOSPI",
-   "cap_krw_eok": 324334
+   "cap_krw_eok": 315568
+  },
+  {
+   "code": "012330",
+   "name": "현대모비스",
+   "market": "KOSPI",
+   "cap_krw_eok": 309432
   },
   {
    "code": "034020",
    "name": "두산에너빌리티",
    "market": "KOSPI",
-   "cap_krw_eok": 276722
+   "cap_krw_eok": 265513
   },
   {
    "code": "329180",
    "name": "HD현대중공업",
    "market": "KOSPI",
-   "cap_krw_eok": 263977
+   "cap_krw_eok": 255056
   },
   {
    "code": "035420",
    "name": "NAVER",
    "market": "KOSPI",
-   "cap_krw_eok": 238687
-  },
-  {
-   "code": "066570",
-   "name": "LG전자",
-   "market": "KOSPI",
-   "cap_krw_eok": 235368
+   "cap_krw_eok": 232297
   },
   {
    "code": "316140",
    "name": "우리금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 230965
+   "cap_krw_eok": 229491
+  },
+  {
+   "code": "066570",
+   "name": "LG전자",
+   "market": "KOSPI",
+   "cap_krw_eok": 223803
   },
   {
    "code": "000810",
    "name": "삼성화재",
    "market": "KOSPI",
-   "cap_krw_eok": 228149
+   "cap_krw_eok": 223237
   },
   {
    "code": "011200",
    "name": "HMM",
    "market": "KOSPI",
-   "cap_krw_eok": 208456
+   "cap_krw_eok": 207041
   },
   {
    "code": "138040",
    "name": "메리츠금융지주",
    "market": "KOSPI",
-   "cap_krw_eok": 205502
+   "cap_krw_eok": 204331
   },
   {
    "code": "005490",
    "name": "POSCO홀딩스",
    "market": "KOSPI",
-   "cap_krw_eok": 203651
+   "cap_krw_eok": 198500
   },
   {
    "code": "033780",
    "name": "KT&G",
    "market": "KOSPI",
-   "cap_krw_eok": 191115
+   "cap_krw_eok": 190285
   },
   {
    "code": "010120",
    "name": "LS ELECTRIC",
    "market": "KOSPI",
-   "cap_krw_eok": 184800
+   "cap_krw_eok": 174600
   },
   {
-   "code": "298040",
-   "name": "효성중공업",
+   "code": "015760",
+   "name": "한국전력",
    "market": "KOSPI",
-   "cap_krw_eok": 166350
+   "cap_krw_eok": 160491
   }
  ]
 }
