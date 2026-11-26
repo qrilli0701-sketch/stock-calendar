@@ -23,7 +23,9 @@
    "key": false,
    "detail": "미 동부 8:30 발표 · Gross Domestic Product",
    "url": "https://fred.stlouisfed.org/release?rid=53",
-   "filtered": false
+   "filtered": false,
+   "result": "GDP 성장률(연율) 4.3% (직전 2.2%, 2026-07 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=53"
   },
   {
    "date": "2026-11-25",
@@ -33,7 +35,9 @@
    "key": false,
    "detail": "미 동부 8:30 발표 · Personal Income and Outlays",
    "url": "https://fred.stlouisfed.org/release?rid=54",
-   "filtered": false
+   "filtered": false,
+   "result": "PCE 3.8% (직전 3.7%, 2026-10 기준) · 근원 PCE 3.3% (직전 3.1%, 2026-10 기준)",
+   "result_url": "https://fred.stlouisfed.org/release?rid=54"
   },
   {
    "date": "2026-11-26",
